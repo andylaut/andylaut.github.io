@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-image="Christa.jpg"></section>
+				<section data-background-video="challenger.mp4"></section>
+				<section data-background-video="ebeling.mp4"></section>
+				<section data-background-video="wallace.mp4"></section>
+				<section>
+					<h1>The Rhetorical Situation</h1>
+				</section>
+				<section>
+					<h2>Rhetoric</h2>
+					<p>The art of persuasion. The ability to make people think, feel, or do what you want them to think, feel, or do.</p>
+				</section>
+				<section>
+					<h2>The Rhetorical Situation</h2>
+					<ul>
+						<li>Exigence</li>
+						<li>Audience</li>
+						<li>Constraints</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Exigence</h2>
+					<p>The need. The thing about the world that ought to be different.</p>
+				</section>
+				<section>
+					<h2>Audience</h2>
+					<p>The group(s) of people who can address the exigence. The people who can change the thing that needs to be changed.</p>
+				</section>
+				<section>
+					<h2>Constraints</h2>
+					<p>The factors that limit your possible responses to the situation. Can be imposed by the exigence/audience or by choice.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
