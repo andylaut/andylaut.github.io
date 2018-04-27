@@ -1,0 +1,131 @@
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <title>Editron 5000</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<style>
+    h2 {
+        font-family: "Press Start 2P", times new roman;
+        color: #45B29D;
+    }
+
+    textarea {
+        height:200px;
+        width:96%;
+        padding:10px;
+    }
+
+    
+    #container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+       min-height: 100%;
+    }
+    
+    #legend {
+        padding-top: 15px;
+        font-size: 12px;
+    }
+
+    .sq{
+        padding: 2px 9px;
+        margin: 5px;
+    }
+    
+    .red {
+        background-color: #BE2805;
+    }
+    
+    .green {
+        background-color: #45B29D;
+    }
+    
+    .orange {
+        background-color: #E2735F;
+    }
+    
+    .legspan {
+        padding-right:1em;
+    }
+    
+    #result{
+        margin-top:1em;
+        font-weight:bold;
+    }
+    
+    p {
+        margin-top:.25em;
+    }
+
+#id {
+    white-space:pre-line;
+    line-height:1.33em;
+}
+
+ footer {
+     font-size: 12px;
+     padding: 5px 0;
+     border-top: solid 1px black;
+     bottom: 0;
+     position: absolute;
+     width: inherit;
+}
+
+</style>
+
+<body>
+<div id='container'>
+    <div id=heading>
+    <h2>EDITRON 5000</h2>
+    </div>
+<p>
+   Paste your text in the box and click Submit. 
+</p>
+<textarea id='box'></textarea>
+<br>
+<button onclick="edit()">Submit</button>
+<div id='legend'>
+<p>N.B.: This application highlights some of the most common prepositions and vague pronouns, but not all prepositions and vague pronouns. Moreover, the application does not know the difference between good and poor pronoun usage--or between, for instance, <em>that</em> as a pronoun and <em>that</em> as a conjunction. Finally, the application does not know the difference between good style and poor style. It searches for words and highlights those words. The rest is up to you.</p>
+<span class='sq red'></span>
+<span class='legspan'>Be verbs</span>
+<span class='sq green'></span>
+<span class='legspan'>Vague pronouns</span>
+<span class='sq orange'></span>
+<span class='legspan'>Prepositions</span>
+</div>
+<div id='result'>Result
+</div>
+<p id='id'></p>
+</div>
+<script>
+    function edit() {
+        //alert(document.getElementById('id').innerHTML);
+        //alert($('#id').html());
+        var boxval = $('#box').val();
+        $('#id').html(boxval);
+        var beVerb = ['is', 'be', 'been', 'am', 'was', 'were', 'are', 'was', 'being'];
+        var pronoun = ['it', 'this', 'that', 'there'];
+        var preposition = ['aboard', 'about', 'above', 'after', 'against', 'along', 'amid', 'among', 'around', 'as', 'at', 'before', 'behind', 'below', 'beneath', 'beside', 'besides', 'between', 'beyond', 'by', 'concerning', 'considering', 'despite', 'during', 'except', 'excepting', 'excluding', 'for', 'from', 'in', 'inside', 'into', 'like', 'minus', 'near', 'of', 'off', 'on', 'onto', 'opposite', 'over', 'per', 'regarding', 'through', 'to', 'toward', 'towards', 'under', 'underneath', 'unlike', 'until', 'upon', 'with', 'within', 'without'];
+        var color = ['#BE2805', '#45B29D', '#E2735F'];
+        var array = [beVerb, pronoun, preposition];
+        for (j = 0; j < array.length; j++) {
+            for (i = 0; i < array[j].length; i++) {
+                var result = $('#id').html();
+                //$('#id').html(result);
+                var bound = new RegExp('\\b' + array[j][i] + '\\b', 'gi');
+                var final_str = result.replace(bound, function(str) {
+                    return '<b             style="background:' + color[j] + '; color:white; padding:0 2px 0 2px;">' + str + '</b>'
+                });
+                $('#id').html(final_str);
+
+            }
+        }
+    }
+    
+</script>
+
+
+</body>
+</html>
