@@ -1,0 +1,5 @@
+book_filename: "3844-guidebook"
+language:
+  ui:
+    chapter_name: "Chapter "
+delete_merged_file: true
