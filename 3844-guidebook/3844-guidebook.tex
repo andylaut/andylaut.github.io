@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-08-30}
+  \date{2018-08-31}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -261,8 +261,8 @@ computer.
   a screen like the one below.\\
   \includegraphics{atom-getting-started.png}
 \item
-  See the red \textbf{Download} button? Click it. Your computer should
-  then download a .zip (Mac) or .exe (Win) file.~Some computers may
+  See the \textbf{Download} button? Click it. Your computer should then
+  download a .zip (Mac) or .exe (Win) file. Some computers may
   automatically open and unpack the .zip file. If yours doesn't, then
   open the .zip file yourself. (If you don't know how to open .zip files
   on your computer, Google it.) Eventually, you should see the Atom
@@ -364,6 +364,126 @@ If you wish, you may also download these packages:
   (e.g., passive voice). Can be helpful, but when in doubt use your own
   judgment
 \end{itemize}
+
+\hypertarget{markdown}{%
+\chapter{Markdown}\label{markdown}}
+
+Markdown is a lightweight markup language, which basically means that it
+allows you to easily create italics, boldface, links, images, and
+bulleted/numbered lists. Markdown is faster than Word for most kinds of
+writing, but the best part is that a Markdown file can become a Word
+doc, a PDF, an HTML file, a slide show, an MLA document--whatever!
+
+To learn Markdown, complete the tutorial at
+\href{https://commonmark.org/help/tutorial/}{CommonMark}. When you've
+completed the tutorial, make your first Markdown file in Atom by
+following the steps below.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  In Atom, choose File =\textgreater{} New file.
+\item
+  Save the file as a Markdown file by choosing File =\textgreater{}
+  Save. Name the file markdown-test.md. Be sure to use the .md suffix.
+\item
+  Paste the text below into the file, then save the file.
+
+\begin{verbatim}
+\# This is a heading 1 element  
+This is a paragraph. To make a paragraph break, just leave an extra line of space.  
+
+This is a new paragraph.  
+
+\* This is a list item  
+\* So is this  
+
+\## This is a heading 2 element  
+1\. Here's a numbered list item  
+2\. And a \*\*bold\*\* item  
+3\. And an \*italics\* item  
+4\. And a \[link\](http://www.google.com)
+\end{verbatim}
+\item
+  Now, to see the output, look for the Packages menu in the menu bar
+  (File, Edit, View, etc.) at the top of the screen. Click Packages,
+  then choose Markdown Preview. You should see a preview window like the
+  one below.\\
+  \includegraphics{markdown.png}
+\item
+  That's it! Markdown is that simple. If you want to learn more, use the
+  \href{https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf}{Markdown
+  cheat sheet}. Soon, we'll learn how to convert Markdown to a nice pdf
+  or html document--and how to paste perfectly formatted writing into
+  emails, newsletters, Google or Word docs, and more.
+\end{enumerate}
+
+\textbf{Super special bonus}\\
+Want to acheive perfect MLA formatting every time? Try
+\href{http://markdowntomla.com/}{markdowntomla.com}!
+
+You can also use Markdown to make slide decks \emph{way} faster than you
+could with PowerPoint. \href{http://deckdown.org/}{Deckdown} is a good
+place to start, but once we learn HTML and GitHub, we can add images,
+videos, etc.
+
+\hypertarget{cheat-sheet}{%
+\section{Cheat sheet}\label{cheat-sheet}}
+
+This cheat sheet comes from Matt Cone at
+\href{https://www.markdownguide.org/cheat-sheet/}{markdownguide.org}.
+You can also find a cheat sheet within Atom by clicking \textbf{Packages
+=\textgreater{} Markdown Writer =\textgreater{} Open Cheat Sheet.}
+
+\hypertarget{basic-syntax}{%
+\subsection{Basic Syntax}\label{basic-syntax}}
+
+These are the elements outlined in John Gruber's original design
+document. All Markdown applications support these elements.
+
+Element
+
+Markdown Syntax
+
+Heading
+
+\texttt{\#\ H1\textless{}br\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \#\#\ H2\textless{}br\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \#\#\#\ H3}
+
+Bold
+
+\texttt{**bold\ text**}
+
+Italic
+
+\texttt{*italicized\ text*}
+
+Blockquote
+
+\texttt{\&gt;\ blockquote}
+
+Ordered List
+
+\texttt{1.\ First\ item\ \ \ \ \ \ \ \ \ \ \ 2.\ Second\ item\ \ \ \ \ \ \ \ \ \ \ 3.\ Third\ item}
+
+Unordered List
+
+\texttt{-\ First\ item\ \ \ \ \ \ \ \ \ \ \ \ \ -\ Second\ item\ \ \ \ \ \ \ \ \ \ \ \ \ -\ Third\ item}
+
+Code
+
+\texttt{code}
+
+Horizontal Rule
+
+\texttt{-\/-\/-}
+
+Link
+
+\texttt{{[}title{]}(https://www.example.com)}
+
+Image
+
+\texttt{!{[}alt\ text{]}(image.jpg)}
 
 \bibliography{book.bib,packages.bib}
 
