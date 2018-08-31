@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-08-29}
+  \date{2018-08-30}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -220,6 +220,150 @@ main classes of constraints: (1) those originated or managed by the
 rhetor and his method (Aristotle called these ``artistic proofs''), and
 (2) those other constraints, in the situation, which may be operative
 (Aristotle's ``inartistic proofs'').
+
+\hypertarget{atom}{%
+\chapter{Atom}\label{atom}}
+
+\hypertarget{introducing-atom}{%
+\section{Introducing Atom}\label{introducing-atom}}
+
+\textbf{\href{https://atom.io/}{Atom}} is a text editor. A text editor
+is a little bit like Microsoft Word, but for coding. With a little setup
+and practice, however, you may find yourself writing your English papers
+in Atom instead of Word. Atom is faster, simpler, prettier, and does
+most of what you need in terms of text production. At the very least,
+it's \emph{much} better than Word for taking notes and writing things
+for the internet.
+
+We'll eventually use it to code websites, but first we'll use it for
+writing blog posts. So let's install it and customize it for those
+tasks.
+
+This process might be a little scary, but do the best you can. I'll
+include some links to help you if you get stuck.
+
+\hypertarget{installing-atom}{%
+\section{Installing Atom}\label{installing-atom}}
+
+First, let's install the program and put it where it belongs on your
+computer.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If you don't have \textbf{Google Chrome} on your computer,
+  \href{https://support.google.com/chrome/answer/95346?co=GENIE.Platform\%3DDesktop\&hl=en}{download}
+  it. You don't \emph{technically} need Chrome, but it's what we'll use
+  to examine code later in the semester.
+\item
+  Open Chrome and go to \href{https://atom.io/}{atom.io}. You should see
+  a screen like the one below.\\
+  \includegraphics{atom-getting-started.png}
+\item
+  See the red \textbf{Download} button? Click it. Your computer should
+  then download a .zip (Mac) or .exe (Win) file.~Some computers may
+  automatically open and unpack the .zip file. If yours doesn't, then
+  open the .zip file yourself. (If you don't know how to open .zip files
+  on your computer, Google it.) Eventually, you should see the Atom
+  icon.
+\item
+  If you're using a Mac, drag that icon to your \textbf{Applications}
+  folder. If you're using Windows, Atom should automatically add an Atom
+  shortcut to your \textbf{desktop} and your \textbf{Start menu}.~
+\item
+  Click the Atom icon to launch Atom!
+\end{enumerate}
+
+For more info/help, visit the
+\href{http://flight-manual.atom.io/getting-started/sections/installing-atom/\#platform-mac}{Installing
+Atom} section of the Atom documentation. Note that at the top of the
+page you can choose your operating system (Windows or Mac).
+
+\hypertarget{installing-packages}{%
+\section{Installing packages}\label{installing-packages}}
+
+Atom's a little different than Word. Word comes with a whole bunch of
+features, most of which you'll never use. Atom comes with a few features
+but allows you to quickly install many more. You install those features
+via the \textbf{package manager}. Let's install most of the packages
+we'll need this semester.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Once you've launched Atom, you should see a screen with a Welcome
+  Guide and other information. At the top of the screen, you should see
+  a menu bar like you do with other applications (File, Edit, View,
+  etc.). Open the Settings view by choosing \textbf{File =\textgreater{}
+  Settings (Win)} or \textbf{Atom =\textgreater{} Preferences (Mac)}.
+  Alternatively, if you want to be a baller, just hit \textbf{ctrl+comma
+  (Win)} or \textbf{cmd+comma (Mac)}. You should see a screen like the
+  one below.\\
+  \includegraphics{atom-settings.png}
+\item
+  First, click the Editor tab, scroll down to \textbf{Soft Wrap}, and
+  check the corresponding box.
+\item
+  Next, click the Themes tab. Here you can choose a dark background or a
+  light background. If you prefer a dark background, do nothing. If you
+  prefer a light background, choose One Light. Be sure to change both
+  the UI Theme and the Syntax Theme.
+\item
+  Finally, click the Install tab. You should see a screen like the one
+  below.\\
+  \includegraphics{packages-install.png}
+\item
+  In the Install Packages search bar, search for \textbf{atom-beautify}.
+  When the package appears, click the \textbf{Install} button and wait
+  for the installation to complete. Congrats--you've just installed a
+  package!
+\item
+  Repeat step 5 for each of the packages below. Once you've installed
+  the packages, you can view some of them in the Packages menu (in the
+  same menu bar as File, Edit, View, etc.).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{atom-html-preview} -- allows you to view changes to your
+    website from within Atom
+  \item
+    \textbf{emmet} -- allows you to write your code more quickly
+  \item
+    \textbf{linter} -- helps identify potential errors in your code.
+    When you install this one, Atom may ask you to install
+    ``dependencies.'' Allow each of these
+  \item
+    \textbf{markdown-writer} -- allows you to make pretty documents with
+    no fuss (we'll use this one right away!)
+  \item
+    \textbf{tool-bar} -- with the next package, adds a toolbar with
+    buttons for italics, etc.
+  \item
+    \textbf{tool-bar-markdown-writer} -- see directly above
+  \item
+    \textbf{pandoc-convert} -- converts Markdown files (see below) to
+    Word docs, PDFs, or other formats
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{optional-packages}{%
+\section{Optional packages}\label{optional-packages}}
+
+If you wish, you may also download these packages:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{wordcount} -- adds a word count to the bottom of Atom's
+  interface
+\item
+  \textbf{linter-write-good} -- tries to identify common writing issues
+  (e.g., passive voice). Can be helpful, but when in doubt use your own
+  judgment
+\end{itemize}
 
 \bibliography{book.bib,packages.bib}
 
