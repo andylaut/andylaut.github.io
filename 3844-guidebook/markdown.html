@@ -25,13 +25,13 @@
 <meta name="author" content="Andy Lautenschlager">
 
 
-<meta name="date" content="2018-08-31">
+<meta name="date" content="2018-09-04">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
-  
+  <link rel="shortcut icon" href="3844.png" type="image/x-icon">
 <link rel="prev" href="atom.html">
 
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
@@ -73,11 +73,14 @@
 <li class="chapter" data-level="3" data-path="atom.html"><a href="atom.html"><i class="fa fa-check"></i><b>3</b> Atom</a><ul>
 <li class="chapter" data-level="3.1" data-path="atom.html"><a href="atom.html#introducing-atom"><i class="fa fa-check"></i><b>3.1</b> Introducing Atom</a></li>
 <li class="chapter" data-level="3.2" data-path="atom.html"><a href="atom.html#installing-atom"><i class="fa fa-check"></i><b>3.2</b> Installing Atom</a></li>
-<li class="chapter" data-level="3.3" data-path="atom.html"><a href="atom.html#installing-packages"><i class="fa fa-check"></i><b>3.3</b> Installing packages</a></li>
+<li class="chapter" data-level="3.3" data-path="atom.html"><a href="atom.html#setting-up-atom-and-installing-packages"><i class="fa fa-check"></i><b>3.3</b> Setting up Atom and installing packages</a></li>
 <li class="chapter" data-level="3.4" data-path="atom.html"><a href="atom.html#optional-packages"><i class="fa fa-check"></i><b>3.4</b> Optional packages</a></li>
+<li class="chapter" data-level="3.5" data-path="atom.html"><a href="atom.html#command-palette"><i class="fa fa-check"></i><b>3.5</b> Command Palette</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="markdown.html"><a href="markdown.html"><i class="fa fa-check"></i><b>4</b> Markdown</a><ul>
-<li class="chapter" data-level="4.1" data-path="markdown.html"><a href="markdown.html#cheat-sheet"><i class="fa fa-check"></i><b>4.1</b> Cheat sheet</a></li>
+<li class="chapter" data-level="4.1" data-path="markdown.html"><a href="markdown.html#create-a-markdown-file"><i class="fa fa-check"></i><b>4.1</b> Create a Markdown file</a></li>
+<li class="chapter" data-level="4.2" data-path="markdown.html"><a href="markdown.html#convert-markdown-to-html-word-or-pdf-formats"><i class="fa fa-check"></i><b>4.2</b> Convert Markdown to HTML, Word, or PDF formats</a></li>
+<li class="chapter" data-level="4.3" data-path="markdown.html"><a href="markdown.html#cheat-sheet"><i class="fa fa-check"></i><b>4.3</b> Cheat sheet</a></li>
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -102,10 +105,13 @@
 <div id="markdown" class="section level1">
 <h1><span class="header-section-number">Chapter 4</span> Markdown</h1>
 <p>Markdown is a lightweight markup language, which basically means that it allows you to easily create italics, boldface, links, images, and bulleted/numbered lists. Markdown is faster than Word for most kinds of writing, but the best part is that a Markdown file can become a Word doc, a PDF, an HTML file, a slide show, an MLA document–whatever!</p>
-<p>To learn Markdown, complete the tutorial at <a href="https://commonmark.org/help/tutorial/">CommonMark</a>. When you’ve completed the tutorial, make your first Markdown file in Atom by following the steps below.</p>
+<p>You can find a Markdown tutorial at <a href="https://commonmark.org/help/tutorial/">CommonMark</a>.</p>
+<div id="create-a-markdown-file" class="section level2">
+<h2><span class="header-section-number">4.1</span> Create a Markdown file</h2>
+<p>Make your first Markdown file in Atom by following the steps below.</p>
 <ol style="list-style-type: decimal">
-<li>In Atom, choose File =&gt; New file.</li>
-<li>Save the file as a Markdown file by choosing File =&gt; Save. Name the file markdown-test.md. Be sure to use the .md suffix.</li>
+<li>In Atom, choose <strong>File =&gt; New file.</strong></li>
+<li>Save the file as a Markdown file by choosing <strong>File =&gt; Save.</strong> Name the file markdown-test.md. Be sure to use the <strong>.md</strong> suffix.</li>
 <li><p>Paste the text below into the file, then save the file.</p>
 <pre><code># This is a heading 1 element  
 This is a paragraph. To make a paragraph break, just leave an extra line of space.  
@@ -124,11 +130,34 @@ This is a new paragraph.
 <img src="markdown.png" /></li>
 <li><p>That’s it! Markdown is that simple. If you want to learn more, use the <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown cheat sheet</a>. Soon, we’ll learn how to convert Markdown to a nice pdf or html document–and how to paste perfectly formatted writing into emails, newsletters, Google or Word docs, and more.</p></li>
 </ol>
-<p><strong>Super special bonus</strong><br />
+</div>
+<div id="convert-markdown-to-html-word-or-pdf-formats" class="section level2">
+<h2><span class="header-section-number">4.2</span> Convert Markdown to HTML, Word, or PDF formats</h2>
+<p>Markdown’s greatest feature is that Markdown content can become pretty much any other kind of content. Your Markdown can become a web page, a Word doc, a PDF, an MLA paper, an ebook (like this one!), a slideshow–whatever.</p>
+<p><strong>HTML</strong><br />
+HTML is the language of most web pages. Generally, each web page on a site consists of a single <code>.html</code> file. To convert your Markdown into HTML,</p>
+<ol style="list-style-type: decimal">
+<li>In <a href="https://andylaut.github.io/3844-guidebook/atom.htm">Atom</a>, make sure you’re viewing your Markdown file. Open Markdown Preview by selecting <strong>Packages =&gt; Markdown Preview =&gt; Toggle Preview.</strong></li>
+<li>Right-click some blank space in the preview window and select <strong>Save As HTML</strong>. Atom will give you the options of renaming your file and selecting a save location. Be sure the filename ends in <code>.html</code> (if you see something like <code>filename.md.html</code>, you can delete the <code>.md</code> part). Save it to your documents folder (or wherever).</li>
+<li>Find your new HTML file on your computer, and double-click it to open it in your web browser. If you want to view or edit the HTML file, simply open it in Atom!</li>
+</ol>
+<p><strong>Pasting HTML into Medium</strong><br />
+In most cases, you can paste your HTML into Medium with no errors. Simply open the HTML file in your browser (step 3 above), then copy the entire document to your clipboard. Paste the copied content into the Medium editor.</p>
+<p><strong>Word or PDF</strong><br />
+To convert your Markdown to Word or PDF format, you’ll need Atom’s <strong>pandoc-convert</strong> package. See <a href="https://andylaut.github.io/3844-guidebook/atom.html#setting-up-atom-and-installing-packages"><strong>Setting up Atom and installing packages</strong></a>. To convert your Markdown,</p>
+<ol style="list-style-type: decimal">
+<li>In <a href="https://andylaut.github.io/3844-guidebook/atom.htm">Atom</a>, make sure you’re viewing your Markdown file.</li>
+<li>Press <strong>cmd+shift+p</strong> (Mac) or <strong>ctrl+shift+p</strong> (Win) to open the <a href="https://andylaut.github.io/3844-guidebook/atom.html#command-palette">Command Palette</a>.</li>
+<li>In the Command Palette textbox, type <strong>pandoc docx</strong> (for Word) or <strong>pandoc pdf</strong> (for PDF). When you see the option you want, click the option or press return.</li>
+<li>Atom will give you the options of renaming your file and selecting a save location. Be sure the filename ends in <code>.docx</code> or <code>.pdf</code> (if you see something like <code>filename.md.docx</code>, you can delete the <code>.md</code> part). Save it to your documents folder (or wherever).</li>
+<li>Find the new Word or PDF doc on your computer and open it!</li>
+</ol>
+<p><strong>MLA</strong><br />
 Want to acheive perfect MLA formatting every time? Try <a href="http://markdowntomla.com/" title="Markdown to MLA">markdowntomla.com</a>!</p>
 <p>You can also use Markdown to make slide decks <em>way</em> faster than you could with PowerPoint. <a href="http://deckdown.org/">Deckdown</a> is a good place to start, but once we learn HTML and GitHub, we can add images, videos, etc.</p>
+</div>
 <div id="cheat-sheet" class="section level2">
-<h2><span class="header-section-number">4.1</span> Cheat sheet</h2>
+<h2><span class="header-section-number">4.3</span> Cheat sheet</h2>
 <p>This cheat sheet comes from Matt Cone at <a href="https://www.markdownguide.org/cheat-sheet/">markdownguide.org</a>. You can also find a cheat sheet within Atom by clicking <strong>Packages =&gt; Markdown Writer =&gt; Open Cheat Sheet.</strong></p>
 <table class="table table-bordered">
 <thead align="left" class="thead-light">

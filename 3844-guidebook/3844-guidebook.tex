@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-08-31}
+  \date{2018-09-04}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -280,14 +280,16 @@ For more info/help, visit the
 Atom} section of the Atom documentation. Note that at the top of the
 page you can choose your operating system (Windows or Mac).
 
-\hypertarget{installing-packages}{%
-\section{Installing packages}\label{installing-packages}}
+\hypertarget{setting-up-atom-and-installing-packages}{%
+\section{Setting up Atom and installing
+packages}\label{setting-up-atom-and-installing-packages}}
 
 Atom's a little different than Word. Word comes with a whole bunch of
 features, most of which you'll never use. Atom comes with a few features
 but allows you to quickly install many more. You install those features
 via the \textbf{package manager}. Let's install most of the packages
-we'll need this semester.
+we'll need this semester. While we're at it, we'll adjust some other
+settings to make Atom a more comfortable writing environment.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -362,8 +364,22 @@ If you wish, you may also download these packages:
 \item
   \textbf{linter-write-good} -- tries to identify common writing issues
   (e.g., passive voice). Can be helpful, but when in doubt use your own
-  judgment
+  judgment.
 \end{itemize}
+
+\hypertarget{command-palette}{%
+\section{Command Palette}\label{command-palette}}
+
+You can do pretty much anything in Atom--open files, install packages,
+convert files from one type to another--via the Command Palette. To open
+the palette, type \textbf{cmd+shift+p} (Mac) or \textbf{ctrl+shift+p}
+(Win).
+
+Now type whatever you want to do (e.g., open file, change theme, spell
+check) and select the option you want. At first you may struggle to
+figure out the right thing to type, but after some practice, using the
+Command Palette will be much faster than clicking through the various
+menus and submenus (though you can always do that, too!).
 
 \hypertarget{markdown}{%
 \chapter{Markdown}\label{markdown}}
@@ -374,35 +390,39 @@ bulleted/numbered lists. Markdown is faster than Word for most kinds of
 writing, but the best part is that a Markdown file can become a Word
 doc, a PDF, an HTML file, a slide show, an MLA document--whatever!
 
-To learn Markdown, complete the tutorial at
-\href{https://commonmark.org/help/tutorial/}{CommonMark}. When you've
-completed the tutorial, make your first Markdown file in Atom by
-following the steps below.
+You can find a Markdown tutorial at
+\href{https://commonmark.org/help/tutorial/}{CommonMark}.
+
+\hypertarget{create-a-markdown-file}{%
+\section{Create a Markdown file}\label{create-a-markdown-file}}
+
+Make your first Markdown file in Atom by following the steps below.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  In Atom, choose File =\textgreater{} New file.
+  In Atom, choose \textbf{File =\textgreater{} New file.}
 \item
-  Save the file as a Markdown file by choosing File =\textgreater{}
-  Save. Name the file markdown-test.md. Be sure to use the .md suffix.
+  Save the file as a Markdown file by choosing \textbf{File
+  =\textgreater{} Save.} Name the file markdown-test.md. Be sure to use
+  the \textbf{.md} suffix.
 \item
   Paste the text below into the file, then save the file.
 
 \begin{verbatim}
-\# This is a heading 1 element  
+# This is a heading 1 element  
 This is a paragraph. To make a paragraph break, just leave an extra line of space.  
 
 This is a new paragraph.  
 
-\* This is a list item  
-\* So is this  
+* This is a list item  
+* So is this  
 
-\## This is a heading 2 element  
-1\. Here's a numbered list item  
-2\. And a \*\*bold\*\* item  
-3\. And an \*italics\* item  
-4\. And a \[link\](http://www.google.com)
+## This is a heading 2 element  
+1. Here's a numbered list item  
+2. And a **bold** item  
+3. And an *italics* item  
+4. And a [link](http://www.google.com)
 \end{verbatim}
 \item
   Now, to see the output, look for the Packages menu in the menu bar
@@ -418,7 +438,79 @@ This is a new paragraph.
   emails, newsletters, Google or Word docs, and more.
 \end{enumerate}
 
-\textbf{Super special bonus}\\
+\hypertarget{convert-markdown-to-html-word-or-pdf-formats}{%
+\section{Convert Markdown to HTML, Word, or PDF
+formats}\label{convert-markdown-to-html-word-or-pdf-formats}}
+
+Markdown's greatest feature is that Markdown content can become pretty
+much any other kind of content. Your Markdown can become a web page, a
+Word doc, a PDF, an MLA paper, an ebook (like this one!), a
+slideshow--whatever.
+
+\textbf{HTML}\\
+HTML is the language of most web pages. Generally, each web page on a
+site consists of a single \texttt{.html} file. To convert your Markdown
+into HTML,
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  In \href{https://andylaut.github.io/3844-guidebook/atom.htm}{Atom},
+  make sure you're viewing your Markdown file. Open Markdown Preview by
+  selecting \textbf{Packages =\textgreater{} Markdown Preview
+  =\textgreater{} Toggle Preview.}
+\item
+  Right-click some blank space in the preview window and select
+  \textbf{Save As HTML}. Atom will give you the options of renaming your
+  file and selecting a save location. Be sure the filename ends in
+  \texttt{.html} (if you see something like \texttt{filename.md.html},
+  you can delete the \texttt{.md} part). Save it to your documents
+  folder (or wherever).
+\item
+  Find your new HTML file on your computer, and double-click it to open
+  it in your web browser. If you want to view or edit the HTML file,
+  simply open it in Atom!
+\end{enumerate}
+
+\textbf{Pasting HTML into Medium}\\
+In most cases, you can paste your HTML into Medium with no errors.
+Simply open the HTML file in your browser (step 3 above), then copy the
+entire document to your clipboard. Paste the copied content into the
+Medium editor.
+
+\textbf{Word or PDF}\\
+To convert your Markdown to Word or PDF format, you'll need Atom's
+\textbf{pandoc-convert} package. See
+\href{https://andylaut.github.io/3844-guidebook/atom.html\#setting-up-atom-and-installing-packages}{\textbf{Setting
+up Atom and installing packages}}. To convert your Markdown,
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  In \href{https://andylaut.github.io/3844-guidebook/atom.htm}{Atom},
+  make sure you're viewing your Markdown file.
+\item
+  Press \textbf{cmd+shift+p} (Mac) or \textbf{ctrl+shift+p} (Win) to
+  open the
+  \href{https://andylaut.github.io/3844-guidebook/atom.html\#command-palette}{Command
+  Palette}.
+\item
+  In the Command Palette textbox, type \textbf{pandoc docx} (for Word)
+  or \textbf{pandoc pdf} (for PDF). When you see the option you want,
+  click the option or press return.
+\item
+  Atom will give you the options of renaming your file and selecting a
+  save location. Be sure the filename ends in \texttt{.docx} or
+  \texttt{.pdf} (if you see something like \texttt{filename.md.docx},
+  you can delete the \texttt{.md} part). Save it to your documents
+  folder (or wherever).
+\item
+  Find the new Word or PDF doc on your computer and open it!
+\end{enumerate}
+
+\textbf{MLA}\\
 Want to acheive perfect MLA formatting every time? Try
 \href{http://markdowntomla.com/}{markdowntomla.com}!
 
@@ -435,19 +527,13 @@ This cheat sheet comes from Matt Cone at
 You can also find a cheat sheet within Atom by clicking \textbf{Packages
 =\textgreater{} Markdown Writer =\textgreater{} Open Cheat Sheet.}
 
-\hypertarget{basic-syntax}{%
-\subsection{Basic Syntax}\label{basic-syntax}}
-
-These are the elements outlined in John Gruber's original design
-document. All Markdown applications support these elements.
-
 Element
 
 Markdown Syntax
 
 Heading
 
-\texttt{\#\ H1\textless{}br\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \#\#\ H2\textless{}br\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \#\#\#\ H3}
+\texttt{\#\ H1} \texttt{\#\#\ H2} \texttt{\#\#\#\ H3}
 
 Bold
 
@@ -459,19 +545,20 @@ Italic
 
 Blockquote
 
-\texttt{\&gt;\ blockquote}
+\texttt{\textgreater{}\ blockquote}
 
 Ordered List
 
-\texttt{1.\ First\ item\ \ \ \ \ \ \ \ \ \ \ 2.\ Second\ item\ \ \ \ \ \ \ \ \ \ \ 3.\ Third\ item}
+\texttt{1.\ First\ item} \texttt{2.\ Second\ item}
+\texttt{3.\ Third\ item}
 
 Unordered List
 
-\texttt{-\ First\ item\ \ \ \ \ \ \ \ \ \ \ \ \ -\ Second\ item\ \ \ \ \ \ \ \ \ \ \ \ \ -\ Third\ item}
+\texttt{-\ First\ item} \texttt{-\ Second\ item} \texttt{-\ Third\ item}
 
 Code
 
-\texttt{code}
+\texttt{\textasciigrave{}code\textasciigrave{}}
 
 Horizontal Rule
 
