@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Consequences!</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><p><input type="text" id="fn" value="Female name"> met</p> <button onclick="fName()">Submit</button></section>
+				<section><p><input type="text" id="mn" value="Male name"></p> <button onclick="mName()">Submit</button></section>
+				<section>
+					<p>She said <input type="text" id="wss" value="What she said"></p> <button onclick="wss()">Submit</button>
+				</section>
+				<section>
+					<p>He said <input type="text" id="whs" value="What he said"></p> <button onclick="whs()">Submit</button>
+				</section>
+
+					<section>
+						<p>She <input type="text" id="wsd" value="What she did"></p> <button onclick="wsd()">Submit</button>
+					</section>
+					<section>
+						<p>He <input type="text" id="whd" value="What he did"></p> <button onclick="whd()">Submit</button>
+					</section>
+					<section>
+						<p>As a result, they <input type="text" id="wtd" value="What they did"></p> <button onclick="consequence()">Submit</button>
+					</section>
+					<section>
+						<p><span id="fn-out"></span> met <span id="mn-out"></span> on the Drillfield. She said, "<span id="wss-out"></span>." He replied, "<span id="whs-out"></span>." Then she <span id="wsd-out"></span>. He <span id="whd-out"></span>. As a result, they <span id="wtd-out"></span>.</p>
+					</section>
+
+			</div>
+		</div>
+		<script>
+			function fName() {
+    	var x = document.getElementById("fn").value;
+    	document.getElementById("fn-out").innerHTML = x;
+			}
+
+			function mName() {
+    	var x = document.getElementById("mn").value;
+    	document.getElementById("mn-out").innerHTML = x;
+			}
+
+			function wss() {
+    	var x = document.getElementById("wss").value;
+    	document.getElementById("wss-out").innerHTML = x;
+			}
+
+			function whs() {
+    	var x = document.getElementById("whs").value;
+    	document.getElementById("whs-out").innerHTML = x;
+			}
+
+			function wsd() {
+    	var x = document.getElementById("wsd").value;
+    	document.getElementById("wsd-out").innerHTML = x;
+			}
+
+			function whd() {
+    	var x = document.getElementById("whd").value;
+    	document.getElementById("whd-out").innerHTML = x;
+			}
+
+			function consequence() {
+    	var x = document.getElementById("wtd").value;
+    	document.getElementById("wtd-out").innerHTML = x;
+			}
+		</script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
