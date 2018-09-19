@@ -25,7 +25,7 @@
 <meta name="author" content="Andy Lautenschlager">
 
 
-<meta name="date" content="2018-09-14">
+<meta name="date" content="2018-09-19">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -67,9 +67,11 @@
 
 <li class="divider"></li>
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="readings.html"><a href="readings.html"><i class="fa fa-check"></i><b>2</b> Readings</a><ul>
+<li class="chapter" data-level="2" data-path="readings.html"><a href="readings.html"><i class="fa fa-check"></i><b>2</b> Readings and resources</a><ul>
 <li class="chapter" data-level="2.1" data-path="readings.html"><a href="readings.html#from-the-rhetorical-situation-by-lloyd-bitzer-1968"><i class="fa fa-check"></i><b>2.1</b> From “The Rhetorical Situation” by Lloyd Bitzer (1968)</a></li>
 <li class="chapter" data-level="2.2" data-path="readings.html"><a href="readings.html#from-as-we-may-think-by-vannevar-bush-1945"><i class="fa fa-check"></i><b>2.2</b> From “As We May Think” by Vannevar Bush (1945)</a></li>
+<li class="chapter" data-level="2.3" data-path="readings.html"><a href="readings.html#how-google-search-works"><i class="fa fa-check"></i><b>2.3</b> How Google search works</a></li>
+<li class="chapter" data-level="2.4" data-path="readings.html"><a href="readings.html#dark-patterns"><i class="fa fa-check"></i><b>2.4</b> Dark Patterns</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="atom.html"><a href="atom.html"><i class="fa fa-check"></i><b>3</b> Atom</a><ul>
 <li class="chapter" data-level="3.1" data-path="atom.html"><a href="atom.html#introducing-atom"><i class="fa fa-check"></i><b>3.1</b> Introducing Atom</a></li>
@@ -104,7 +106,7 @@
 
             <section class="normal" id="section-">
 <div id="readings" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Readings</h1>
+<h1><span class="header-section-number">Chapter 2</span> Readings and resources</h1>
 <p>We won’t have many readings this semester, but I have compiled a few excerpts from longer works below.</p>
 <div id="from-the-rhetorical-situation-by-lloyd-bitzer-1968" class="section level2">
 <h2><span class="header-section-number">2.1</span> From “The Rhetorical Situation” by Lloyd Bitzer (1968)</h2>
@@ -149,6 +151,48 @@ All this is conventional, except for the projection forward of present-day mecha
 <p>And his trails do not fade. Several years later, his talk with a friend turns to the queer ways in which a people resist innovations, even of vital interest. He has an example, in the fact that the outraged Europeans still failed to adopt the Turkish bow. In fact he has a trail on it. A touch brings up the code book. Tapping a few keys projects the head of the trail. A lever runs through it at will, stopping at interesting items, going off on side excursions. It is an interesting trail, pertinent to the discussion. So he sets a reproducer in action, photographs the whole trail out, and passes it to his friend for insertion in his own memex, there to be linked into the more general trail.</p>
 <p><strong>Wholly new forms</strong><br />
 Wholly new forms of encyclopedias will appear, ready made with a mesh of associative trails running through them, ready to be dropped into the memex and there amplified. The lawyer has at his touch the associated opinions and decisions of his whole experience, and of the experience of friends and authorities. The patent attorney has on call the millions of issued patents, with familiar trails to every point of his client’s interest. The physician, puzzled by a patient’s reactions, strikes the trail established in studying an earlier similar case, and runs rapidly through analogous case histories, with side references to the classics for the pertinent anatomy and histology. The chemist, struggling with the synthesis of an organic compound, has all the chemical literature before him in his laboratory, with trails following the analogies of compounds, and side trails to their physical and chemical behavior.</p>
+</div>
+<div id="how-google-search-works" class="section level2">
+<h2><span class="header-section-number">2.3</span> How Google search works</h2>
+<p><em>Vannevar Bush dreamed of a “mesh of associative trails” and of “associative indexing” that would help users navigate information structures. That mesh is now a web–</em>the web. <em>Sergey Brin and Larry Page indexed that web when they created Google. They weren’t the first to index the web, but they did conceive an algorithm that provided better results than any other search engine.</em></p>
+<p><em>The video and reading below should help you understand why </em>links <em>are so crucial to any web content creator. The video comes from Google’s <a href="https://www.google.com/search/howsearchworks/crawling-indexing/" title="Google -- How search works">How Search Works</a> page, while the reading comes from <a href="http://infolab.stanford.edu/~backrub/google.html" title="The Anatomy of a Large-Scale Hypertextual Web Search Engine">The Anatomy of a Large-Scale Hypertextual Web Search Engine</a>, a paper Brin and Page wrote as Stanford graduate students.</em></p>
+<p><strong>How search works</strong><br />
+Pay special attention to the importance of Google’s “PageRank” formula at about 1:30.</p>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">
+<iframe src="https://www.youtube.com/embed/BNHR6IQJGZs" frameborder="0" allowfullscreen>
+</iframe>
+</div>
+<hr />
+<p><strong>From “The Anatomy of a Large-Scale Hypertextual Web Search Engine” by Sergey Brin and Lawrence Page (1998)</strong></p>
+<p>The Google search engine has two important features that help it produce high precision results. First, it makes use of the link structure of the Web to calculate a quality ranking for each web page. This ranking is called PageRank and is described in detail in [Page 98]. Second, Google utilizes link to improve search results.</p>
+<p><strong>PageRank: Bringing Order to the Web</strong><br />
+The citation (link) graph of the web is an important resource that has largely gone unused in existing web search engines. We have created maps containing as many as 518 million of these hyperlinks, a significant sample of the total. These maps allow rapid calculation of a web page’s “PageRank”, an objective measure of its citation importance that corresponds well with people’s subjective idea of importance. Because of this correspondence, PageRank is an excellent way to prioritize the results of web keyword searches. For most popular subjects, a simple text matching search that is restricted to web page titles performs admirably when PageRank prioritizes the results (demo available at google.stanford.edu). For the type of full text searches in the main Google system, PageRank also helps a great deal.</p>
+<p><strong>Description of PageRank Calculation</strong><br />
+Academic citation literature has been applied to the web, largely by counting citations or backlinks to a given page. This gives some approximation of a page’s importance or quality. PageRank extends this idea by not counting links from all pages equally, and by normalizing by the number of links on a page. PageRank is defined as follows:</p>
+<blockquote>
+<p>We assume page A has pages T1…Tn which point to it (i.e., are citations). The parameter d is a damping factor which can be set between 0 and 1. We usually set d to 0.85. There are more details about d in the next section. Also C(A) is defined as the number of links going out of page A. The PageRank of a page A is given as follows:</p>
+<p>PR(A) = (1-d) + d (PR(T1)/C(T1) + … + PR(Tn)/C(Tn))</p>
+<p>Note that the PageRanks form a probability distribution over web pages, so the sum of all web pages’ PageRanks will be one.</p>
+</blockquote>
+<p><strong>Intuitive Justification</strong><br />
+PageRank can be thought of as a model of user behavior. We assume there is a “random surfer” who is given a web page at random and keeps clicking on links, never hitting “back” but eventually gets bored and starts on another random page. The probability that the random surfer visits a page is its PageRank. And, the d damping factor is the probability at each page the “random surfer” will get bored and request another random page. One important variation is to only add the damping factor d to a single page, or a group of pages. This allows for personalization and can make it nearly impossible to deliberately mislead the system in order to get a higher ranking. We have several other extensions to PageRank, again see [Page 98].</p>
+<p>Another intuitive justification is that a page can have a high PageRank if there are many pages that point to it, or if there are some pages that point to it and have a high PageRank. Intuitively, pages that are well cited from many places around the web are worth looking at. Also, pages that have perhaps only one citation from something like the Yahoo! homepage are also generally worth looking at. If a page was not high quality, or was a broken link, it is quite likely that Yahoo’s homepage would not link to it. PageRank handles both these cases and everything in between by recursively propagating weights through the link structure of the web.</p>
+<p><strong>Anchor Text</strong><br />
+The text of links is treated in a special way in our search engine. Most search engines associate the text of a link with the page that the link is on. In addition, we associate it with the page the link points to. This has several advantages. First, anchors often provide more accurate descriptions of web pages than the pages themselves. Second, anchors may exist for documents which cannot be indexed by a text-based search engine, such as images, programs, and databases. This makes it possible to return web pages which have not actually been crawled. Note that pages that have not been crawled can cause problems, since they are never checked for validity before being returned to the user. In this case, the search engine can even return a page that never actually existed, but had hyperlinks pointing to it. However, it is possible to sort the results, so that this particular problem rarely happens.</p>
+<p>This idea of propagating anchor text to the page it refers to was implemented in the World Wide Web Worm [McBryan 94] especially because it helps search non-text information, and expands the search coverage with fewer downloaded documents. We use anchor propagation mostly because anchor text can help provide better quality results. Using anchor text efficiently is technically difficult because of the large amounts of data which must be processed. In our current crawl of 24 million pages, we had over 259 million anchors which we indexed.</p>
+<p><strong>Other Features</strong><br />
+Aside from PageRank and the use of anchor text, Google has several other features. First, it has location information for all hits and so it makes extensive use of proximity in search. Second, Google keeps track of some visual presentation details such as font size of words. Words in a larger or bolder font are weighted higher than other words. Third, full raw HTML of pages is available in a repository.</p>
+</div>
+<div id="dark-patterns" class="section level2">
+<h2><span class="header-section-number">2.4</span> Dark Patterns</h2>
+<p><em>Dark patterns are design strategies used by content developers to trick you into taking some action you wouldn’t otherwise take. You have certainly encountered dark patterns before, but you (a) may not have recognized them as manipulative or (b) may not have realized that these patterns are indeed patterns–once you recognize them, you’ll see variations all over the web.</em></p>
+<p><em>Check out the video below and then visit the <a href="https://darkpatterns.org/" title="Home -- Dark Patterns">Dark Patterns</a> website.</em></p>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">
+<iframe src="https://www.youtube.com/embed/kxkrdLI6e6M" frameborder="0" allowfullscreen>
+</iframe>
+</div>
 
 </div>
 </div>

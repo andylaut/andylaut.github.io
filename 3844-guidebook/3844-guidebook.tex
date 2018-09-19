@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-09-14}
+  \date{2018-09-19}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -133,7 +133,7 @@ I'll add more and more content to this booklet as the semester
 progresses.
 
 \hypertarget{readings}{%
-\chapter{Readings}\label{readings}}
+\chapter{Readings and resources}\label{readings}}
 
 We won't have many readings this semester, but I have compiled a few
 excerpts from longer works below.
@@ -407,6 +407,143 @@ for the pertinent anatomy and histology. The chemist, struggling with
 the synthesis of an organic compound, has all the chemical literature
 before him in his laboratory, with trails following the analogies of
 compounds, and side trails to their physical and chemical behavior.
+
+\hypertarget{how-google-search-works}{%
+\section{How Google search works}\label{how-google-search-works}}
+
+\emph{Vannevar Bush dreamed of a ``mesh of associative trails'' and of
+``associative indexing'' that would help users navigate information
+structures. That mesh is now a web--}the web. \emph{Sergey Brin and
+Larry Page indexed that web when they created Google. They weren't the
+first to index the web, but they did conceive an algorithm that provided
+better results than any other search engine.}
+
+\emph{The video and reading below should help you understand why }links
+\emph{are so crucial to any web content creator. The video comes from
+Google's
+\href{https://www.google.com/search/howsearchworks/crawling-indexing/}{How
+Search Works} page, while the reading comes from
+\href{http://infolab.stanford.edu/~backrub/google.html}{The Anatomy of a
+Large-Scale Hypertextual Web Search Engine}, a paper Brin and Page wrote
+as Stanford graduate students.}
+
+\textbf{How search works}\\
+Pay special attention to the importance of Google's ``PageRank'' formula
+at about 1:30.
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\textbf{From ``The Anatomy of a Large-Scale Hypertextual Web Search
+Engine'' by Sergey Brin and Lawrence Page (1998)}
+
+The Google search engine has two important features that help it produce
+high precision results. First, it makes use of the link structure of the
+Web to calculate a quality ranking for each web page. This ranking is
+called PageRank and is described in detail in {[}Page 98{]}. Second,
+Google utilizes link to improve search results.
+
+\textbf{PageRank: Bringing Order to the Web}\\
+The citation (link) graph of the web is an important resource that has
+largely gone unused in existing web search engines. We have created maps
+containing as many as 518 million of these hyperlinks, a significant
+sample of the total. These maps allow rapid calculation of a web page's
+``PageRank'', an objective measure of its citation importance that
+corresponds well with people's subjective idea of importance. Because of
+this correspondence, PageRank is an excellent way to prioritize the
+results of web keyword searches. For most popular subjects, a simple
+text matching search that is restricted to web page titles performs
+admirably when PageRank prioritizes the results (demo available at
+google.stanford.edu). For the type of full text searches in the main
+Google system, PageRank also helps a great deal.
+
+\textbf{Description of PageRank Calculation}\\
+Academic citation literature has been applied to the web, largely by
+counting citations or backlinks to a given page. This gives some
+approximation of a page's importance or quality. PageRank extends this
+idea by not counting links from all pages equally, and by normalizing by
+the number of links on a page. PageRank is defined as follows:
+
+\begin{quote}
+We assume page A has pages T1\ldots{}Tn which point to it (i.e., are
+citations). The parameter d is a damping factor which can be set between
+0 and 1. We usually set d to 0.85. There are more details about d in the
+next section. Also C(A) is defined as the number of links going out of
+page A. The PageRank of a page A is given as follows:
+
+PR(A) = (1-d) + d (PR(T1)/C(T1) + \ldots{} + PR(Tn)/C(Tn))
+
+Note that the PageRanks form a probability distribution over web pages,
+so the sum of all web pages' PageRanks will be one.
+\end{quote}
+
+\textbf{Intuitive Justification}\\
+PageRank can be thought of as a model of user behavior. We assume there
+is a ``random surfer'' who is given a web page at random and keeps
+clicking on links, never hitting ``back'' but eventually gets bored and
+starts on another random page. The probability that the random surfer
+visits a page is its PageRank. And, the d damping factor is the
+probability at each page the ``random surfer'' will get bored and
+request another random page. One important variation is to only add the
+damping factor d to a single page, or a group of pages. This allows for
+personalization and can make it nearly impossible to deliberately
+mislead the system in order to get a higher ranking. We have several
+other extensions to PageRank, again see {[}Page 98{]}.
+
+Another intuitive justification is that a page can have a high PageRank
+if there are many pages that point to it, or if there are some pages
+that point to it and have a high PageRank. Intuitively, pages that are
+well cited from many places around the web are worth looking at. Also,
+pages that have perhaps only one citation from something like the Yahoo!
+homepage are also generally worth looking at. If a page was not high
+quality, or was a broken link, it is quite likely that Yahoo's homepage
+would not link to it. PageRank handles both these cases and everything
+in between by recursively propagating weights through the link structure
+of the web.
+
+\textbf{Anchor Text}\\
+The text of links is treated in a special way in our search engine. Most
+search engines associate the text of a link with the page that the link
+is on. In addition, we associate it with the page the link points to.
+This has several advantages. First, anchors often provide more accurate
+descriptions of web pages than the pages themselves. Second, anchors may
+exist for documents which cannot be indexed by a text-based search
+engine, such as images, programs, and databases. This makes it possible
+to return web pages which have not actually been crawled. Note that
+pages that have not been crawled can cause problems, since they are
+never checked for validity before being returned to the user. In this
+case, the search engine can even return a page that never actually
+existed, but had hyperlinks pointing to it. However, it is possible to
+sort the results, so that this particular problem rarely happens.
+
+This idea of propagating anchor text to the page it refers to was
+implemented in the World Wide Web Worm {[}McBryan 94{]} especially
+because it helps search non-text information, and expands the search
+coverage with fewer downloaded documents. We use anchor propagation
+mostly because anchor text can help provide better quality results.
+Using anchor text efficiently is technically difficult because of the
+large amounts of data which must be processed. In our current crawl of
+24 million pages, we had over 259 million anchors which we indexed.
+
+\textbf{Other Features}\\
+Aside from PageRank and the use of anchor text, Google has several other
+features. First, it has location information for all hits and so it
+makes extensive use of proximity in search. Second, Google keeps track
+of some visual presentation details such as font size of words. Words in
+a larger or bolder font are weighted higher than other words. Third,
+full raw HTML of pages is available in a repository.
+
+\hypertarget{dark-patterns}{%
+\section{Dark Patterns}\label{dark-patterns}}
+
+\emph{Dark patterns are design strategies used by content developers to
+trick you into taking some action you wouldn't otherwise take. You have
+certainly encountered dark patterns before, but you (a) may not have
+recognized them as manipulative or (b) may not have realized that these
+patterns are indeed patterns--once you recognize them, you'll see
+variations all over the web.}
+
+\emph{Check out the video below and then visit the
+\href{https://darkpatterns.org/}{Dark Patterns} website.}
 
 \hypertarget{atom}{%
 \chapter{Atom}\label{atom}}
@@ -724,6 +861,8 @@ Element
 
 Markdown Syntax
 
+Atom Shortcut
+
 Heading
 
 \texttt{\#\ H1} \texttt{\#\#\ H2} \texttt{\#\#\#\ H3}
@@ -732,9 +871,13 @@ Bold
 
 \texttt{**bold\ text**}
 
+\texttt{b\ tab}
+
 Italic
 
 \texttt{*italicized\ text*}
+
+\texttt{i\ tab}
 
 Blockquote
 
@@ -753,17 +896,23 @@ Code
 
 \texttt{\textasciigrave{}code\textasciigrave{}}
 
+\texttt{code\ tab}
+
 Horizontal Rule
 
-\texttt{-\/-\/-}
+\texttt{-\ -\ -}
 
 Link
 
-\texttt{{[}title{]}(https://www.example.com)}
+\texttt{{[}anchor{]}(https://www.example.com\ "title")}
+
+\texttt{l\ tab}
 
 Image
 
-\texttt{!{[}alt\ text{]}(image.jpg)}
+\texttt{!{[}alt\ text{]}(image.jpg\ "title")}
+
+\texttt{img\ tab}
 
 \bibliography{book.bib,packages.bib}
 
