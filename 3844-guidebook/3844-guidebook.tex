@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-09-24}
+  \date{2018-09-25}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -856,7 +856,7 @@ up Atom and installing packages}}. To convert your Markdown,
   In \href{https://andylaut.github.io/3844-guidebook/atom.htm}{Atom},
   make sure you're viewing your Markdown file.
 \item
-  Press \textbf{cmd+shift+p} (Mac) or \textbf{ctrl+shift+p} (Win) to
+  Press \texttt{cmd+shift+p} (Mac) or \texttt{ctrl+shift+p} (Win) to
   open the
   \href{https://andylaut.github.io/3844-guidebook/atom.html\#command-palette}{Command
   Palette}.
@@ -953,6 +953,199 @@ Image
 \texttt{!{[}alt\ text{]}(image.jpg\ "title")}
 
 \texttt{img\ tab}
+
+\hypertarget{medium}{%
+\chapter{Medium}\label{medium}}
+
+Medium is part blogging platform, part social network. Like most any
+other blogging platform, Medium allows you to post multimedia content.
+Unlike some other platforms, however, Medium also lets you follow other
+users, mention and link to other users (just like an @ on Twitter or tag
+on Facebook or Instagram). You can also follow particular topics (e.g.,
+``Education,'' ``JavaScript'') and tag your own content with topics.
+
+\hypertarget{medium-help}{%
+\section{Medium help}\label{medium-help}}
+
+Medium offers extensive user documentation. I've copied the links below
+from the \href{https://help.medium.com/hc/en-us}{Medium support} page,
+where you can also find help on modifying your account settings, sharing
+on social media, and much more.
+
+Creating in Medium
+
+ Managing posts
+
+Your drafts \& posts
+
+Your stats
+
+Tags
+
+Share draft
+
+Unlisted publishing
+
+Revision history
+
+Content licenses
+
+ Writing \& editing
+
+Write post
+
+Format text
+
+Images
+
+Embeds
+
+Custom titles \& subtitles
+
+ Partner Program
+
+Join Partner Program
+
+Write for members
+
+Your Partner Program dashboard
+
+Friend Links
+
+Calls to action
+
+ Responses \& notes
+
+Write response
+
+Leave note
+
+ Migrations \& integrations
+
+Import post
+
+Import archive
+
+Wordpress plugin
+
+Publishing API
+
+ Tips \& more
+
+Medium's Curation Guidelines
+
+Update Facebook \& Twitter cards
+
+Keyboard shortcuts
+
+\hypertarget{pasting-markdown-authored-content-into-medium}{%
+\section{Pasting Markdown-authored content into
+Medium}\label{pasting-markdown-authored-content-into-medium}}
+
+You can compose directly in Medium's editor, but in this class we
+compose in Markdown. We use Markdown because Markdown content can become
+so many other types of content. (See the
+\protect\hyperlink{markdown}{Markdown chapter} of this book.) Composing
+in Markdown also ensures that you always have a copy on your own
+computer. After all, you never know when you might lose your internet
+connection.
+
+To cleanly paste your Markdown-authored content into Medium, you should
+first convert your content into an HTML file, then open that HTML file
+in your browser, copy the file's contents, then paste into Medium.
+
+\textbf{Converting from Markdown to HTML}\\
+To convert your Markdown content to HTML, you can use two methods. If
+you have installed the
+\href{https://andylaut.github.io/3844-guidebook/atom.html\#setting-up-atom-and-installing-packages}{pandoc}
+package, you can convert to HTML the same way you would convert to Word
+or any other format:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  In \href{https://andylaut.github.io/3844-guidebook/atom.htm}{Atom},
+  make sure your cursor is in your Markdown file.
+\item
+  Open the
+  \href{https://andylaut.github.io/3844-guidebook/atom.html\#command-palette}{Command
+  Palette} by typing \texttt{cmd+shift+p} (Mac) or \texttt{ctrl+shift+p}
+  (Win).
+\item
+  In the text entry field, type ``pandoc html5'' and press
+  \texttt{return}.
+\item
+  Choose the name and path of your file. Make sure your filename ends in
+  \texttt{.html} (e.g., \texttt{filename.html}, \textbf{NOT} simply
+  \texttt{filename}). If the suggested filename contains the text
+  \texttt{.md}, you may delete that text.
+\item
+  Press \texttt{return}. You should receive confirmation if the process
+  succeeds.
+\end{enumerate}
+
+If you don't have pandoc, you can follow the alternate instructions
+below.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  In \href{https://andylaut.github.io/3844-guidebook/atom.htm}{Atom},
+  make sure you're viewing your Markdown file. Open Markdown Preview by
+  selecting \textbf{Packages =\textgreater{} Markdown Preview
+  =\textgreater{} Toggle Preview.}
+\item
+  Right-click some blank space in the preview window and select
+  \textbf{Save As HTML}. Atom will give you the options of renaming your
+  file and selecting a save location. Be sure the filename ends in
+  \texttt{.html} (if you see something like \texttt{filename.md.html},
+  you can delete the \texttt{.md} part). Save it to your documents
+  folder (or wherever).
+\item
+  Find your new HTML file on your computer, and double-click it to open
+  it in your web browser. If you want to view or edit the HTML file,
+  simply open it in Atom!
+\end{enumerate}
+
+\textbf{Pasting HTML into Medium}\\
+This part is simpler. To paste your HTML into Medium, simply
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Find the HTML file on your computer and open it in your web browser
+  (Chrome recommended).
+\item
+  Copy the contents of the page to your clipboard.
+\item
+  Paste the contents of the page into Medium's editor.
+\end{enumerate}
+
+In most cases, the content should paste perfectly. Sometimes, however,
+you may encounter problems such as
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Images don't paste.} If you included an image in your Markdown
+  file, it will only paste into Medium if the image was located on the
+  web (e.g., on Google Images, NOT on your computer). To add an image
+  that IS located on your computer, see the
+  \href{https://help.medium.com/hc/en-us/articles/215679797}{Medium Help
+  Center}.
+\item
+  \textbf{Headings look different.} Medium offers two levels of
+  headings, no more. If you try to include additional levels of
+  headings, Medium will change your formatting. Use only two levels of
+  headings.
+\item
+  \textbf{Just straight-up didn't work.} You may have converted your
+  file incorrectly, pasted incorrectly, or written invalid or
+  too-complicated Markdown. See me for help.
+\end{itemize}
 
 \bibliography{book.bib,packages.bib}
 

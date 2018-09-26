@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>English 3844: Writing and Digital Media Guidebook</title>
+  <meta name="description" content="This booklet contains instructions and resources related to English 3844: Writing and Digital Media. Inside you’ll find instructions on how to install and use Atom text editor, GitHub Desktop, and GitHub pages, as well as a few readings and a collection of audio and video development resources.">
+  <meta name="generator" content="bookdown 0.7 and GitBook 2.6.7">
+
+  <meta property="og:title" content="English 3844: Writing and Digital Media Guidebook" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This booklet contains instructions and resources related to English 3844: Writing and Digital Media. Inside you’ll find instructions on how to install and use Atom text editor, GitHub Desktop, and GitHub pages, as well as a few readings and a collection of audio and video development resources." />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="English 3844: Writing and Digital Media Guidebook" />
+  
+  <meta name="twitter:description" content="This booklet contains instructions and resources related to English 3844: Writing and Digital Media. Inside you’ll find instructions on how to install and use Atom text editor, GitHub Desktop, and GitHub pages, as well as a few readings and a collection of audio and video development resources." />
+  
+
+<meta name="author" content="Andy Lautenschlager">
+
+
+<meta name="date" content="2018-09-25">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  <link rel="shortcut icon" href="3844.png" type="image/x-icon">
+<link rel="prev" href="markdown.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">English 3844 Guidebook</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
+<li class="chapter" data-level="2" data-path="readings.html"><a href="readings.html"><i class="fa fa-check"></i><b>2</b> Readings and resources</a><ul>
+<li class="chapter" data-level="2.1" data-path="readings.html"><a href="readings.html#from-the-rhetorical-situation-by-lloyd-bitzer-1968"><i class="fa fa-check"></i><b>2.1</b> From “The Rhetorical Situation” by Lloyd Bitzer (1968)</a></li>
+<li class="chapter" data-level="2.2" data-path="readings.html"><a href="readings.html#from-as-we-may-think-by-vannevar-bush-1945"><i class="fa fa-check"></i><b>2.2</b> From “As We May Think” by Vannevar Bush (1945)</a></li>
+<li class="chapter" data-level="2.3" data-path="readings.html"><a href="readings.html#how-google-search-works"><i class="fa fa-check"></i><b>2.3</b> How Google search works</a></li>
+<li class="chapter" data-level="2.4" data-path="readings.html"><a href="readings.html#dark-patterns"><i class="fa fa-check"></i><b>2.4</b> Dark Patterns</a></li>
+<li class="chapter" data-level="2.5" data-path="readings.html"><a href="readings.html#buzzfeeds-formula"><i class="fa fa-check"></i><b>2.5</b> Buzzfeed’s formula</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="atom.html"><a href="atom.html"><i class="fa fa-check"></i><b>3</b> Atom</a><ul>
+<li class="chapter" data-level="3.1" data-path="atom.html"><a href="atom.html#introducing-atom"><i class="fa fa-check"></i><b>3.1</b> Introducing Atom</a></li>
+<li class="chapter" data-level="3.2" data-path="atom.html"><a href="atom.html#installing-atom"><i class="fa fa-check"></i><b>3.2</b> Installing Atom</a></li>
+<li class="chapter" data-level="3.3" data-path="atom.html"><a href="atom.html#setting-up-atom-and-installing-packages"><i class="fa fa-check"></i><b>3.3</b> Setting up Atom and installing packages</a></li>
+<li class="chapter" data-level="3.4" data-path="atom.html"><a href="atom.html#optional-packages"><i class="fa fa-check"></i><b>3.4</b> Optional packages</a></li>
+<li class="chapter" data-level="3.5" data-path="atom.html"><a href="atom.html#command-palette"><i class="fa fa-check"></i><b>3.5</b> Command Palette</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="markdown.html"><a href="markdown.html"><i class="fa fa-check"></i><b>4</b> Markdown</a><ul>
+<li class="chapter" data-level="4.1" data-path="markdown.html"><a href="markdown.html#create-a-markdown-file"><i class="fa fa-check"></i><b>4.1</b> Create a Markdown file</a></li>
+<li class="chapter" data-level="4.2" data-path="markdown.html"><a href="markdown.html#convert-markdown-to-html-word-or-pdf-formats"><i class="fa fa-check"></i><b>4.2</b> Convert Markdown to HTML, Word, or PDF formats</a></li>
+<li class="chapter" data-level="4.3" data-path="markdown.html"><a href="markdown.html#cheat-sheet"><i class="fa fa-check"></i><b>4.3</b> Cheat sheet</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="medium.html"><a href="medium.html"><i class="fa fa-check"></i><b>5</b> Medium</a><ul>
+<li class="chapter" data-level="5.1" data-path="medium.html"><a href="medium.html#medium-help"><i class="fa fa-check"></i><b>5.1</b> Medium help</a></li>
+<li class="chapter" data-level="5.2" data-path="medium.html"><a href="medium.html#pasting-markdown-authored-content-into-medium"><i class="fa fa-check"></i><b>5.2</b> Pasting Markdown-authored content into Medium</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">English 3844: Writing and Digital Media Guidebook</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="medium" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Medium</h1>
+<p>Medium is part blogging platform, part social network. Like most any other blogging platform, Medium allows you to post multimedia content. Unlike some other platforms, however, Medium also lets you follow other users, mention and link to other users (just like an @ on Twitter or tag on Facebook or Instagram). You can also follow particular topics (e.g., “Education,” “JavaScript”) and tag your own content with topics.</p>
+<div id="medium-help" class="section level2">
+<h2><span class="header-section-number">5.1</span> Medium help</h2>
+<p>Medium offers extensive user documentation. I’ve copied the links below from the <a href="https://help.medium.com/hc/en-us">Medium support</a> page, where you can also find help on modifying your account settings, sharing on social media, and much more.</p>
+<table>
+<tr>
+<th colspan="3" style="vertical-align: top; background-color: #fff">
+<a href="https://help.medium.com/hc/en-us/categories/200058025">Creating in Medium</a>
+</th>
+</tr>
+<tr style="background-color: #fff">
+<td style="vertical-align: top; background-color: #fff">
+<b>
+<a href="https://help.medium.com/hc/en-us/sections/115001484727-General">Managing posts</a>
+</b>
+<ul>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214874698">Your drafts &amp; posts</a>
+</li>
+<li>
+<a href="https://medium.zendesk.com/hc/en-us/articles/215108608">Your stats</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214741038">Tags</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/215564177">Share draft</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/215552778">Unlisted publishing</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214895528">Revision history</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214741758">Content licenses</a>
+</li>
+</ul>
+</td>
+<td style="vertical-align: top; background-color: #fff">
+<b>
+<a href="https://help.medium.com/hc/en-us/sections/115001484747">Writing &amp; editing</a>
+</b>
+<ul>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/225168768">Write post</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/215194537">Format text</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/215679797">Images</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214981378">Embeds</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214895188">Custom titles &amp; subtitles</a>
+</li>
+</ul>
+</td>
+<td style="vertical-align: top; background-color: #fff">
+<b>
+<a href="https://help.medium.com/hc/en-us/categories/360000842234">Partner Program</a>
+</b>
+<ul>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/115011694187">Join Partner Program</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/115011928308">Write for members</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/360007171314">Your Partner Program dashboard</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/360006543813">Friend Links</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/115013015887">Calls to action</a>
+</li>
+</ul>
+</td>
+<tr>
+<td style="vertical-align: top; background-color: #fff">
+<b>
+<a href="https://help.medium.com/hc/en-us/sections/115001496348-Responses-notes">Responses &amp; notes</a>
+</b>
+<ul>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214578008">Write response</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214035868">Leave note</a>
+</li>
+</ul>
+</td>
+<td style="vertical-align: top; background-color: #fff">
+<b>
+<a href="https://help.medium.com/hc/en-us/sections/203018828">Migrations &amp; integrations</a>
+</b>
+<ul>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214550207">Import post</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/218445047">Import archive</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/213510158">Wordpress plugin</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/213480768">Publishing API</a>
+</li>
+</ul>
+</td>
+<td style="vertical-align: top; background-color: #fff">
+<b>
+<a href="https://help.medium.com/hc/en-us/sections/115001495968-Tips-more">Tips &amp; more</a>
+</b>
+<ul>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/360006362473">Medium’s Curation Guidelines</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/215769058">Update Facebook &amp; Twitter cards</a>
+</li>
+<li>
+<a href="https://help.medium.com/hc/en-us/articles/214672207">Keyboard shortcuts</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div id="pasting-markdown-authored-content-into-medium" class="section level2">
+<h2><span class="header-section-number">5.2</span> Pasting Markdown-authored content into Medium</h2>
+<p>You can compose directly in Medium’s editor, but in this class we compose in Markdown. We use Markdown because Markdown content can become so many other types of content. (See the <a href="markdown.html#markdown">Markdown chapter</a> of this book.) Composing in Markdown also ensures that you always have a copy on your own computer. After all, you never know when you might lose your internet connection.</p>
+<p>To cleanly paste your Markdown-authored content into Medium, you should first convert your content into an HTML file, then open that HTML file in your browser, copy the file’s contents, then paste into Medium.</p>
+<p><strong>Converting from Markdown to HTML</strong><br />
+To convert your Markdown content to HTML, you can use two methods. If you have installed the <a href="https://andylaut.github.io/3844-guidebook/atom.html#setting-up-atom-and-installing-packages">pandoc</a> package, you can convert to HTML the same way you would convert to Word or any other format:</p>
+<ol style="list-style-type: decimal">
+<li>In <a href="https://andylaut.github.io/3844-guidebook/atom.htm">Atom</a>, make sure your cursor is in your Markdown file.</li>
+<li>Open the <a href="https://andylaut.github.io/3844-guidebook/atom.html#command-palette">Command Palette</a> by typing <code>cmd+shift+p</code> (Mac) or <code>ctrl+shift+p</code> (Win).</li>
+<li>In the text entry field, type “pandoc html5” and press <code>return</code>.</li>
+<li>Choose the name and path of your file. Make sure your filename ends in <code>.html</code> (e.g., <code>filename.html</code>, <strong>NOT</strong> simply <code>filename</code>). If the suggested filename contains the text <code>.md</code>, you may delete that text.</li>
+<li>Press <code>return</code>. You should receive confirmation if the process succeeds.</li>
+</ol>
+<p>If you don’t have pandoc, you can follow the alternate instructions below.</p>
+<ol style="list-style-type: decimal">
+<li>In <a href="https://andylaut.github.io/3844-guidebook/atom.htm">Atom</a>, make sure you’re viewing your Markdown file. Open Markdown Preview by selecting <strong>Packages =&gt; Markdown Preview =&gt; Toggle Preview.</strong></li>
+<li>Right-click some blank space in the preview window and select <strong>Save As HTML</strong>. Atom will give you the options of renaming your file and selecting a save location. Be sure the filename ends in <code>.html</code> (if you see something like <code>filename.md.html</code>, you can delete the <code>.md</code> part). Save it to your documents folder (or wherever).</li>
+<li>Find your new HTML file on your computer, and double-click it to open it in your web browser. If you want to view or edit the HTML file, simply open it in Atom!</li>
+</ol>
+<p><strong>Pasting HTML into Medium</strong><br />
+This part is simpler. To paste your HTML into Medium, simply</p>
+<ol style="list-style-type: decimal">
+<li>Find the HTML file on your computer and open it in your web browser (Chrome recommended).</li>
+<li>Copy the contents of the page to your clipboard.</li>
+<li>Paste the contents of the page into Medium’s editor.</li>
+</ol>
+<p>In most cases, the content should paste perfectly. Sometimes, however, you may encounter problems such as</p>
+<ul>
+<li><strong>Images don’t paste.</strong> If you included an image in your Markdown file, it will only paste into Medium if the image was located on the web (e.g., on Google Images, NOT on your computer). To add an image that IS located on your computer, see the <a href="https://help.medium.com/hc/en-us/articles/215679797">Medium Help Center</a>.</li>
+<li><strong>Headings look different.</strong> Medium offers two levels of headings, no more. If you try to include additional levels of headings, Medium will change your formatting. Use only two levels of headings.</li>
+<li><strong>Just straight-up didn’t work.</strong> You may have converted your file incorrectly, pasted incorrectly, or written invalid or too-complicated Markdown. See me for help.</li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="markdown.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/04-medium.Rmd",
+"text": "Edit"
+},
+"download": ["3844-guidebook.pdf", "3844-guidebook.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
