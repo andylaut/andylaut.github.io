@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-09-28}
+  \date{2018-10-08}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -874,11 +874,10 @@ up Atom and installing packages}}. To convert your Markdown,
   Find the new Word or PDF doc on your computer and open it!
 \end{enumerate}
 
-NOTE: some people have reported problems converting to PDF format. You
-may be able to fix this problem by downloading LaTeX, a document
-preparation system. If you don't anticipate using Markdown outside of
-this course, then you can skip this step and simply convert to Word
-format instead.
+Some people have reported problems converting to PDF format. You may be
+able to fix this problem by downloading LaTeX, a document preparation
+system. If you don't anticipate using Markdown outside of this course,
+then you can skip this step and simply convert to Word format instead.
 
 \textbf{MLA}\\
 Want to acheive perfect MLA formatting every time? Try
@@ -1210,8 +1209,9 @@ Keep these myths in mind:
 \caption{Photo by Dimitri de Vries on Unsplash}
 \end{figure}
 
-\textbf{Free and legal image resources} Fortunately, you can find freely
-usable images if you know where to look. Google Images actually has a
+\textbf{Free and legal image resources}\\
+Fortunately, you can find freely usable images if you know where to
+look. Google Images actually has a
 \href{https://support.google.com/websearch/answer/29508?hl=en}{usage
 rights search filter}, though the quality of the results can vary, as
 can the constraints on usage.
@@ -1226,7 +1226,7 @@ license types on Creative Commons's
 But if you want to be extra safe AND find reliably high-quality photos,
 the sites below exclusively offer Creative Commons Zero (CC0)-licensed
 photographs. A CC0 license entitles you to use licensed content freely
-and without attribution (though attribution is still good manners):
+and without attribution (though attribution is still good manners).
 
 \begin{itemize}
 \tightlist
@@ -1238,6 +1238,84 @@ and without attribution (though attribution is still good manners):
   \textbf{\href{https://pixabay.com/}{Pixabay}.} Pixabay offers CC0
   photos, illustrations, and video clips.
 \end{itemize}
+
+\hypertarget{emmet-html-shortcuts}{%
+\chapter{Emmet HTML shortcuts}\label{emmet-html-shortcuts}}
+
+HTML is the language of the web. In many ways, HTML is a blessing: It
+allows creators across the world to make consistent, clear, usable
+content. Nevertheless, writing in HTML can feel like a chore. (How many
+times do I have to type
+\texttt{\textless{}p\textgreater{}\textless{}/p\textgreater{}}?)
+\textbf{Emmet} makes HTML easy--easier, in fact, than writing similar
+documents in Word--assuming those documents contain headings, links,
+images, lists, etc.
+
+Emmet provides an extensive list of shortcuts for HTML, CSS, and more.
+You can find the full list via the
+\href{https://docs.emmet.io/cheat-sheet/}{Emmet cheatsheet}, but here's
+a table of some of the handiest Emmet shortcuts.
+
+Content
+
+Shortcut
+
+Result
+
+HTML doc
+
+!
+
+\texttt{\textless{}!DOCTYPE\ html\textgreater{}\ (document\ skeleton)}\\
+
+Link
+
+a
+
+\texttt{\textless{}a\ href=""\textgreater{}\textless{}/a\textgreater{}}
+
+Image
+
+img
+
+\texttt{\textless{}img\ src=""\ alt=""\ /\textgreater{}}
+
+Bold
+
+str
+
+\texttt{\textless{}strong\textgreater{}\textless{}/strong\textgreater{}}
+
+Italics
+
+em
+
+\texttt{\textless{}em\textgreater{}\textless{}/em\textgreater{}}\\
+
+Ordered (numbered) list
+
+ol+
+
+\texttt{\textless{}ol\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \ \ \textless{}li\textgreater{}\textless{}/li\textgreater{}\ \ \ \ \ \ \ \ \ \textless{}/ol\textgreater{}}\\
+
+Unordered (bulleted) list
+
+ul+
+
+\texttt{\textless{}ul\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textless{}li\textgreater{}\textless{}/li\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \ \ \textless{}/ul\textgreater{}}\\
+
+You can always add HTML content by converting Markdown to HTML.
+
+Create an HTML document in Atom.
+
+Open your Markdown file in Atom.
+
+Open the Markdown Preview window and right-click.
+
+Select Copy as HTML.
+
+Paste your HTML into the appropriate place (probably somewhere in the
+body section) in your HTML document
 
 \bibliography{book.bib,packages.bib}
 
