@@ -84,7 +84,7 @@
   \postauthor{\par}
   \predate{\centering\large\emph}
   \postdate{\par}
-  \date{2018-10-08}
+  \date{2018-10-09}
 
 \usepackage{booktabs}
 \usepackage{amsthm}
@@ -1239,8 +1239,8 @@ and without attribution (though attribution is still good manners).
   photos, illustrations, and video clips.
 \end{itemize}
 
-\hypertarget{emmet-html-shortcuts}{%
-\chapter{Emmet HTML shortcuts}\label{emmet-html-shortcuts}}
+\hypertarget{emmet}{%
+\chapter{Emmet HTML shortcuts}\label{emmet}}
 
 HTML is the language of the web. In many ways, HTML is a blessing: It
 allows creators across the world to make consistent, clear, usable
@@ -1254,7 +1254,8 @@ images, lists, etc.
 Emmet provides an extensive list of shortcuts for HTML, CSS, and more.
 You can find the full list via the
 \href{https://docs.emmet.io/cheat-sheet/}{Emmet cheatsheet}, but here's
-a table of some of the handiest Emmet shortcuts.
+a table of some of the handiest Emmet shortcuts. (Press \texttt{tab}
+after entering each shortcut to execute.)
 
 Content
 
@@ -1304,9 +1305,8 @@ ul+
 
 \texttt{\textless{}ul\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textless{}li\textgreater{}\textless{}/li\textgreater{}\ \ \ \ \ \ \ \ \ \ \ \ \ \textless{}/ul\textgreater{}}\\
 
-You can always add HTML content by converting Markdown to HTML.
-
-Create an HTML document in Atom.
+You can always add HTML content by converting Markdown to HTML. Create
+your HTML file and then follow the steps below.
 
 Open your Markdown file in Atom.
 
@@ -1315,7 +1315,226 @@ Open the Markdown Preview window and right-click.
 Select Copy as HTML.
 
 Paste your HTML into the appropriate place (probably somewhere in the
-body section) in your HTML document
+body section) in your HTML document.
+
+\hypertarget{websites}{%
+\chapter{Website creation and hosting}\label{websites}}
+
+Now that you've learned HTML and CSS, it's time to start building your
+own website! First, you'll download a template of your own choosing.
+Once you have your website files, you'll host them on GitHub so that
+anyone with an internet connection can see your page.
+
+\hypertarget{download-a-website-template}{%
+\section{Download a website
+template}\label{download-a-website-template}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Visit \textbf{\href{https://html5up.net/}{HTM5up}} and choose a
+  template. I would recommend one of the following:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Story
+  \item
+    Forty
+  \item
+    Stellar
+  \item
+    Hyperspace
+  \item
+    Solid State
+  \item
+    Strata
+  \item
+    Read Only
+  \item
+    Telephasic
+  \end{itemize}
+\item
+  Unzip the download package. You should see a folder. Put this folder
+  wherever you wish, but don't forget where you put it.
+\item
+  Inside the folder you just downloaded, you should see subfolders
+  called, e.g., ``assets'' and ``images,'' as well as an index.html
+  file. Open that index.html file in Atom.
+\item
+  Play around with the HTML! Add your name to the page, maybe a
+  description of yourself and your project. As you save your changes,
+  look for them using Preview HTML in Atom OR by opening the index.html
+  file in Chrome. (If you open the file in Chrome, you'll need to
+  refresh the Chrome tab whenever you save changes in Atom.)
+\end{enumerate}
+
+\hypertarget{host-your-website-using-github-pages}{%
+\section{Host your website using GitHub
+pages}\label{host-your-website-using-github-pages}}
+
+Now that you have your website files, we'll add them on GitHub. At the
+end of this process, your website will officially be on the web.
+
+Apologies in advance: This setup process is confusing. In fact, GitHub
+in general is confusing until you get used to it. Please read carefully
+and ask for help if you encounter problems.
+
+\hypertarget{what-is-github}{%
+\subsection{What is GitHub?}\label{what-is-github}}
+
+\textbf{GitHub} is sort of like Google Drive, but for software
+development. Your projects will live on GitHub's servers (the ``cloud'')
+but also on your own computer. An application called \textbf{GitHub
+Desktop} will work as a sort of go-between, ensuring that the files on
+your computer remain synced with the files on GitHub.
+
+Finally, a service called \textbf{GitHub Pages} will allow you to keep
+your website on GitHub's servers for the low, low price of free.
+
+One really nice feature of GitHub is its version control, which means
+that if you really mess up your website, you can revert to an earlier
+version. GitHub automatically saves every single version that you
+commit. This feature is very useful, but it also explains why GitHub
+takes some getting used to. You have to follow a somewhat complicated
+process to push your changes to GitHub, but in return you get the
+security of knowing that every version of your project will be archived
+forever.
+
+\hypertarget{create-a-github-account}{%
+\subsection{Create a GitHub account}\label{create-a-github-account}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Visit \href{https://github.com}{github.com} and sign up for an account
+  \textbf{using your vt.edu email}. Do \textbf{NOT} use a non-vt email.
+  Choose a username that's close enough to your real name to be
+  recognizable to me.
+\end{enumerate}
+
+\hypertarget{download-and-set-up-github-desktop}{%
+\subsection{Download and set up GitHub
+Desktop}\label{download-and-set-up-github-desktop}}
+
+Note that GitHub recently released a new version of this software, so I
+haven't tested these instructions except on my own machine.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Visit \href{https://desktop.github.com/}{desktop.github.com} and
+  download the appropriate version (Mac/Win) for your machine. Be sure
+  to put the application wherever you keep the other applications on
+  your computer.
+\item
+  Open GitHub Desktop and enter your GitHub username and password.
+\end{enumerate}
+
+\hypertarget{create-a-repository-for-your-website-and-add-your-website-files}{%
+\subsection{Create a repository for your website and add your website
+files}\label{create-a-repository-for-your-website-and-add-your-website-files}}
+
+This is the confusing part, so read carefully.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  In GitHub Desktop, Choose File \textgreater{} New Repository
+\item
+  Name your repository \textbf{yourgithubusername.github.io} (e.g.,
+  andylaut.github.io)
+
+  It's \textbf{VERY} important to use the yourgithubusername.github.io
+  format. If you don't, subsequent steps may not work.
+\item
+  If the previous step worked, then GitHub will create a folder called
+  yourgithubusername.github.io somewhere on your computer (on my Mac, it
+  was in the Documents folder). Locate that folder. You can always find
+  your folder via GitHub Desktop by selecting \textbf{Repository
+  =\textgreater{} Show in Finder/Explorer}. You can also open files in
+  Atom by selecting \textbf{Repository =\textgreater{} Open in Atom}.
+\item
+  Now--and pay careful attention here--move your website files but
+  \textbf{NOT} the containing folder into the
+  yourgithubusername.github.io folder. The folder structure should look
+  like this:
+
+\begin{verbatim}
+yourgithubusername.github.io  
+ assets  
+ images  
+ index.html
+
+NOT
+
+yourgithubusername.github.io  
+ container folder  
+  assets  
+  images  
+  index.html
+\end{verbatim}
+\item
+  Now return to GitHub Desktop. Verify that the Current Repository is
+  set to yourgithubusername.github.io. You should see a bunch of text in
+  the main window of the interface. This text represents changes to the
+  repository (i.e., the files you just added). See the box labeled 5
+  below.\\
+  \includegraphics{github-desktop.png}
+\item
+  Commit the changes by typing a \textbf{summary} and
+  \textbf{description} of the changes (description is optional but
+  recommended) near the bottom of the interface, then clicking the
+  \textbf{Commit to master} button (box 6 above). \emph{Commit to
+  master} means that you want to make these changes to the main version
+  of your project on GitHub.
+\item
+  After you commit, look near the top of the interface for a tab that
+  says either \textbf{Publish} or \textbf{Push origin} (box 7 above).
+  Click that tab. Once the changes are done syncing (may take a minute
+  or so), visit yourgithubusername.github.io to see your site on the
+  honest-to-goodness internet. You now have a real website!
+\end{enumerate}
+
+Now, whenever you make changes to your project in Atom (adding images,
+modifying HTML or CSS), the changes will appear in GitHub Desktop. Green
+highlighting represents added material; red highlighting represents
+deleted material. Whenever you want to push the changes to GitHub,
+follow steps 6 and 7 above.
+
+\hypertarget{finding-and-modifying-your-files}{%
+\subsection{Finding and modifying your
+files}\label{finding-and-modifying-your-files}}
+
+So you now have
+
+\begin{itemize}
+\tightlist
+\item
+  Your website files on your computer
+\item
+  Your website files on github.com
+\item
+  GitHub desktop in between
+\end{itemize}
+
+It's a lot to keep up with! However, one advantage of using Atom is that
+it's built by GitHub, so Atom and GitHub tend to interface well. Here's
+how you can access everything you need from GitHub Desktop:
+
+In the GitHub Destop menu bar, select \textbf{Repository}. You can now
+access your files on github.com, in Atom, or in your system's file
+browser (Finder for Mac, Explorer (I think???) for Windows).
+
+I had to restart my Mac before Open in Atom would work, so try that if
+you have trouble.
+
+Once you've set up your repository in GitHub Desktop, I would advise
+against moving your website files to another location on your computer.
+Just leave them where they are and use GitHub Desktop to find them.
 
 \bibliography{book.bib,packages.bib}
 
