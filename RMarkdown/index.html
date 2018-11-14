@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="Andy Lautenschlager" />
+
+
+<title>3844 Resources</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">3844 resources</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Video and audio</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">3844 Resources</h1>
+<h4 class="author"><em>Andy Lautenschlager</em></h4>
+
+</div>
+
+
+<p>Almost all of the tools below are free to use, or at least offer free trials. If you any of these resources makes your life easier, check to see if the developers accept donations. And if you can’t donate, promote!</p>
+<section id="video" class="level1">
+<h1>Video</h1>
+<p>You’ve probably heard of <a href="https://www.apple.com/imovie/">iMovie</a> (Mac) and <a href="https://www.microsoft.com/en-us/store/p/movie-maker-free-video-editor/9nblggh4wwjr">Windows Movie Maker</a> or <a href="https://www.microsoft.com/en-us/windows/photo-movie-editor">Microsoft Photos</a> (Windows). These applications are more than sufficient for many purposes. You may already have one of them on your computer, and if not, Movie Maker/Microsoft Photos are free to download. (iMovie is affordable, too.)</p>
+<p>But I want to focus on some resources that maybe you haven’t heard of. In some cases, I’ll also include links to tutorials.</p>
+<section id="youtube-creators-studio" class="level2">
+<h2>YouTube Creator’s Studio</h2>
+<p>The <a href="https://www.youtube.com/dashboard?o=U">YouTube Creator’s Studio</a> doesn’t offer a ton of functionality, but you can trim and combine multiple videos, add transitions, and more. Best of all, you can easily incorporate clips from a large (I would assume the largest of its kind) selection of free, Creative Commons-licensed music and videos. For many projects, that’s all you need. And the process is shockingly easy.</p>
+</section>
+<section id="youtube-recommended-upload-encodingsettings" class="level2">
+<h2>YouTube Recommended Upload Encoding Settings</h2>
+<p>No matter how you produce your video, if you want to post it to YouTube, try to follow <a href="https://support.google.com/youtube/answer/1722171?hl=en">YouTube’s recommended upload encoding specifications</a> for best results. Your video will upload faster and look better.</p>
+</section>
+<section id="imovie" class="level2">
+<h2>iMovie</h2>
+<p>If you have a Mac, you may already have iMovie. This application will best suit beginners. You can find tutorials via <a href="http://lynda.vt.edu/">lynda.vt.edu</a>.</p>
+</section>
+<section id="movie-maker-or-microsoft-photos" class="level2">
+<h2>Movie Maker or Microsoft Photos</h2>
+<p>If you have an older version of Windows, you may have Movie Maker. Windows 10 users likely have Microsoft Photos. Either application offers beginner-level video editing. You can find tutorials via <a href="http://lynda.vt.edu/">lynda.vt.edu</a>.</p>
+</section>
+<section id="openshot-videoeditor" class="level2">
+<h2>OpenShot Video Editor</h2>
+<p>If you don’t already have iMovie and don’t want to pay for it, <a href="http://www.openshot.org/">OpenShot</a> may be a good alternative. I’ve had some problems with crashing, but if you save often, you can still produce a simple video without Blender’s learning curve. The basic interface is similar to iMovie’s or Movie Maker’s, but you may run into trouble with plugins and other scary computer issues. Google if you need help! In the meantime, <a href="https://www.youtube.com/watch?v=NcUS2Jt0icE">here’s a good introduction</a>.</p>
+</section>
+<section id="davinci-resolve" class="level2">
+<h2>DaVinci Resolve</h2>
+<p>If you’ve already used iMovie or Movie Maker/Microsoft Photos, try DaVinci Resolve for a more advanced option. Best of all, you can <a href="https://www.blackmagicdesign.com/products/davinciresolve/">download Resolve</a> for free (scroll to the bottom of the page for download link). You can find tutorials via <a href="http://lynda.vt.edu/">lynda.vt.edu</a>.</p>
+</section>
+<section id="blender" class="level2">
+<h2>Blender</h2>
+<p>This program is for power users. If you’ve already tried iMovie or Movie Maker and need something more powerful — well, you could shell out hundreds of dollars for Final Cut Pro or Adobe Premiere, or you could use <a href="https://www.blender.org/">Blender</a> for free.</p>
+<p>Blender is primarily for 3D modeling, but its video sequencer offers more power and control than any reasonable person should expect to get for free. You can fine-tune your zooms, pans, crossfades — pretty much anything you’d want to do. The downside: It is <em>hard</em> to learn. Luckily, you can find good tutorials online. <a href="https://www.youtube.com/watch?v=zYVZ6rtayaA">Oliver Villar</a> offers a crash course in Blender basics, while YouTube user <a href="https://www.youtube.com/playlist?list=PLjyuVPBuorqIhlqZtoIvnAVQ3x18sNev4">Mikeycal Meyers</a> offers hours of instruction. Both options are good, but I’d recommend the latter.</p>
+<p>Expect a steep learning curve, but also great results.</p>
+</section>
+<section id="clip-converter" class="level2">
+<h2>Clip Converter</h2>
+<p><a href="http://www.clipconverter.cc/">Clip Converter</a> allows you to download videos from YouTube, Vimeo, and more. All you need is the target video’s URL. <em>Extremely</em> useful if you need to insert a small clip of another video into your own. Just be sure to follow fair use guidelines or rely on Creative Commons-licensed videos.</p>
+</section>
+<section id="pexels-andpixabay" class="level2">
+<h2>Pexels and Pixabay</h2>
+<p>I mentioned these sites in <a href="https://medium.com/@andylaut/free-tools-for-teachers-and-students-of-writing-and-digital-media-and-or-multimodal-composition-ec7436624678#.ugjcv29ls">my previous post on web development</a>, but <a href="https://pixabay.com/">Pixabay</a> and <a href="https://videos.pexels.com/">Pexels</a> host videos under CC0 (Creative Commons Zero) license, which allows users to edit and reuse the videos without attribution. Most importantly, the content on these sites is high-quality — much higher than you would expect given the price, which is zero dollars.</p>
+</section>
+<section id="screencastify" class="level2">
+<h2>Screencastify</h2>
+<p>Screencasting applications are not hard to find. Some cost money, some are totally free (or come preinstalled on your computer), and some use the “freemium” model, in which you get basic functionality for free but have to pay for advanced features. My favorite of the latter group is <a href="https://www.screencastify.com/">Screencastify</a> for Google Chrome. Just turn it on when you want to start recording, turn it off when you’re done, and Screencastify will save your video to your Google Drive account. If you use a free account, Screencastify will add its logo to your screencast, but you’ll barely notice. Very, very handy.</p>
+</section>
+</section>
+<section id="audio" class="level1">
+<h1>Audio</h1>
+<p>Want to record a podcast or audio essay? Making a video and want to add music or improve the sound quality? Either way, you’ll want a good audio editor. If you’re a Mac user, you may already have <a href="http://www.apple.com/mac/garageband/">GarageBand</a> on your computer. GarageBand is perfectly sufficient for most needs, but if you don’t have GarageBand, or if you need a little more functionality, then try the resources below.</p>
+<section id="audacity" class="level2">
+<h2>Audacity</h2>
+<p><a href="http://www.audacityteam.org/">Audacity</a> is the best free audio editor available. It offers so many options for recording and processing your audio, you’ll probably never get around to learning them all. Autoduck, Nyquist Prompt, Paulstretch: what do they do? Are they dance moves? I have no idea! But if you need them, Audacity’s got you covered. And Audacity’s noise reduction, filters, and volume and EQ controls will make hearing the sound of your own voice more tolerable. Audacity also makes it easy to cut and stitch multiple files together and to layer tracks on top of one another.</p>
+<p>It’s also fairly easy to start using once you understand the basic controls. Still, I’d recommend watching a few tutorials to help get you up and running. I’d start with Colin Gray’s YouTube playlist, “<a href="https://www.youtube.com/playlist?list=PLy3KiJOHvdl1epxRuzEQqjQu1V9szwqnl">Using Audacity to Create Amazing Podcasts &amp; Audio Recordings</a>.” You can also find tips on <a href="https://www.youtube.com/watch?v=TYF5ytMDFpA">how to make your voice sound better</a>.</p>
+</section>
+<section id="soundflower" class="level2">
+<h2>Soundflower</h2>
+<p>With <a href="http://manual.audacityteam.org/man/tutorial_recording_computer_playback_on_mac.html">Soundflower</a>, you can record any sound your computer is outputting (including audio from YouTube or streaming audio sites) directly into Audacity. It’s not the easiest add-on to install, but once you get it working, you can easily record audio clips from around the web, then incorporate those clips into your own work, just as you might quote a source in a traditional paper.</p>
+<p>Again, though, stay ethical: follow fair use guidelines or rely on Creative Commons-licensed audio.</p>
+</section>
+<section id="lmms" class="level2">
+<h2>LMMS</h2>
+<p>If you want to make your own music but don’t have Garageband, try <a href="https://lmms.io/">LMMS</a> (Linux Multimedia Studio). I won’t go into much detail about it, because (a) I barely know how to use it and (b) I’ll discuss some easier ways to add music to your content below, but if you’re musically inclined, you’ll find a whole community making <a href="https://lmms.io/showcase/">original music</a> using this software.</p>
+</section>
+<section id="soundcloud" class="level2">
+<h2>SoundCloud</h2>
+<p>You’ve likely listened to music or podcasts on <a href="https://soundcloud.com/stream">Soundcloud</a> already, but you’ll find it just as easy to start uploading your own content to the platform. Just sign up and start adding your work. You can also follow other accounts, add likes and comments, repost your favorite tracks, and create playlists to broadcast your work and others’. Perhaps most importantly, you can seamlessly share your content across platforms like Facebook, Twitter, and Medium.</p>
+</section>
+<section id="creative-commons-on-soundcloud" class="level2">
+<h2>Creative Commons on SoundCloud</h2>
+<p>Another great thing about SoundCloud: You can use it to find hours of <a href="https://soundcloud.com/search?q=creative%20commons&amp;filter.license=to_share">Creative Commons-licensed music</a> to edit and use in your own work. For example, check out <a href="https://soundcloud.com/wearecc/dublabs-cc10-mix">this mix by Dublab</a>, a non-profit radio network in Los Angeles, featuring acclaimed artists like Julia Holter and James Pants.</p>
+<p>Just be sure to check the license of any track you want to use and follow the specifications for attribution and reuse. Give credit where credit is due!</p>
+</section>
+<section id="dig.ccmixter" class="level2">
+<h2>dig.ccMixter</h2>
+<p>SoundCloud’s Creative Commons collection is fantastic, but it’s so deep that you may struggle to find the kind of music you want. Thankfully, <a href="http://dig.ccmixter.org/">dig.ccMixter</a> can help you find the best music for you. Start with <a href="http://dig.ccmixter.org/podcast_music">this collection of tracks for podcast creators</a>.</p>
+</section>
+</section>
+<section id="thanks-andpraise" class="level1">
+<h1>Thanks and praise</h1>
+<p>Finally, let’s take a moment to appreciate — really appreciate — the fact that most of the resources above are totally free. Everything we need (aside from cameras, good microphones, and other equipment) to create professional-level content, we can acquire in less than an hour for a total of zero monies. Ha-cha-cha!</p>
+<p>But just because these tools are free to use doesn’t mean they’re free to create or maintain. In fact, many of them are built, developed, maintained, and supported by communities of volunteers and donors. While we teachers and students aren’t known for our deep pockets, even small contributions can help. And if we can’t contribute even a few dollars, we can at least express our thanks and spread the word.</p>
+<p>So thank you, developers and donors; thank you, tutorial and user document creators; and thank you, everyone who uses these tools to do some good in the world.</p>
+</section>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+name: "3844 resources"
+output_dir: "."
+navbar:
+  title: "3844 resources"
+  left:
+    - text: "Video and audio"
+      href: index.html
