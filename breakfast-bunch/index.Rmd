@@ -1,0 +1,266 @@
+---
+title: "The Breakfast Bunch Cookbook"
+author: "The Breakfast Bunch"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: cosmo
+---
+
+## Breakfast Recipes
+
+Welcome to the Breakfast Manual! These recipes are intended for college-aged students looking to spice up their breakfast, but can also be used and enjoyed by people of all ages! The instructions begin with the list of materials needed and then go into the list of steps to be taken, including additional notes and suggestions that may be helpful along the way. There are two recipes that are for healthy eaters and then two dishes that are for casual eaters. No matter your dietary restrictions or preferences, there will be at least one dish you will want to make again and again. To get the most out of this manual, we advise users to read each step carefully, as the steps include specific techniques to create meals with specific flavors. Let’s get cooking!
+
+
+
+## Egg Sandwich
+By: Lexi Fabian
+
+![Fresh egg sandwich](https://gdurl.com/R-jY "Photo by: https://inquiringchef.com/egg-brie-and-arugula-breakfast-sandwich-with-strawberry-glazed-bacon/")
+
+This delicious egg sandwich is a perfect healthy yet satisfying breakfast meal. This recipe will cost approximately $15 depending on what ingredients the user may already own. With a preperation time of less than 15 minutes and very few ingredients, this sandwhich is convient to make on a busy day. It can easily be personlized to fit anyone's tastebuds by substituting different bread, cheese, greens, etc. The best part about this meal is that not only can it be eaten for breakfast, but is a great dish for anytime of the day! Sandwich pairs well with fruit, yogurt, and most other breakfast sides.
+
+### List of Materials
+* Stove
+* Microwave
+* Toaster oven
+* Non-stick pan
+* Spatula
+* Small sharp knife
+* Cutting board
+* Utensils
+* 1 papertowel
+
+### Ingredients
+* 1 egg
+* 1/2 avacado
+* 2 slices cibatta bread
+* 2 slices turkey bacon
+* 1 slice provalone cheese
+* 1/2 cup arugala
+* 1 tbsp. butter
+* Salt and pepper
+
+### Directions
+
+1. Place 2 pieces of turkey bacon on a plate covered by a papertowel. Microwave for 2 minutes.  
+![Turkey bacon for microwave cooking](https://i.imgur.com/Loogwk7.jpg "Photo by: https://mamaknowsitall.com/2015/02/how-to-make-turkey-bacon-in-the-microwave.html")
+3. Toast both pieces of bread for about 2 minutes.
+4. Set the toasted bread on plate and butter one side of one piece with 1/2 tbsp. butter.
+5. Break each piece of turkey bacon in half and place each piece on the buttered slice of bread.
+6. Oil the non-stick pan with 1/2 tbsp. butter and place on the stove top.
+7. Set the stove to medium heat. Let the butter melt and cover the entire inside of the pan.
+
+<mark> *Caution: Perform next step quickly to prevent butter from burning in the pan.*
+
+7. Crack the egg in the pan and let cook for 2-3 minutes or until egg whites are completely white.
+![Medium cooked egg](https://i.imgur.com/d6ZreNg.jpg "Photo by: https://www.bhg.com.au/perfect-fried-eggs")
+9. Flip the egg with spatula so that the other side can cook for about 1 minute.
+
+*Note: If you don't want yolk to drip from your sandwich, cook the egg a bit longer or until the middle is firm.*  
+
+10. Turn the stove off and use spatula to set the egg on top of the bacon.
+11. Place the slice of cheese on top of the egg immediatley to melt it.
+12. Cut the avacado in half on a cutting board and scoop out an appropiate amount from one side and place on top of the cheese.
+13. Season the avacado with salt and pepper, then top the sandwich with arugala.
+14. Place the second slice of bread on top and enjoy!
+15. (Optional): Spread hummus on the top piece of bread for extra flavor!
+
+## Granola
+By: Maggie O'Connell
+![image alt](https://gdurl.com/I2_C "Image taken by: Maggie O'Connell")
+In only 30 minutes, you can make yourself 9-10 cups of granola to grab-and-go for the week. Add milk to enjoy your granola as a breakfast cereal, add it to your favorite yogurt for an extra crunch, or put it in a plastic bag to snack on throughout the day!
+
+Granola is becoming the new boxed cereal. Not only is it better for the wallet but its the smarter for your health. As college students, it's rare that you have time to set aside to make breakfast or lunch at home. Taking just thirty minutes at home can save you hours of waiting in dining hall lines, while also satisfying your midday sweet tooth craving. Packed with fiber and iron from the oats, the nuts and seeds add protein and unsaturated oils that are good for your heart! While some granola brands load up on added sugar, this homemade recipe contains only natural sweeteners. This is definitely a snack that you can turn into what you want. Use your imagination with this dish, it's so easily turned into a variety of meals and it's up to you to determine what you want. Enjoy!
+
+### List of Materials
+* Oven
+* 13x18 in. rimmed baking sheet
+* Another baking sheet or heatproof surface
+* Aluminum foil
+* Large bowl
+* Small bowl
+* Wooden spoon
+* Spatula
+* Airtight container
+
+### Ingredients
+* 2 1/2 cups old-fashioned rolled oats
+* 1/2 cup sliced unsalted almonds
+* 1/2 cup coarsely chopped unsalted pecans
+* 1/2 cup coarsely chopped unsalted walnuts
+* 1/2 cup unsalted sunflower seeds
+* 2 tbsp. sesame seeds
+* 1/2 cup toasted wheat germ
+* 1 cup shredded sweetened coconut
+* 1/2 tsp.  cinnamon
+* 1/8 tsp. salt
+* 1/2 cup vegetable oil
+* 1/2 cup plus 2 tbsp. honey
+* 1 cup dried fruits (cranberries, raisins, etc.)
+
+### Directions
+1. Preheat oven to 325℉.
+2. Line the 13x18 in. rimmed baking sheet with aluminum foil. Allow for the foil to fold over the edges for ease when transferring to heatproof surface.
+3. Mix dry ingredient (oats, almonds, pecans, walnuts, sunflower seeds, sesame seeds, wheat germ, coconut, cinnamon and salt) in large bowl using spatula.
+4. Use wooden spoon to throughly mix honey and vegetable oil in a small bowl.
+5. Pour honey and vegetable oil mixture over dry ingredients in the large bowl. Mix well with spatula so that the granola is coated with honey and oil.  
+![image alt](https://gdurl.com/F_0Y "Image taken by: Maggie O'Connell")
+
+7. Spread granola evenly onto the aluminum-lined baking sheet using the spatula.  
+![image alt](https://gdurl.com/lKEX "Image taken by: Maggie O'Connell")
+9. Place in oven and observe for 25-30 min.  
+*Note: To avoid burnt granola, keep an eye on the edges and bottom of the baking sheet. For best results, about every 5 min., flip and re-spread the granola for an even golden brown color.*  
+
+<mark> *Caution: Baking sheet might need to be removed from oven to turnover the granola. Materials will be hot to the touch when removing from oven. Use oven mits or kitchen towels when transferring baked goods.*
+
+8. Lift the edges of the aluminum foil base and transfer granola to heatproof surface or another baking sheet.
+
+10. Add cup of selected dried fruit and turnover granola with fruit using the spatula.
+![image alt](https://gdurl.com/3T3x "Image taken by: Maggie O'Connell")
+
+12. Once cooled to room temperature, break up the granola and place in airtight container.
+13. (Optional): Store in refrigerator.
+
+*Note: For extra flavor, sprinkle additional cinnamon over the granola while flipping and re-spreading or when adding dried fruit. Dried cranberry adds an accent of fruity flavor. This specific recipe goes well with Simple Truth Organic's Vanilla Lowfat Yogurt.*
+
+## Chicken and Waffles
+By: Micah De Peiza
+![ShantellSmith, Soul Food-Chicken and Waffles, CC BY-SA 4.0](https://gdurl.com/bPna "ShantellSmith, Soul Food-Chicken and Waffles, CC BY-SA 4.0")
+This recipe will teach you how to make Chicken and Waffles. The recipe will take 3 hours to complete. I hope you enjoy this recipe!
+
+### List of materials
+* Waffle Iron
+* Deep fry thermometer
+* Cooking rack
+* Heavy-bottomed skillet
+
+### Ingredients
+#### Fried Chicken:
+![By Mark Miller [CC BY 3.0  (https://creativecommons.org/licenses/by/3.0)], from Wikimedia Commons](https://gdurl.com/LAQP "By Mark Miller [CC BY 3.0  (https://creativecommons.org/licenses/by/3.0)")
+
+* 1/4 cup hot sauce
+* 1 cup buttermilk
+* 8 chicken tenders
+* 2 cloves garlic, smashed
+* 3/4 cup instant flour
+* 2 to 3 sprigs fresh thyme
+* 1 tsp baking powder
+* 1 tsp onion powder
+* 1/2 tsp cayenne pepper
+* Kosher salt and freshly ground pepper
+* Vegetable oil
+
+#### Waffles:
+![By Arnold Gatilao from Fremont, CA, USA (Crispy Waffle) [CC BY 2.0  (https://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons](https://gdurl.com/J6Up "By Arnold Gatilao from Fremont, CA, USA (Crispy Waffle) [CC BY 2.0  (https://creativecommons.org/licenses/by/2.0)")
+
+* 2 cups all-purpose flour
+* 2 tbsp sugar
+* 1 tbsp baking powder
+* 1/2 tsp kosher salt
+* 1 1/2 cups milk
+* 4 large egg whites plus 2 large egg yolks
+* 8 tbsp (1 stick) salted butter, melted
+* 4 tbsp vegetable shortening
+* 4 tbsp unsalted butter for brushing the waffle iron
+* Maple syrup
+* Hot sauce
+
+### Directions
+1.	Fried Chicken: Whisk together the buttermilk, garlic, thyme, hot sauce, ¼ teaspoon pepper and ½ teaspoon salt in a large bowl. Submerge the chicken in the mixture. Cover the bowl and refrigerate for 2 to 4 hours.
+2.	Combine the flour, baking powder, onion powder, cayenne, and 1/2 tsp salt in a resealable bag. Set Aside.
+3.	For the waffles: Preheat a waffle iron to medium heat. Preheat the oven to 200 degrees F. Whisk the flour, baking powder, salt and sugar in a bowl. Whisk the milk, butter, eggs, and shortening in another bowl. Pour the milk mixture into the flour mixture and gently stir.
+4.	Lightly brush butter onto the waffle iron. Fill the waffle iron 3/4 of the way full. Cook the waffles from 6 to 7 minutes. Keep the waffles warm by placing them in the oven.
+5.	Fill a heavy-bottomed skillet with 2 1/2 inches of oil. Heat over medium heat until thermometer registers 350 degrees F. Remove the chicken from the brine. Place the chicken into the bag of seasoned flour and seal. Shake the bag. Remove the chicken and transfer to a cooking rack.
+6. Carefully add the chicken to the hot oil.
+<mark>*Caution: The oil is very hot!*</mark>
+Try to keep the oil's temperature between 300 and 325 degrees F. Fry the chicken for 2 to 3 minutes per side. Carefully checking that it's evenly golden brown. Put on a clean rack. Season with salt. Continue to fry the rest of the chicken.
+7. Butter each waffle, and place the chicken on top. Drizzle with maple syrup or hot sauce (Or both!). Enjoy!
+
+
+## Monkey Bread
+By: Ashlyn McDonald
+![Monkey Bread](https://i.imgur.com/1Dqw0AH.jpg "Image taken by: Ashlyn McDonald")
+
+Monkey Bread is a sweet, fun meal for college-aged students looking to spice up their breakfast but can be used and enjoyed by people of all ages! This recipe will cost approximately $10, but the price may vary depending on the amount of materials and ingredients one may already have. This recipe does include baking the bread in an oven and cooking on the stovetop, so be cautious if there are children helping with making the bread or in the general vicinity. 
+
+Based off of the recipe from this website: [*I Am Baker*'s Monkey Bread Recipe](https://iambaker.net/homemade-monkey-bread/ "Monkey Bread Recipe from *I Am Baker*"), with a few personal touches to enhance flavor and fun, this recipe will take approximately two hours from start to finish, perfect for a late Sunday morning breakfast. If followed closely, these instructions will provide a fun and easy way to create a delicious breakfast for all to enjoy, whether you are 5 or 105! 
+
+### List of Materials
+* Oven
+* Small bowl
+* Two medium saucepans
+* Stand mixer with dough hook
+* Whisk
+* Tea towel (or any other thin towel)
+* Bundt pan
+* Nonstick cooking spray
+* Rolling pin
+* Knife
+* Medium bowl
+* Platter
+* Three spoons
+* Oven mits
+
+### Ingredients
+
+#### Bread
+* 3/4 cup warm water, approximately 110℉
+* 1 Tbsp dry yeast
+* 1 cup evaporated milk
+* 1/2 cup butter
+* 1/2 cup + 1/2 cup + 1 tsp granulated sugar
+* 5 1/4 cups bread flour
+* 1 Tbsp vegetable oil
+* 4 tsp ground cinnamon
+
+#### Glaze
+* 1/2 cup salted butter
+* 1 cup brown sugar, packed
+
+### Directions
+
+#### Bread
+1. Add the yeast, warm water, and 1 teaspoon of sugar in a small bowl and mix. Let the mixture sit for 5 to 10 minutes until foamy.
+2. Add the butter and evaporated milk into a medium saucepan. Place over medium heat until bubbles start to form around the edge of the pan and the butter is completely melted.
+3. Combine the yeast mixture and milk mixture in a stand mixer bowl with a dough hook and mix.
+4. Add 1/2 cup sugar to the mixture and whisk to combine.
+5. Add in 5 cups of bread flour. Knead until the dough pulls away from the sides of the bowl and forms a smooth ball of dough.
+6. Drizzle the vegetable oil on top of the dough. Roll the dough in the bowl until it is completely coated with vegetable oil.
+7. Cover the bowl with a tea towel and leave at room temperature to rise.
+8. Punch down the dough once it has doubled in size.
+9. Spray the budnt pan with nonstick cooking spray.
+10. Dust a clean work surface with the remaining 1/4 cup of bread flour.
+11. Roll the dough out to a 1-inch thickness with a rolling pin.
+12. Cut the dough into approximately 1-inch squares with a knife.
+13. Roll each square into a sphere. 
+
+*Note: The cut squares and rolled spheres don't have to be perfect! Just have fun with them!*
+
+14. Add 1/2 cup sugar and 4 tsp ground cinnamon in a medium bowl and stir to combine.
+
+![Rolled Dough](https://i.imgur.com/BmVtr3H.jpg "Image taken by: Ashlyn McDonald")
+
+16. Roll the dough spheres in the cinnamon-sugar mixture (pictured above) and lay evenly in the bundt pan (pictured below).
+
+![Dough in Pan](https://i.imgur.com/c7iiCHS.jpg "Image taken by: Ashlyn McDonald")
+
+#### Glaze
+1. Add the butter and brown sugar in a medium saucepan over medium heat. Stir occasionally until the butter melts.
+2. Pour the glaze topping over the bread in the bundt pan (pictured below). 
+
+![Pouring Glaze](https://i.imgur.com/gWNC8Ki.jpg "Image taken by: Ashlyn McDonald")
+
+
+#### Combination
+1. Preheat the oven to 350℉.
+2. Cover the bundt pan with the tea towel and let rise for 30 minutes.
+3. Place bundt pan into preheated oven and let bake for 45-50 minutes or until top layer starts to crisp and turn golden brown.
+4. Take bundt pan out of oven and let sit for 2-3 minutes.
+
+<mark>*Caution: The bundt pan will be very hot! Use oven mits when handling!*</mark>
+
+5. Place a platter face down on top of the bundt pan and flip so that the platter is sitting right side up with the upside-down bundt pan on top. Lift off bundt pan carefully.
+6. Let cool, serve, and enjoy!

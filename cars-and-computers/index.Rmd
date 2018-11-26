@@ -1,0 +1,163 @@
+---
+title: "Driving, Drivers, and Drives"
+author: "Cars and computers group"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+# Driving a Manual Car
+
+Sam McCulloch
+
+## Introduction
+
+A manual transmission is defined as an automotive transmission consisting of a system of interlocking gear wheels and a lever that enables the driver to shift gears manually. This guide will be teaching the conventional five shift gear, and is intended for anyone who can already drive an automatic transmission, but cannot operate a manual transmission. These instructions will cover how to properly start the car, drive the car, and park the car with a stick shift, in chronological order that one might attempt when operating a vehicle. One may be advised to go slowly and patiently through these steps. 
+
+All warnings and safety issues will be labeled in red.
+
+**ATTENTION:** This guide is written under the assumption that the user will be starting in a position to drive forward, rather than having to reverse out of a parking space.
+
+
+## List of Materials 
+- Driver's License 
+- Manual Car
+- Empty parking lot
+
+## Location of Materials Within Manual Car
+
+![_Figure M.1: Stick Shift_](https://gdurl.com/2QC3)
+
+Pictured in Figure M.1 is the stick shift. One must start in first gear, and move up to second and beyond, sequentially as they increase in speed. Correspondingly, a driver much "shift down," meaning move from a high gear to the next lowest gear (i.e. from 5th gear to 4th, from 3rd gear to 2nd) when they are decelerating. When the stick shift not in any notch, the car is in neutral. 
+
+![_Figure M.2: Clutch and Pedals_](https://gdurl.com/O0-m)
+
+The clutch is pictured at the far left. This is the pedal that drivers will use to control the gear shifting. When pressing in the clutch, the car goes into neutral, making it possible for a driver to manually shift the gear. Only  change gears if the clutch pushed in.
+
+![_Figure M.3: Tachometer/RPM gauge_](https://gdurl.com/ns2a)
+
+The dashboard is the same as in an automatic car, but the tachometer, or RPM gauge, is much more important to pay attention to in a manual car. The speed gauge is on the right, and the RPM gauge is on the right. The RPM (i. e. the Revs Per Minute) must stay preferably below 3.5 for the good of the car's engine, and above 1 in order to avoid stalling out.
+
+## Procedure
+
+1. Getting Started  
+The same as in an automatic car, begin by adjusting the mirrors and seat to personal specifications and buckle up.
+
+	***WARNING:*** When learning a stick shift, you need to be in an empty, large space. 
+
+2. Turning on the manual car  
+Push in BOTH the clutch (Fig M.1) and the brake before turning the key in the ignition, and continue hold them both in.
+
+3. First Gear  
+Once the car is on, move the stick shift into first gear by keeping the clutch pushed in and moving the stick towards the driver's seat and then towards the radio, into to notch labeled ‘1.’ Keep the clutch pushed in still, but release the brake. If you move too quickly, you may experience your engine stall out. This occurs when you brake without pushing in your clutch, or when you try to release the clutch too quickly when you want to start going.
+
+4. Moving forward  
+**Very slowly** release the clutch. While slowly releasing the clutch, slowly press down on the gas. This should be a very slow give and take. Release the clutch at the same slow rate as pressing the gas. At this point you may find yourself stalling out. Just take it slow and keep calm in this case. For the sake of the car, always want the RPM (Revs Per Minute) to stay below 3; do not exceed 5-10 MPH in first gear.
+
+5. Second gear  
+Once you have fully released the clutch and are moving slowly in first gear, press in the clutch again. Quickly shift out of first and back into neutral. Now you should be slowly moving forward and in neutral. When driving a stick shift, you always want to move one number up or one number down; never skip a gear or you may over time destroy your engine. Shift into second gear, the gear that is closest to you and away from the radio. Slowly release the clutch. Slowly press on the gas as you release the clutch. Second gear is for 5/10 MPH to around 25 MPH.
+
+6. Third gear  
+Third gear, much like second and third, requires the driver to push in the clutch, move the stick shift up and over to third gear, and to slowly release the clutch. As you reach third gear, the risk of stalling out is much smaller, therefore the careful give take of the clutch and the gas pedal is no longer necessary. Just slowly release the clutch. The risk of stalling out is higher when you are moving below 20 MPH. In third gear you should expect to be somewhere between 25 MPH to around 40 MPH, but really at this point in the drive, you should pay more attention to the RPM; stay between 2 and 3 (Figure M.3). 
+
+7. Beyond third gear  
+Fourth and fifth gear act much like third gear. Employ the same process to switch up gear; push in the clutch, shift to the higher gear, and slowly release the clutch. Stay between 2 and 3.5 RPM in these gears. 
+
+8. Gearing down  
+The process to decelerate is similar to the process to accelerate. Brake until your RPM is closer to the 2 than the 3, push in the clutch, gear one number down, and slowly release the clutch. The process remains the same until first gear.
+
+9. Coming to a complete stop  
+Whenever you come to a complete stop, you much push in your clutch. If your RMP falls below 1, you are at risk of stalling out. If you keep your clutch pushed in you will not stall out. If you are waiting at a red light, you may push in the clutch, brake to a complete stop, and then shift into neutral. To shift into neutral, you pop your stick shift out of whatever gear it is in, and leave it in the center, where it isn't engaged in any gear.
+
+
+# Changing a Flat Tire
+
+## Introduction
+The following set of instruction will illustrate the safest way to change a flat tire step-by-step.  After reading this user document, the reader should possess all knowledge necessary to change a flat tire without any supplementary assistance.  This document was written with respect to those who have no prior knowledge of ever changing a tire.
+
+The instructions will be organized mostly in bulleted and numbered lists, doing so will cause the user to read each list item.  Also, to catch the user’s attention warnings will be highlighted in red while cautionary notes will be denoted in yellow.
+
+**ATTENTION:** Failure to follow the provided instructions could result in serious injury or fatality.
+If these instructions are followed exactly, less time will be wasted waiting for roadside assistance, and you could be back on the road in no-time.
+
+## List of Materials
+- Car jack (either scissor or hydraulic), shown in *Figure M.1* and *Figure M.2*
+- Lug wrench, shown in *Figure M.3* 
+- Spare tire, shown in *Figure M.4*
+ 
+![Scissor Jack](https://gdurl.com/m2f2 "Scissor Jack")*Figure M.1 - Scissor Jack*
+![Floor Jack](https://gdurl.com/uYbO "Floor Jack")*Figure M.2 - Floor Jack*
+![Lug Wrench](https://gdurl.com/H-1q "Lug Wrench")*Figure M.3 - Lug Wrench*
+![Full-Size Spare](https://gdurl.com/FBng "Full-Size Spare Tire")*Figure M.4 - Full-Size Spare Tire*
+
+
+## Location of Materials
+When a new vehicle is taken from a dealership, the vehicle is required to be equipped with the materials listed above.  Although, if the vehicle the user is driving is a used vehicle or something of the sort the materials needed may not be contained within the vehicle.
+
+If materials listed listed above are locted within the user's vehicle, here are a few places to look for these materials:
+
+- In a Sedan
+	- The jack and lug wrench will usually be located in the trunk (either underneath the liner or behind the tail light in the corner)
+	- The spare tire will usually be located underneath the liner in the center of the trunk
+- In an SUV
+- The jack and lug wrench will usually be located in the trunk area (either underneath the trunk liner or within the side wall of the interior of the vehicle directly inside the hatch)
+- The spare tire can be located a few different places when considering SUVs: underneath the rear of the vehicle, underneath the trunk liner, or on the rear hatch itself
+- In a Truck
+- The jack and lug wrench will usually be located behind the seat closest to the rear of the cab; alternatively, if the vehicle is equipped with jump seats, the jack is sometimes packed underneath one of the jump seats
+- The spare tire is almost always secured underneath the bed of the truck
+
+**_The user must locate all necessary materials and have them at their disposal at this point._**
+
+## Procedure
+Once the user has located and gathered all materials necessary, the tire changing process can begin.
+
+1. Park the vehicle on the most level and even piece of ground possible.
+2. Be sure that the vehicle is in **P** (park) with the parking break engaged (for manual transmissions, be sure that the transmission is in the **1st** gear or the lowest gear possible).
+If parking on a level area is not possible, place a scotches (pieces of wood or rock) behind the tires that are lower in reference to the other set of tires (these will be either the front or the rear set of tires). This ensures that the vehicle will not move when the tires lose contact with the earth
+3. Place the jack underneath the vehicle.  The jack can be place a multitude of places underneath a vehicle, a few are listed below:
+	- Underneath the lip of the body, shown in *Figure 3.5*.
+	- Underneath the frame of the vehicle, shown in *Figure 3.6*.
+	- Underneath the leaf spring bracket (mostly for Trucks and SUVs), shown in *Figure 3.7*.  
+	**CAUTION:** If the jack is placed anywhere other than the locations listed above, there is a possibility of damaging the underside of the user's vehicle.
+![Jack Underneath Various Places Underneath the Vehicle](https://gdurl.com/GOJH "Jack Underneath Lip, Frame, and Leaf Spring Bracket")*Figure 3.5*, *Figure 3.6*, *Figure 3.7* 
+4. Run the jack up until the jack pad meets the surface of the vehicle that was chosen in **Step 3**.  
+Make sure that the jack pad, shown in makes sufficient contact with the surface chosen in **Step 3**.  
+***DANGER:*** If the jack pad does not make good contact with the chosen surface, the vehicle could fall off of the jack during the jacking process and cause serious injury.
+5. Continue raising the vehicle until the tire is at least 1" off of the ground.
+6. Next, take the lug wrench and begin loosening the lug nuts, shown in *Figure 6.8*.  
+To loosen the lug nuts turn the wrench counter-clockwise for each nut until the nuts are totally removed.  
+![Loosening Lug Nuts](http://gdurl.com/8emS "Loosening the Lug Nuts")
+*Figure 6.8*
+7. Remove the tire from the vehicle.
+To remove tire from the vehicle, lightly lift up on the tire while pulling the tire away from the vehicle.
+8. Place the spare tire on the lug studs, shown in *Figure 8.9*, just as the flat tire was removed. Each lug hole on the wheel should be occupied by a lug stud.  
+![Spare Tire on Lug Studs](http://gdurl.com/nHTV "Spare Tire on Lug Studs")*Figure 8.9*
+
+9. Replace the lug nuts.
+  - When putting the lug nuts back on, the user should thread them back on in a clockwise fashion using their fingers.  Also, fasten the nuts in a star-shaped pattern.  This ensures that the wheel will seat properly against the rotor.  The tightening pattern is shown in *Figure 9.11 - Figure 9.15*.  
+**WARNING:** If the user cannot turn anyone of the lug nuts by hand within the first three revolutions of the lug nut, do NOT force it.  This will cross-thread the nut and damage it beyond use.
+  - Complete the pattern shown below in a sequential process from left to right, adding lug nuts as far apart from each other as possible with each step.
+  - Once the lug nuts are tightened to the point that each one of them is holding the spare tire tight, use the lug wrench to further tighten the nuts.
+  - Tighten the lugs as much as possible.
+  - Try to wiggle the tire just to be sure that the tire is secured.  
+![Star-Shaped Lug Replacement Pattern](http://gdurl.com/UsmN "Step 1, Step 2, Step 3, Step 4, Step 5; respectively")
+*Figure 9.11, Figure 9.12, Figure 9.13, Figure 9.14, Figure 9.15*
+10. Begin lowering the vehicle.
+With the lug nuts secured, the user can now use the jack to lower the vehicle back to the ground in a slow and easy manner.
+11. Remove the jack from underneath the vehicle and replace all tools such as: the jack and the lug wrench.
+12. Remove scotches (if necessary).
+In **Step 2** the user was direct to place scotches behind certain wheels, if this action was taken, be sure to remove these scotches before moving the vehicle.
+13. Load the tire into the vehicle and take the tire to a repair shop.
+Often times flat tires can be repaired depending on where the puncture is on the tire. A mechanic can quickly inform the user whether or not if the tire is repairable.
+
+## IMPORTANT CONSIDERATIONS **BEFORE MOVING THE VEHICLE**
+Depending upon the type of spare tire that the user's vehicle is equipped with, there are certain restrictions when it comes to driving on the spare tire. If the vehicle is equipped with a space-saver spare (often called a donut), shown in *Figure C.16*, mileage and speed restrictions are placed on these tires. Fifty miles is the furthest distance that should be driven on a space-saver, while 50 mph is the top speed that should be achieved while running on a space-saver spare.  Most smaller vehicles, such as sedans, are equipped with a space-saver spare, while most trucks and SUVs are equipped with a full-size spare. No driving restrictions are placed on full-size spares.
+
+![Space Saver Spare](http://gdurl.com/yruP "Space-Saver Spare")*Figure C.16*
+
+
+
+

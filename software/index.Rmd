@@ -1,0 +1,228 @@
+---
+title: "PyDev Installation Guide for Mac and Windows"
+author: "The Lunch Bunch"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+# PyDev Installation Guide For Windows
+_Kent McDonough_
+
+These instructions will guide you through setting up Python 3.7.0 to run in Eclipse 4.8. After you are done, you will be able to develop Python inside an Eclipse workspace like any other native Python IDE. This guide will not cover the download and installation of Eclipse. Please reference the [Eclipse Installer Download Page]([https://www.eclipse.org/downloads/packages/installer](https://www.eclipse.org/downloads/packages/installer)).
+
+> *Disclaimer*: This procedure may be different for legacy or future releases of Python and Eclipse. Additionally, some Eclipse plugins may change the appearance of menus and toolbars. This document will use a stock version of Eclipse with no additional modifications.
+
+This procedure is divided in two parts: **Installation of Python 3.7.0** and **Configuring Eclipse**. Users who have previously installed Python 3.7.0 may wish to skip to Section 2 - however, some familiarity with the procedures in Section 1 will be assumed.
+
+### Checking Windows' Current Python Version
+1. Open a PowerShell window by right clicking the Windows icon on the taskbar, then clicking 'Windows PowerShell’.
+
+2.   ```python --version``` and hit enter. If you see an error similar to the one below, you **do not** have python installed. If you see an output similar to the one at the end of Section 1 Step 6, you already have Python installed. Users who have previously installed Python 3.7.0 may skip to Section 2.
+![Figure 1:](https://gdurl.com/2PYF "Python Version Error")
+
+## Section 1: Downloading Python
+1. Navigate to [The Official Python Downloads Page for Windows]([https://www.python.org/downloads/](https://www.python.org/downloads/)).
+
+    ![Figure 1:](https://gdurl.com/BNKz "Python Download Webpage")
+
+2. Download version 3.7.0. You should receive one file, named ```python-3.7.0.exe```.
+    
+    > *Note*: The yellow download button might show a different version. Specific releases are on the bottom on the page, if version 3.7.0. is not the main version.
+
+3. Run the ```python-3.7.0.exe``` executable.  
+Depending on your security settings, you may need to click "*allow this app to make changes to my device*" in order to continue.
+
+4. At the bottom of the first dialogue, click the **Add Python 3.7 to Path** option.  
+Then click "Install Now".  
+
+    ![Figure 2:](https://gdurl.com/PVOP "Python Installer on Windows 10")
+
+5. When the installer is finished, click "Close".
+
+6. To make sure your Python has installed successfully, reopen PowerShell and type ```python --version```. The output should now look like:
+
+    ![Figure 3:](https://gdurl.com/M6tj "Valid Python Version")
+
+    > If you still see an error message, try closing and reopening the PowerShell window. PowerShell must refresh to display the most recent information about your computer.
+
+
+## Section 2: Installing PyDev for Eclipse
+1. Launch Eclipse into any workspace. In the top menu bar, click *Help* > *Install New Software*.
+
+    ![Figure 1:](https://gdurl.com/Aa7G "Install New Software")
+
+2. In the ‘Work with' bar, copy the following link. “[http://www.pydev.org/updates](http://www.pydev.org/updates)”.
+Click the "Add..." button to the right of the bar.
+
+    ![Figure 2:](https://gdurl.com/WQHs "Add Plugin")
+
+3. A dialogue may appear asking for a ‘Repository Name’ and ‘Location’.  
+Type ‘PyDev’ for the name and make sure the URL in ‘Location’ matches what you entered previously. Then click "Add".
+
+    ![Figure 3:](https://gdurl.com/PTRI "Add Repository")
+
+4. After a short loading time, the window should now display several plugins. Select the checkbox next to 'PyDev' and click next.
+
+    ![Figure 4:](https://gdurl.com/3RBe "Select Plugin")
+
+5. The next window gives a summary of the plugins about to be installed. You should see two listings as below - when this is correct, click next.
+
+    ![Figure 5:](https://gdurl.com/nLlF "Review Plugins")
+
+6. Select ‘I accept the terms of the licence agreement’ in the next dialogue, then click "Finish".
+
+    ![Figure 6:](https://gdurl.com/QTjn "License Agreement")
+
+7. When the plugin has finished downloading, a security warning may appear. Click "Install anyway" to continue with the installation.
+
+    ![Figure 7:](https://gdurl.com/j1_A "Security Warning")
+
+8. After the installation, Eclipse will need to restart. Click "Restart now" to restart immediately, or "No" to postpone it.
+
+    ![Figure 8:](https://gdurl.com/6hnC "Restart Now")
+
+## Section 3: Configuring the Python Interpreter
+
+1. When Eclipse has restarted, select _Window_ > _Preferences_.
+
+    ![Figure 1:](https://gdurl.com/L1uj "Window/Preferences")
+
+2. Select _PyDev_ > _Interpreters_ > _Python Interpreter_.
+
+    ![Figure 2:](https://gdurl.com/uD7Y "Python Interpreter Blank")  
+Then click "Quick Auto-Config". The window should now populate with information about the Python version installed in Section 1.
+
+    ![Figure 3:](https://gdurl.com/knzS "Auto-Config Results")
+
+3. Select the ‘python’ executable displayed in the top window, then click "Apply and Close".
+
+## Section 4: Create a New Project
+1. Click on _File_ > _New_ > _Project_.
+
+2. Select _PyDev_ > _PyDev Project_ from the dialogue, then click next.
+
+    ![Figure 4:](https://gdurl.com/AhE3 "New PyDev Project")
+
+3. Give the project a descriptive name. At the bottom, be sure to select '**Create ‘src’ folder and add it to the PYTHONPATH**'. Then click "Finish".
+
+    ![Figure 5:](https://gdurl.com/yFpY "Example Project")
+
+4. PyDev projects should be opened in the PyDev perspective for editing. Click "Open Perspective" in the next dialogue.
+
+    ![Figure 6:](https://gdurl.com/MvwZ "Open New Perspective")  
+Perspectives can be changed by clicking the icon at the upper right corner of the Eclipse window.
+
+    ![Figure 7:](https://gdurl.com/Uu35 "Change Perspective")
+
+# PyDev Installation Guide For Mac
+*Author: Wesley Nguyen*
+
+These instructions will guide you through setting up Python 3.7.0 to run in Eclipse 4.8. After you are done, you will be able to develop Python inside an Eclipse workspace like any other native Python IDE. This guide will not cover the download and installation of Eclipse. Please reference the [Eclipse Installer Download Page]([https://www.eclipse.org/downloads/packages/installer](https://www.eclipse.org/downloads/packages/installer)).
+
+  
+
+>*Disclaimer:* This procedure may be different for legacy or future releases of Python and Eclipse. Additionally, some Eclipse plugins may change the appearance of menus and toolbars. This document will use a stock version of Eclipse with no additional modifications.
+
+  
+
+This procedure is divided in two parts: **Installation of Python 3.7.0** and **Configuring Eclipse**. Users who have previously installed Python 3.7.0 should skip to Section 2 - however, some familiarity with the procedures in Section 1 will be assumed.
+
+
+### Checking Mac's Current Python
+Once you have installed Eclipse, you may check your current Python version from Eclipse. 
+
+1. Open Eclipse, left click on the *Eclipse* tab in the upper left corner of your task bar. Select *Preferences* from the drop down menu to open a Settings Menu. 
+    
+    ![FIgure 1: Mac Eclipse Menu](http://gdurl.com/O7pH "Picture of the Eclipse Menu Tab once clicked.") 
+
+2. From the dropdown menu on the left side, select *General* > *PyDev* > *Interpreters* > *Python Interpreter.*
+
+    ![Figure 2: Eclipse Preference Menu](http://gdurl.com/R38C  "Python Path within Eclipse Preference Menu.")
+    
+3. The current Python version highlighted below is Python 2.7.10. The highlighted interpreter is the default Python version on a 2015 MacBook Pro. By default, Eclipse will path to this version. Different Python versions may appear that you do not see in the picture. Any previously downloaded Python versions from the Python website will be displayed here. 
+
+    ![Figure 3: Python Interpreter Menu](http://gdurl.com/P9xK "Full picture of the Python Interpreter Menu within Eclipse.")
+
+## Section 1: Downloading Python
+
+1. Navigate to the [Python Download Page](https://www.java.com/en/download/installed.jsp) to download the latest Python 3.7 version for Mac OSX.
+
+    ![Figure 1: Python Download Page](http://gdurl.com/16L9 "Python Download Page")
+
+2. Download Python 3.7.0. You should receive one file, named ```python-3.7.0-macosx10.9.pkg```, or similar. 
+
+    > *Note*: The yellow download button might show a different version. Specific releases are on the bottom of the page if version 3.7.0 is not the main version.
+
+3. Navigate to your Macbook's *Finder* > *Downloads* and find the Python ```.pkg```. The Python file should be the first item in your *Downloads* folder. 
+
+    ![Figure 2: Mac's Finder Pane](http://gdurl.com/qPD1 "Macbook Finder Pane currently inside the Downloads folder. ")
+
+
+4. Double click the ```.pkg``` file to open the Python downloader. 
+    ![Figure 3: Python Installation Menu](http://gdurl.com/n3PL "The Python Installation Menu Introduction showing details of the current package version.")
+
+5. Click "Continue", read the license and click "Agree". In the **Destination Select** step, make sure the file destination is set to **"Macintosh HD."** 
+
+    ![Figure 4: Python Destination Select Step](http://gdurl.com/daac "Picture showing a properly selected Macintosh HD driver.")
+
+7. Click "Install".
+
+    ![Figure 5: Installation Type Step](http://gdurl.com/RzuV "Picture showing the Python package downloading to the proper drive.")
+
+8. Once the download is finished, Python will prompt you to to move the ```.pkg``` file to the Trash. Your selection will not alter the end result. 
+
+    ![Figure 6: Final Python Installation Step](http://gdurl.com/JwHO "Picture giving the user the option to keep or delete the Python installer package.")
+
+##  Section 2: Configure Python Interpreter
+1. Refer back to *Checking Mac's Current Python* in the introduction. Follow steps 1 and 2 to open the *Eclipse Python Interpreter* menu. Click on each Python version and click "Remove" to remove them from the list. **If you see the Python 3.7.0 version, DO NOT click "Remove."** You may leave this version alone and skip to Section 3. 
+
+    ![Figure 1: Python Interpreter Selection Box](http://gdurl.com/3GZw "Picture of the different Python versions inside the Python Interpreter menu box.")
+
+    > If you didn't see the Python 3.7.0 version, or accidentally removed the version, continue to Step 2 of this section. 
+
+2. Click "New". A dialog box will appear asking for an 'Interpreter Name' and 'Interpreter Executable'.
+
+    ![Figure 2: Starting A New Python Version Path](http://gdurl.com/Je2V "Picture showing first step of creating a new Eclipse Python Path.")
+
+    ![Figure 3: Interpreter Menu](http://gdurl.com/4Gjf "Example of Interpreter Dialog Box")
+
+3.  Click "Browse". Under *Devices* on the left-hand side of the window, select your personal MacBook. In the Finder search bar, search 'Python'. Your recently downloaded Python 3.7.0 folder should show up. 	
+    
+    ![Figure 4: Location of Python version 3.7.0 inside of Macbook](http://gdurl.com/3gGM "Picture showing how to search for the Python folder inside the Macbook Finder.")
+
+6. Select the Python 3.7.0 folder and click "Open". Select the ```Python Launcher``` and click "Open". Finally, name your interpreter 'PyDev'. Click "OK" once finished.
+
+    ![Figure 5: Filled In Python Interpreter](http://gdurl.com/IvfE "Picture showing a properly filled in Python Interpreter dialog box.")
+
+    > If you see an invalid interpreter error message, refer back to Step 1 of this section. Double check you have removed the correct Python Interpreters. 
+
+## Section 3: Configure New Eclipse Workspace
+1. Close out of Eclipse. Reopen it up. Click the "Browse" button. 
+
+    ![Figure 1: Eclipse Launcher](https://i.imgur.com/05Ezdmh.png "Picture showing the Browse button in the Eclipse Launcher menu.")
+
+2. Select where you want the new folder to be. Click the "New Folder" button on the bottom left of the menu. 
+    
+    ![Figure 2: Destination Folder](https://i.imgur.com/JZoY0Fr.png "Picture showing where the new Eclipse workspace will go to.")
+
+3. Eclipse will display a dialog box asking for the name of the new folder. Name the folder 'PyDev' and click "Create."
+
+    ![Figure 3: New Folder Dialog Box](https://i.imgur.com/02v8IZw.png "Picture showing the new folder named as PyDev")
+
+4. Click "Launch" to open Eclipse with the new workspace you just created.
+    
+    ![Figure 4: Eclipse Launcher ](https://i.imgur.com/QvGHzkp.png "Picture showing the Eclipse Launcher with the newly created workspace as it's current path.")
+
+## Section 4: Configure New Python Project
+1. Left click  on the *File* tab, select *New* > *Pydev Project*.
+
+    ![Figure 5: New Folder](https://i.imgur.com/DO4Tzep.png "Picture shows the drop down menu's of a new Python Project.")
+
+2. Fill in the project name with 'HelloFriend' and select the "**Create 'src' folder and add it to the PYTHONPATH**" button. Click "Finish."
+
+    ![Figure 6: Python New Project Menu](https://i.imgur.com/26o2Y4Q.png "Picture shows the correct settings and title name for the new Python project.")
+

@@ -1,0 +1,644 @@
+---
+title: "Campus Life"
+author: "Campus Life"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Applying to Virginia Tech's College of Engineering
+![Virginia Tech](https://gdurl.com/cqVT)
+
+__```Authored By:``` ```Billy Clarke```__
+
+## Introduction
+
+> *This document serves to instruct students on how to submit an application for admission into Virginia Tech's (VT) College of Engineering.*
+
+We all know that Engineering is difficult enough. Why should applying to the right program be just as hard? By reading this manual, you will feel ready to put your best foot forward going into the application process for the College of Engineering at Virginia Tech.
+
+By the end of this document, the user should be able to organize their submission materials, produce a well-structured application, and meet the required deadlines for submission. It doesn't matter where you're coming from as an international student, or what institution you're transferring from, this manual is right for you.
+
+The document is organized in the following fashion:
+
+* Deadlines
+* Submission Materials
+* Overview of Admissions Process
+	* National Citizen
+		* Freshmen
+			* General Engineering
+			* Other Majors
+		* Sophomores, Juniors, Seniors
+	* International
+	* Transfer
+* Closing
+
+That being said, it's time to **_Claim Your Role_** and begin your application!
+
+## Meeting the Deadlines
+> *This section contains the various deadlines for the application process. Refer to this section when following the "__Organizing your Application__" instructions.*
+
+See the information provided in the tables below to find your profile and learn when you **MUST** submit your applications.
+
+>__CAUTION: Failing to meet the deadlines will result in rejection from the university.__
+
+### National Citizens
+#### Freshman
+![Freshmen Timeline](https://gdurl.com/Rz8E)
+
+#### Transfer (Regardless of Institution)
+![Transfer Timeline](https://gdurl.com/2tUV)
+
+### International
+#### Freshman
+![International Freshmen Timeline](https://gdurl.com/x9-0)
+
+#### Transfer
+![International Transfer Timeline](https://gdurl.com/s_Up)
+
+
+## What You Need to Succeed
+> *This section contains the necessary submission materials for a complete application to the VT College of Engineering.*
+
+* Completed Application Form through the [Coalition for College Access](http://coalitionforcollegeaccess.org/) platform
+* Submitted Application Fee
+* Certified transcripts from your high school
+* Proof of Grades (Levels of performance)
+	* If not explicitly stated on your transcript, provide additional information to show your progress at your institution
+* Collegeboard Certified SAT© or ACT© Exam Scores
+	* Accepts the new/old SAT, SAT Subject Tests, and ACT
+
+## Organizing your Application
+> _This section provides step-by-step instructions for applying to VT's College of Engineering based on student type._
+
+Virginia Tech requires all degree-seeking students to apply through the [Coalition for College Access](http://coalitionforcollegeaccess.org/) platform.
+However, the process _can_ be different for international / transfer students applying to the College of Engineering.
+
+ **Don't worry!** Look for your specific student-profile type in the statements below and continue to the "Common Application Procedure" section for more.
+
+___
+
+__*High-school applicants*__ have the opportunity to apply for the __*General Engineering*__ major online.
+_If this is you, go to_: **```Freshman ```** >**```General Engineering ```**
+
+ __*Students attending Virginia Tech*__ have the chance to __*transfer*__ into their preferred Engineering major.
+_If this is you, go to_: **```Transferring from Another Major ```**
+
+__*Students born outside of the United States*__ are welcome to apply to the College of Engineering at Virginia Tech.
+_If this is you, go to_: **```International```**
+
+__*Students not currently attending Virginia Tech*__ have the chance to __*transfer*__ into their preferred Engineering major.
+_If this is you, go to_: **```Transferring from Another Institution```**
+
+___
+
+### Common Application Procedure
+> **NOTE: **If you are **```Transferring from Another Major```** , skip the "General Application Procedure" section.****
+1) Access the [Coalition for College Access website](http://coalitionforcollegeaccess.org/)
+	*	If you have not created an account, [create one](https://applyweb.collegenet.com/account/new/create?origin=https://www.mycoalition.org/app) by adding the relevant information and logging in.
+
+2) Click "MyCoalition Login" to log in:
+
+![MyCoalition Profile Log-In Screen](https://gdurl.com/YEM7)
+
+3) Answer the preliminary questions regarding your education & nationality
+	* Click "Next" after you've answered each question
+
+5) Type 'Virginia Tech" in the text box once you've reached this screen, as so:
+
+![MyCoalition Interest in Schools](https://gdurl.com/TKhI)
+
+6) Click "Add to List" for the option that shows
+
+7) Click "Next"  
+> **For students accessing MyCoalition for the first time, you have the option to read the information in the Tutorial (_recommended_).  
+> Read each section regarding your Profile, Locker, and Colleges tools, clicking "Next" at the bottom of the screen.
+However, you may choose to click "Exit Tutorial" and skip the tutorial to continue the application process.**
+
+Once you've reached the Overview page for your MyCoalition profile:
+
+8) Click on the "Profile" tab in the top-right corner
+
+9) Click through each section in the left sidebar from "Personal Information" to "Activities / Experience"
+	* As you click through, fill in each required section with relevant information to produce a well-developed profile
+> **NOTE: Step 9 varies for each student type. See your specific profile's section to learn more.**
+
+10) Click on the "Colleges" tab in the top-right corner
+
+![MyCoalition College Menu](https://gdurl.com/3vzo)
+
+11) Click on "Start Application"
+
+To continue from this point on, follow the directions within your specific profile's section.
+
+___
+
+### Freshman
+For your student profile, complete **ALL** of the sections listed in the "Profiles" tab.
+
+#### General Engineering
+
+12) Click "A First-Year Student"
+
+13) Click "Continue"
+14) Click "Start Application"
+![Application Menu](https://gdurl.com/7Cdo)
+
+15) Go to the "Terms" section in the main application menu above
+	* Complete each question
+		* Click "Next" when finished
+
+16) Go to the "Application Questions" section
+	* Complete each question
+		* Click "Next" when finished
+17) Click the drop down menu for Majors once on the "Academic Interests" page
+18) Choose "General Engineering"
+19) Continue to answer each question as before for the remainder of the application
+20) Click "Submit Application" after you've finished the "Application Questions" & "Uploads" sections.
+The rest of the process involves providing the application fee. After that, you have successfully applied to VT!
+
+#### Freshmen in Other Majors
+For freshmen who have applied to the school through a major other than General Engineering, you're still in luck!
+Follow the directions for **```Transferring from Another Major```** and apply at the end of your Freshman year.
+
+___
+
+### Transferring from Another Major
+> **NOTE: In order to be eligible to transfer, students must meet the [COE Transfer Requirements](https://enge.vt.edu/content/dam/enge_vt_edu/undergraduate/com_requirements/COM_NonGE.pdf). Please check here and discuss upcoming transfers with your advisor.**
+
+1) Submit your request for a major transfer on the [COE's Qualirtics Survey](https://virginiatech.qualtrics.com/jfe/form/SV_507M7XzwtzrD3FP)
+2) Complete the [Change of Major Application](https://banweb.banner.vt.edu/ssb/prod/hzskmajr.P_DispMajorChange) on [HokieSpa](https://banweb.banner.vt.edu/ssb/prod/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu)
+
+___
+
+### International
+#### Freshman
+
+For your student profile, complete all the sections **EXCEPT**:
+
+* Fee Waiver
+
+Follow the same steps for __```Freshmen```>```General Engineering```__ except for the following:
+Step 12 --- Click "An International First-Year Student"
+
+
+#### Transfer
+
+For your student profile, complete all the sections **EXCEPT**:
+
+* Fee Waiver
+* Honors & Distinctions
+
+Follow the same steps for __```Freshmen```>```General Engineering```__ except for the following:
+Step 12 --- Click "An International Transfer Student"
+___
+
+### Transferring from Another Institution
+For your student profile, complete all the sections **EXCEPT**:
+
+* Honors & Distinctions
+
+Follow the same steps for __```Freshmen```>```General Engineering```__ except for the following:
+Step 12 --- Click "A Transfer Student"
+
+## Conclusion
+After you've submitted your application to the Admissions Board of the VT College of Engineering, all you have to do is wait. You can feel confident knowing that you've crafted an organized, compelling application to your program of choice.
+
+# Completing Course Request
+
+__```Authored By:``` ```Chad Walmer```__
+![Virginia Tech: Burruss Hall](https://upload.wikimedia.org/wikipedia/commons/0/0b/Burruss_Hall,_Virginia_Tech.JPG)
+
+## Purpose
+> This document serves to instruct Virginia Tech students on how to complete the course request process that allows students to apply for classes for the next semester.
+
+We all know that the classes we take in college help dictate our experience at Virginia Tech. By reading this manual, you will feel ready to complete course request so that you can take the classes you need and want to take at Virginia Tech.
+
+By the end of this document, you, the user should be able to search for classes from their program check sheet on the timetable of classes and enter the corresponding course number into course request to take the classes you need. It doesn't matter how long you’ve been in college, freshman to senior, this manual will help you.
+
+The document has been organized in the following fashion:
+
+* Introduction
+* Deadlines
+* Required Materials
+* Overview of Course Request and Scheduling
+* Closing
+
+It’s time to start scheduling your classes!
+
+## Meeting the Deadlines
+> This section contains the necessary deadlines for the course request process. Course request takes place every semester, you schedule classes for the next semester in your current semester. Virginia Tech changes the [course request deadlines]( https://registrar.vt.edu/dates-deadlines-accordion/Drop-Add.html) each school year.
+
+### Course Request Deadline
+* Spring Semester Course Request --- Middle of Fall Semester, October 16th - 24th, 2018
+* Fall Semester Course Request --- Middle of Spring Semester, March 20th - 27th, 2018
+
+## List of Required Materials
+> This section contains the necessary materials to successfully request your classes.
+
+* Program [check sheet](https://registrar.vt.edu/graduation-multi-brief/checksheets/college/index.html) aligning with your graduation year
+* Computer with Internet Connectivity
+* Virginia Tech PID and Password to login to [Hokie Spa]( https://banweb.banner.vt.edu/ssb/prod/twbkwbis.P_WWWLogin)
+* Virginia Tech [Timetable of Classes]( https://banweb.banner.vt.edu/ssb/prod/HZSKVTSC.P_ProcRequest)
+
+## Course Request to Class Schedule
+> This section provides step-by-step instructions for successfully completing course request
+
+Virginia Tech encourages all enrolled students to complete course request prior to the start of the next enrolled semester to ensure they receive the classes they need. This process doesn’t take much time and increases the odds of you taking the classes you need when you need to.
+
+### Requesting Classes
+1) Login into [Hokie Spa](https://banweb.banner.vt.edu/ssb/prod/twbkwbis.P_WWWLogin)) with your PID and Password
+
+ >__NOTE: If you have issues logging in go to the [PID Password Reset]( https://stunet.nis.vt.edu/networkservices/pid-password-reset.html) page.__
+
+2) At the bottom of the page select the “Timetable of Classes” link at the bottom of the page.
+
+ >__NOTE: This page will open in a new tab or webpage__
+
+3) Now select the “Hokie Spa” tab at the top left of the same webpage you clicked “Timetable of Classes” on
+![Hokie Spa Tab](https://doc-0g-78-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/mvs30v7fpsq0dlp0vmhkae7i1od1i984/1540238400000/04613875439559669649/*/11XOWmJU8nEW2ObAW1jIDJWmDFTBsoVlO)
+4) Select “Course Request,” a new tab labeled Course Request will appear. Leave tab open for step 9.
+![Course Request Location](https://doc-10-78-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/cbucbv83sk4f27et6nqidk6bnqv5urit/1540245600000/04613875439559669649/*/18-xbE5O_f_E01CpGccjOIkb-BZ9JB1gC)
+5) Using the [check sheet](https://registrar.vt.edu/graduation-multi-brief/checksheets/college/index.html) aligning with your graduation year that correlates with your program and graduation year, choose a class to schedule for the upcoming term  
+ 
+ > __NOTE: For any class you plan to schedule, you should check to make sure you meet all prerequisite classes, classes that you need to take prior to the class you plan to schedule or corequisite classes which you can take at the same time as the class you plan to schedule.__ 
+ 
+ > __NOTE: All programs and majors have an advisor that can assist you in scheduling your classes. Advisors can answer most, if not all questions you may have about classes or resolve issues with your schedule.__
+
+6) Look up the selected class on the time table of class by selecting the appropriate term, campus location, and subject for the course you are selecting and type in the course number. Click “FIND class selection”.
+![Timetable of Classes](https://doc-00-78-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/dua87edlq4uk5kfq5flmsv28uja6m8jo/1540245600000/04613875439559669649/*/1zrvkhzd2gu-C53GtLi_yKewWh_djmfOw)
+7) Search results will appear below the “FIND class selection” button you clicked. Depending on the class, one or many class options may appear. Choose the class option that best works for you if you have multiple class time options.
+8) Find the course request number to the far left of the class you select and copy the 5-digit number by highlighting, right mouse click and then copy or by writing the number down.
+![Course Request Number(CRN) Location](https://doc-0g-78-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/5d4ueu7mft8dob3mgkn4q0i1thvvan4c/1540245600000/04613875439559669649/*/1URAIpt3nIsYDMrpU_TLQ5vqn7PoWMQfA)
+9) Enter the course request number into “ADD Course Request Numbers” section of the course request tab opened during step 4.
+![Add Course Request Numbers](https://doc-14-78-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/9mlfclkjjbgtumup73abg9tpnmuq69to/1540245600000/04613875439559669649/*/1uu_tECwOivGJjrNCFaNB4hYWjhRgHuZB)
+10) Repeat steps 5 through step 9 until you have entered all the course request numbers for the classes you plan to take into the course request tab
+
+ * To quality as a full-time student you need to take at least 12 credit hours’ worth of classes
+ 
+ > __NOTE: This step varies for each person due to program recommendations and your path to graduation.__
+
+11) Click the “Add CRNs” below the location you entered the course request numbers. If done successfully, all the courses you selected will appear under “Submitted Course Requests – (term, year)”
+![Submitted Course Request](https://doc-0c-78-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/nurfck11ecsnmed8iv8he01759gm0sdd/1540245600000/04613875439559669649/*/1DTrhwFMrZQaa8BuPzH6J_UoM6eNtzso4)
+
+ - Confirmation of the classes you receive from your course request can be viewed on Hokie Spa a few weeks prior to the end of the current semester and then just before the start of the semester you requested classes for.  
+ 
+ > __NOTE: You may not receive all classes you request do to how Virginia Tech prioritizes classes amongst students.__
+
+## Conclusion
+After you've submitted your course request in Hokie Spa, all you must do is wait. Hopefully, you can feel confident knowing that you followed the steps to properly submit your course request, to take the classes you need to graduate on time while having some fun. I wish you all the luck with scheduling your classes.
+
+# Checking Grade Results on Canvas
+
+```Authored By:``` ```Greg Vojtek```
+
+## Introduction
+
+> This document serves to show students ways to review their grade results to do better on future assignments.
+
+The document has been organized in the following fashion:
+
+* Logging into Canvas
+
+* Navigating to the **Grades** Page
+
+* Using Tools for Given Assignment
+
+* Feedback Files on Assignment
+
+* Comment Section for More Feedback
+* How to Read Your Grades Page
+
+* Conclusion
+
+Most students on campus do not know how to get feedback from their professors on turned in assignments.  This document is meant to show you how to use Canvas to to your advantage when you are trying to improve the your quality of work.  To improve, students need to understand what is going right or wrong on assignments. By using the tools on the Virginia Tech Canvas site you will be able to see feedback from your grader, as well as some useful information about where you rank amongst your peers in the class. By seeing this information it will allow you to refine your work to achieve a better grade on future assignments. Giving you more guidance on how to succeed in that class.  
+
+## Logging into Canvas
+
+> This section talks about how to log onto VT Canvas on any internet browser
+
+1. Search **Canvas Virginia Tech**
+
+2. Click on the link for the [Canvas Login Page](https://canvas.vt.edu/login/canvas)
+
+3. It will bring you to a login page where you will type in your PID and password![Login Page](https://gdurl.com/IieK)
+	* Your PID is your VT email but without the **vt.edu**  
+
+## Navigating to the Grades Page
+
+> This section shows you how where all of your grades are held for the specific class
+
+1. Once you login, you should see a screen similar to this
+![homescreen for canvas](https://gdurl.com/8-bx)
+2. On the homepage you should see a tab that has a book on it with the phrase **Course** on it
+![Click Course Picture](https://gdurl.com/Dlca)
+
+3. Click on the **Courses** tab and a sidebar come out with all of your classes displayed
+![Classes displayed](https://gdurl.com/Mo5b)
+
+4. Click on the class which you would like to look at your grades
+
+5. If you look on the left side of the page you will see a tab that will say **Grades**
+![Grades tab](https://gdurl.com/UY-m)
+
+6. Click on the grades tab to be brought to the grades page
+7. Your grades so far in the course will appear on the screen
+![grade page](https://gdurl.com/LmTh)
+
+## Using Tools for Given Assignment
+
+> This section explains the tools under the graded assignment, and how they can help you review your results in comparison to your entire class
+
+*  To see the results of class on the assignment, click on the **box with a check mark**
+![check mark box](https://gdurl.com/uzca)
+*  The information regarding the average of the class is on the left
+![grade mean](https://gdurl.com/jsNY4)
+	* The **Mean** shows the class average on the assignment
+* The information regarding the high of the class is in the center
+![grade high](https://gdurl.com/24rm)
+	* The **High** shows what the best score on the assignment in the class
+* The information regarding the low of the class is on the right
+![grade low](https://gdurl.com/8Y0Z)
+	* The **Low** shows the worst score on the assignment in the class
+*  By clicking the **icon with message bubbles** you will be able to see comments left by the grader
+![comment grader symbol](https://gdurl.com/taNj)
+	  * Once you click on the symbol, it will display the comments from the grader
+![comment grader results](https://gdurl.com/JepF)
+
+## Feedback Files for Graded Assignment
+> This sections shows the different ways of how your teacher can give feedback to you on the results of your turned in assignment
+*  In the center there is a **View Feedback** link that will show some of the results given by your grader
+![grader feedback](https://gdurl.com/b8EH)
+	* This will be your file you submitted with comments on what you did right or wrong
+
+*  In the top right of the of the results screen, there will be a box with comments from your grader, or files that he or she sent to you
+![grader comments](https://gdurl.com/96fW)
+
+## Comment Section for More Feedback
+
+> This sections explains how you can communicate with your grader on the same page as your feedback
+*  Below the comment section from the grader, there is a box that allows you to ask questions about the assignment grade.
+![student comment](https://gdurl.com/rPQR)
+	* When you send a comment your professor will receive a notification about your comment  and can reply inside of that assignment  
+## How to Read Your Grades Page
+> This sections gives you some insight on how to read the grades page so that you have a better understanding of what your grade is in your specific class
+>
+![grade page](https://gdurl.com/LmTh)
+
+* Professors will upload all their assignments onto the Canvas **Grades** tab.
+* When viewing your grade, you need to understand that each assignment has a different weight to it.
+* Professors will calculate your current grade at the bottom of the page. (*Graded based on point totals in each category of the final grade*)
+* You are able to input scores into assignments to see what your grade you would get if you achieved that score
+
+## Conclusion
+Learning how to look at the results of your graded assignments will help you develop better material for the next assignment. You can also use this information to communicate with your professor about specific problems with how they graded it. Also by looking at the class results for the assignment will give you a better understanding about how you are doing in the class. If you follow this manual on how to look at feedback on grades you will be able to improve the quality of your work, and improve your overall GPA for the rest of your college career.
+
+# Navigating Blacksburg Transit
+![Photo of a Bus](http://gdurl.com/YAxO)
+
+**```Authored By:``` ```Josh Rasco```**
+
+## Introduction
+> *This document aims to instruct students on how to plan a trip via and travel on Blacksburg transit buses.*
+
+The bus system can seem complicated and intimidating for students, but this manual can help! Blacksburg transit is the cheapest, and often the easiest method of transport for Virginia Tech students. This manual will help to clarify the issues most students have, and guide the reader through using **Google Maps** to assist in bus travel.
+
+The document is organized in the following fashion:
+
+* Planning the Trip
+    * Bus Hours
+    * Via Phone
+    * Via Computer
+* Finding the Bus Stop
+* Boarding the Bus
+* Choosing a Seat
+* Notifying the Bus Driver of Your Stop
+* Common Issues
+* Conclusion
+
+## Planning the trip
+### Bus Hours
+![Bus Hours](http://gdurl.com/tMNM)
+
+### Via Phone
+
+The quickest and easiest application to plan a bus trip on the phone is Google Maps. This manual will use **Google Maps**, available for both smartphone and computer users. **Google Maps** has the most accurate times and also factors in the walking distance to and from the bus stop.
+
+1. Open the application on your smartphone
+
+2. Type in the address of your destination in the location bar at the top of the screen
+
+   * A list of auto-completed locations will appear as you type, which you can select by tapping when the destination address appears
+
+3. Press “Directions” in the bottom right corner of the screen
+
+   * The start location defaults from your current location using your phone’s built-in location service, this can be changed by pressing the bar at the top of the screen which says, “Your location” and typing in where you plan to start your trip from
+
+4. Underneath the location search bars, there is a mode of transportation selection, you should select the one with the bus icon ![Transit Icon](http://gdurl.com/XfLI)
+
+5. The app automatically sets the time for the current time, to plan ahead, there is a "depart at" selection below the mode of transportation selection, from which the app will find the closest route to the entered time
+
+   * If you are planning a trip days in advance, the timing can be less accurate, be sure to check the bus schedule on the day of
+
+6. Tap on the best route for yourself, and the phone will display detailed directions on a map
+
+>**Note: For Android phone users, another option to consider is VT4U.**
+
+### Via Computer
+
+1. Go to this link: maps.google.com
+
+2. Type your destination into the location bar located in the top left corner, and select the correct address as it is auto-completed below the location bar
+
+3. Press the "Directions" button
+
+4. Similar to the destination, a location bar will appear for the starting location, just type in and select the address
+
+5. The default transport directions are for cars, so select the bus icon ![Transit Icon](http://gdurl.com/XfLI)
+
+6. Below the location bars, you should see a dropdown box, which reads, "Leave now," clicking this and selecting "Depart at" will allow you to specify the time and date you plan to leave
+
+7. Click on the best route for yourself, and the website will display detailed directions on the map
+
+ridebt.org, another option, has an updated live map, routes and schedules, and hours and service information, which gives an easier way to plan trips far in advanced, but seems to have less accurate times. This website serves as a good resource for Blacksburg transport information not available in this manual.
+
+## Finding the Bus Stop
+
+On **Google Maps**, bus stops are listed as blue symbols with a white bus
+
+Often the bus stop will have a small, covered structure, but not always
+
+Bus stops are marked by a sign, which lists the stop location and a list of operational hours, shown below
+![Bus Stop Sign](http://gdurl.com/gPGt)
+
+Don’t wander too far from the stop, as buses can drive past stops with no passengers
+
+## Boarding the Bus
+
+Be sure to have Hokie Passport on hand.
+
+The bus will be marked with a three letter code near the top of the front of the bus, which will match the **Google Maps** schedule, shown below
+
+![Front of the Bus](http://gdurl.com/4LLD)
+
+1. When the bus approaches, wait, standing at the bus stop
+
+2. After the bus stops, board the bus from the front entrance
+
+3. Show the bus driver your Hokie passport as you board the bus
+
+    * As a Virginia Tech student, the cost of travel on Blacksburg transit is pre-paid
+    * If you forgot to bring a Hokie passport, the bus fare is $0.50 (exact change)
+
+## Choosing a Seat
+
+Sit in the innermost seat, to leave room for other passengers, unless the bus has few passengers.
+
+You should be respectful of other passengers.
+
+Standing is also an option. The bus has several poles to hold onto to balance yourself as the bus moves and turns.
+
+If someone has their belongings on the seat next to them, and the bus is full, politely request for them to move their items so you can sit.
+
+## Notifying the Bus Driver of Your Stop
+
+The inside of the bus has both a yellow pull cord, located near the windows, and sometimes a red button marked stop on the inner bus poles
+
+![Inside of a bus](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Inside_a_bus_of_Blacksburg_Transit%2C_Blacksburg%2C_Virginia.jpg/1600px-Inside_a_bus_of_Blacksburg_Transit%2C_Blacksburg%2C_Virginia.jpg)
+
+1. Pull the yellow cord downwards or press the button after the previous stop to the destination, which sends a notification to the bus driver that someone wants to be dropped off at the next available bus stop
+
+> **Note: The** Google Maps **phone application will update your location as you travel, so you can view how far you are from your destination. In this view, bus stops along the route are represented by solid,  white circles**.
+
+2. Leave the bus through the set of doors closest to you, that is not the front set
+
+3. Thank the bus driver as you walk off the bus for the sake of politeness
+
+## Common Issues
+
+**Missed bus**  
+For common locations, many locations will have bus route overlaps, so check for other options.
+
+**Bus is running late, and you have another bus to catch**  
+Talk to the bus driver when you board, they call other bus drivers and request for them to wait for you.
+
+**No buses are going to your destination, or traveling outside of bus hours**  
+Look into Lyft and Uber, as paid alternatives. More information available at [this Smarter Travel guide](https://www.smartertravel.com/how-to-use-uber-lyft/).
+
+**Riding a bike**  
+Blacksburg buses have bike racks on the front.This can be viewed in the **Boarding the Bus** section above.
+
+## Conclusion
+
+Count on this manual to get you through the process of navigating the Blacksburg transit system. For other questions, don't fear questioning friends or the bus driver about the system!
+
+# Doing Laundry in a Dorm
+ 
+![image alt](https://gdurl.com/xIDh)
+
+```Authored By:``` ```Jay Klustner```
+
+## Purpose
+
+> *In this document, you will learn the ins and outs of doing laundry as a college student at Virginia Tech.* 
+ 
+Life on campus can be difficult. Dorm rooms are small and access to things you would normally have at home is limited. After classes, homework, and extracurricular organizations, it's crucial to leave some time to yourself to socialize and have fun. This leaves accomplishing mundane tasks such as laundry very little time. Luckily, there are a few things you can do to streamline your laundry routine to not only leave you more time, but to also take better care of your clothes at the same time. Don't be scared of laundry anymore - take control.
+ 
+The document has been organized in the following fashion:
+* Materials
+* Washing your clothes
+* Drying your clothes
+* Ironing your clothes
+* Closing
+ 
+## Materials
+
+> *This section contains a list of the items that you will need, why you will need them, and alternatives to them.*
+
+* Laundry Detergent
+	* This will depend on the type of washing machine. Luckily,     however, all of the washing machines on campus are front-loading, high efficiency ones, meaning that you can use the typical high efficiency detergents sold in stores.
+ 
+	> **NOTE: My preferred choice is to use laundry pods, which is easier to carry than a whole jug of liquid laundry detergent. My personal favorite ones are the [Tide Free & Gentle](https://www.amazon.com/Tide-Gentle-Laundry-Detergent-81-load/dp/B00VRAF7ZU/ref=sr_1_6_a_it?ie=UTF8&qid=1540172773&sr=8-6&keywords=laundry+pod) pods. I don't like my clothes to smell strongly of detergent, so these work best for me.**
+	
+* Stain Remover Spray
+	* Any old stain remover will work. What matters is that you treat the stain as soon as possible so that it does not set into the material. I will go into more detail on treating stains in the section titled "Washing your clothes".
+* Dryer Sheets
+	* These aren't 100% necessary, but they do reduce static and make your clothes smell good. Similar to laundry detergent, I prefer the unscented variety.
+* Access to washing machine
+	* This is assumed since you are living on campus, but double check and make sure there aren't too many people using it at the same time. I always found Sundays to be the most busy and during the day over the weekdays to be least busy. Find what works for you.
+* Starch
+	* Starch is used to add crispness to your clothes when you iron them. This is another optional material. I have found, however, that starch helps prolong the life of the creases that you iron into your clothes. More on that in the section titled "Ironing your clothes".
+* Iron
+	* People often splurge when it comes to irons. They are compelled to buy a certain iron based on often gimmicky features. I'm not saying that these features don't work, what I'm saying is that as a college student, money is tight - don't spend too much on features you don't need.
+	>**WARNING: Make sure that the bottom surface of your iron is clean. Even the smallest amount of residue or buildup can result in stains on your clothing.**
+* Ironing Board
+	* The same said about the iron is true about the ironing board. You can save money here. Make sure the surface is clean and the base is sturdy.
+ 
+## Washing your clothes
+> *This section provides step-by-step instructions for cleaning your clothes, from before the clothes go into the washing machine to after you take them out.*
+ 
+1. Sort your laundry  
+This step is dependent on how what kind of clothes you wear. Everyone is different. Whites should be separated to prevent bleeding from colored fabric. To wash more clothes in a load, you can wash on cold. This allows you to mix colors because bleeding isn't an issue with cold water. Only do this if you are trying to be more efficient. See the image below for more information on what the tag on your clothes actually means. 
+![Laundry Symbols taken from www.shoprto.com](http://shoprto.com/wp-content/mediafiles/2014/08/ClothesCleaningSymbols-467x420.jpg)
+
+    * [Laundry symbols](http://shoprto.com/wp-content/mediafiles/2014/08/ClothesCleaningSymbols-467x420.jpg)
+ 
+2. Once it's all sorted, add the first load to the machine. Be sure nothing is crumpled up too much so that it gets washed well.
+3. After everything is in, put in your preferred detergent. If it is a pod, add it directly to the load inside of the machine. If it is liquid, add it in the tray above labeled "Wash".
+{Had to delete this image: [image alt](https://https://gdurl.com/Alkj)]}
+4. Select your cycle. I recommend either cold or warm for most items, hot for your dirtiest.
+5. Press start and make note of how long the cycle has left so that you can promptly switch loads when it has completed.
+ 
+## Drying your clothes
+>*Now that your clothes have been cleaned, it's necessary to figure out the best way to dry them. Drying is the number one cause for wear and tear on your clothes. It's the reason why your formally soft t-shirt is no longer soft. Dryer lint is literally the fabric from your clothes coming off. The less lint that accumulates, the better.*
+
+
+### Delicates
+These include anything made of special fabrics or ornate knits. Wool is the best example of this. The best way to dry these types of clothes is to let them air dry, just be sure to allow them as much air flow as possible, don't just set them on a table or else they could get mildew.
+
+### Items that you will be ironing
+What I like to do with my dress shirts and pants is take them out at about halfway. This makes ironing a lot easier as they are at the perfect level of dampness. It also allows more airflow for the rest of your clothes, so they will dry more effectively.
+
+### Soft clothing
+The best example of this would be soft t shirts, basically items that you want to stay the same texture for a long time. I take them out along with the clothes that will be ironed, but instead of ironing them, I lay them out to dry with the delicates.
+
+### Normal clothes
+Though you will most likely want these to dry as fast as possible, avoid the urge to put them in on high heat. Low heat is the best option, even for sturdy clothes. As long as you don't overfill the dryer, they will dry in plenty of time. Recall what I said about dryer lint earlier. This will help your clothes last a long time. This is especially important given the clothes you are most likely wearing. College student don't have as much money to spend on clothes, so typically they purchase clothes that won't last as long as high quality brands. There's nothing wrong with this; we just want to make sure that you make the most of your purchase and extend the life of those clothes.
+
+### Towels
+Towels are usually the last thing to dry because they are so absorbent. Keep them in as long as possible.
+
+## Ironing your clothes
+>*Now that you've taken your clothes out of the dryer, it is important to get them ironed out as to prevent unnecessary wrinkling. Be sure to have your ironing board set up, iron plugged in and set to high, and starch on hand if you choose.*
+ 
+>**WARNING: It is important to always keep the iron in motion to avoid burning your clothes.**
+
+### Shirts
+1. Start with the collar. Flip it so that the side that touches your skin is face down on the board. Begin ironing by firmly pressing the iron in the middle of the collar, then work your way to the edges.
+![image alt](https://gdurl.com/HKgh)
+2. Move to the panels. This includes back and the two front panels. Lay them flat on the board and iron firmly.
+![image alt](https://gdurl.com/nbk8)
+3. When you are done with all three panels, move to the sleeves. Unbutton the wrist buttons and lay the sleeves as shown in the picture below. Iron each sleeve until smooth.
+![image alt](https://gdurl.com/G-Iq)
+
+### Pants
+1.  Fold lengthwise at the first two belt loops and the middle belt loop in the back. This is how you find the proper placement of the crease. The ending fold should result in a crease down the middle of each leg in the front and back. Please reference the pictures below for further clarification.
+![Pant crease front](https://gdurl.com/CVCo1)
+![Pant crease back](https://gdurl.com/92R6)
+2. Lay down pants on sides so that the creases you just created form the edges of the pants. Each leg should be laying on top of each other. See below for further clarification.
+![image alt](https://gdurl.com/eTAM)
+3. Lift up the top leg so that only one leg is on the board.
+![image alt](https://gdurl.com/Qy8W)
+4. Begin ironing by firmly pressing the iron down onto  the fabric. Be sure to maintain the same crease line the whole way up the leg. Keep the ironing moving and firmly pressed to prevent the fabric from getting too hot and potentially burning.
+5. When you finish the first leg, flip onto the other side and do that side.
+
+## Conclusion
+I hope that this guide will make your laundry routine more effective and efficient. Maintaining your clothes is an important life skill. Find what works for you and stick with it.
+

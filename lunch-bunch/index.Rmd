@@ -1,0 +1,418 @@
+---
+title: "Lunch recipes"
+author: "The Lunch Bunch"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+# Rigatoni with Ricotta and Spinach
+![Placeholder image](https://upload.wikimedia.org/wikipedia/commons/d/d8/Spinach_and_ricotta_cannelloni.jpg)
+
+This pasta dish is quick, easy, and serves as a great alternative to over-processed jarred pasta sauce. Yielding 6 servings for about $10, this works well within a tight (or not-so-tight!) budget.
+
+**Prep Time: 5 min**
+**Cook Time: 10-12 min**
+**Estimated Cost: $10**
+
+***
+
+## Ingredients
+
+Rigatoni | 1 lb  
+Fresh Baby Spinach | 6 oz  
+Ricotta | 2/3 cup  
+Minced Garlic | 2 cloves  
+Olive Oil | 2 tbsp  
+Red Pepper | 1 tsp  
+Salt and Pepper | to taste  
+
+***
+
+## Directions
+
+1. Add 6 quarts of water to a large pot. Turn the heat setting to ‘HIGH’.
+2. Once the water has come to a rolling boil, add the ridatoni and 1 teaspoon of salt to the pot. Reduce heat to ‘MEDIUM-HIGH’.
+3. Stir the pasta every few minutes until it is cooked al-dente, or to your personal taste. The pasta should be boiling for a total of 6-8 minutes. Once fully cooked, remember to turn the heat to ‘OFF’.
+4. Strain the pasta in a colander and return it to the pot.  
+
+    > *NOTE: Do not rinse the rigatoni! The starches from the pasta help adhere the sauce to the noodles. For more information and tips about the best ways to cook pasta, click [here](https://www.rachaelraymag.com/food/how-to-cook-pasta).*
+
+5. Pour 1 tbsp of olive oil into a large skillet or pan and set to ‘MEDIUM’ heat. Add minced, or finely chopped, garlic.  
+
+    > *NOTE: If you do not wish to mince the garlic yourself, you can use a garlic press or purchase pre-minced garlic in the produce section of your local supermarket.*
+
+6. Add one bag of fresh baby spinach to the skillet and cover. The spinach will shrink considerably, so do not worry if your skillet is too small.
+7. After 2 minutes, stir the spinach and remove from the heat. The spinach should look wilted and wet.
+8. In a mixing bowl, combine the ricotta cheese, the contents of the skillet, oil, salt, pepper, red pepper, and any preferred additional seasoning. Mix until all ingredients are evenly spread.
+9. Pour the contents of the mixing bowl into the pot and mix thoroughly.
+10. Serve hot and enjoy!
+
+***
+
+## Clean Up / Storage
+
+* Although a colander may not _look_ dirty, bacteria can still live and breed on it. Be sure to clean your colander along with all of your other dirty dishes.
+* This dish can be split up into multiple, small storage containers as a “meal prep” for the week. Otherwise, one large storage container will do for any leftovers.
+* Store leftovers in the fridge for up to 4 days. After this point the food is still safe to eat, but the pasta will have gone crusty.
+
+# Hamburgers (makes 4 burgers)
+## Author: Josh Doss
+
+![Burger](https://gdurl.com/1mDs)
+
+This hamburger recipe is the perfect mixture cheap, easy, and still tasty.  Even if you’ve never touched a spatula in your life, you can still make your own delicious burgers.  The recipe also provides instructions on how to add your own style and flavors to suit you better.  All of the necessary ingredients and tools are listed at the very top, to ensure you have everything required before you start cooking.  Then, all of the optional and recommended ingredients and tools are listed (just to spice it up a bit).  Once you are sure you have everything you need, you can jump right in and start the recipe.  You will first need to prep your kitchen and your food, then you can begin cooking.  Be sure to follow the steps in order to, and pay attention to the warnings (labeled in red), and the optional instructions (labeled in blue).  This recipe might seem ambitious at first, especially if you’ve never cooked burgers before, but this recipe is meant to guide you along the way, and even provide tips to increase your skill (or at least make it appear that way).  Lastly, be sure to use caution around the heating elements and sharp utensils. This recipe feeds up to 4 people.
+
+
+**Prep Time: 10 min**
+
+**Cook Time: 20 min**
+
+**Total Time: 30 min**
+
+**Estimated Cost: $13**
+
+***
+
+## Required Kitchen Tools
+- Spatula
+- Pan/Skillet (picture below)
+- Cutting board
+- Knife
+- Measuring cups
+
+![Pan](https://gdurl.com/uc7Q)
+
+## Ingredients
+
+Ingredient | Quantity
+:- | :-
+Hamburger meat | 1.5 pound
+Hamburger buns | 4 buns
+Lettuce(shredded) | 1 small bag
+Tomato | 1 whole (or 4 slices)
+Salt |
+Pepper |
+Olive oil (or preferred oil) |
+
+> *NOTE: A head of lettuce can also be pulled apart instead of using shredded lettuce*
+
+### Optional ingredients
+Ingredient | Quantity
+:- | :-
+Monterey Jack Cheese | 4 squares
+Red Onion | 1 whole
+Ketchup |
+Mustard |
+Mayonnaise |
+Sandwich Pickles |
+
+## Directions
+### Preparation
+1.  Wash and dry all produce.
+2.  Shape hamburger meat into 4 patties of equal size.
+3.  Sprinkle salt and pepper onto all sides of patties (to taste).
+4.  Slice tomatoes, set aside.
+
+### Cooking
+1.  Heat olive oil in medium-sized pan over medium-high heat on stovetop.
+2.  Add seasoned patties to pan.
+3.  Cook until desired doneness, flipping halfway through (4-5 minutes per side).
+
+	> *NOTE: For safe consumption, the beef patties should reach an internal temperature of at least 160 degrees Fahrenheit. This can be measured using a meat thermometer. If you do not have access to a meat thermometer. Ensure that the inside of the meat is no longer red or pink.*
+
+### Serving
+> **CAUTION**: Stove and pans are hot. Use pot holders to handle anything from the stovetop.
+
+1.  Place cooked patties on buns.
+2.  Add one tomato slice to burgers.
+3.  Add lettuce to burgers (as desired).
+
+## Optional Directions
+
+##### These instrutions are all optional. Pick and choose which ingredients and directions suit your taste.
+
+### Preparation
+1.  Peel onion, and cut into slices.
+
+### Cooking
+1.  Toast buns: Heat oven to 450 degrees Fahrenheit. Place buns on baking sheet. Place in oven until golden brown (about 3 minutes).  
+
+	> *Note: sauteed onions, rather than raw onions, can add a lot more flavor to a burger. Instructions for easy sauteed onions can be found with a quick online search.*
+
+
+### Serving
+1.  Spread a thin layer of mayonnaise on one of the buns.
+2.  Add desired amount of ketchup and/or mustard to burger.
+3.  Add desired amount pickles to burger.
+4.  Add desired amount of onions to burger (less is usually more).
+5.  Add one slice of cheese to burger.
+
+## Clean up / Storage
+> **CAUTION**: Turn off any appliances used
+
+* The grease and oil from the pan should be placed into a oil catcher bag. If you do not own an oil catcher, place the oil in a sealable bag or can and dispose of in the garbage can. This should be done to ensure the oil does not spill and make a larger mess.  
+
+	> *NOTE: Oil and grease should not be poured down the sink. Doing this can cause clogged drains and can flood, causing extensive damage in severe cases.*
+
+* All ingredients should be stored seperately.
+* Burger patties can be stored in a sealed bag or bin for up to 5 days in the fridge.
+*  Cheese, lettuce, onions, and tomatos can all be stored in seperate, sealed bags in the fridge for up to 5 days.
+*  Ketchup, mustard, mayonnaise, and pickles should all be stored in their original containers and stored in the fridge (check containers for more information).
+*  Oil, salt, and pepper can all be stored at room temperature.
+
+# Pasta Salad
+
+## Author: Logan Eisenbeiser
+
+![Pasta Salad](https://gdurl.com/i4_8)
+
+This simple recipe for pasta salad will guide you through preparing a fast, healthy and delicious lunch! This recipe makes 5-6 generous portions and will keep in the fridge for up to 5 days.
+
+**Estimated Time: 20 min**
+
+**Estimated Cost: $20**
+
+---
+
+## Required Tools
+
+- Pot
+- Cutting Board
+- Knife
+- Measuring cup
+
+## Ingredients
+
+![Sample Ingredients](https://gdurl.com/mxeH2)
+
+Ingredient | Quantity
+:-|:-
+Fusilli or rotini pasta | 1 pound
+**Optional Toppings** |
+Cherry tomatoes | 1 cup
+Bell peppers | 2-3
+Olives | 1 cup
+Broccoli | 1 cup
+Cucumbers | 2
+Red onion | ½
+Salami | ½ cup
+Feta cheese | ¾ cup
+Mozzarella cheese | ¾ cup
+Cooked chicken | 1 cup
+Cooked Ham | 1 cup
+Salt and Pepper |
+**Dressing** |  
+Italian dressing | 1 bottle
+*Or* |
+Olive oil | ⅓ cup
+Vinegar* | ¼ cup
+Mayonnaise (optional) | ⅓ cup
+Mustard (optional) | ¼ cup
+
+> *Balsamic vinegar is recommended, but choose a kind that suits your taste!*
+
+### Recommended Combinations
+
+Style | Ingredients | Dressing
+:-|:-|:-
+Classic | cherry tomatoes, bell peppers, black olives | Italian dressing or vinegar and oil
+Italian | cherry tomatoes, bell peppers, black olives, mozzarella cheese, red onion, salami | Italian dressing
+Greek | cherry tomatoes, olives, cucumbers, feta cheese | olive oil and vinegar
+Sample | cherry tomatoes, bell peppers, broccoli, mozzarella cheese | olive oil and vinegar
+
+## Directions
+
+### Pasta
+
+1. Fill a large stock pot with water and about 1 teaspoon of salt
+2. Place the stock pot on a burner over high heat and bring to a boil while you prepare the rest of the ingredients
+3. Once the water is boiling, carefully add all the pasta and cook for 8-16 minutes, according to the directions on the pasta packaging
+4. Once the pasta is done cooking, drain into a strainer and rinse with cold water to cool  
+![Draining the pasta](https://gdurl.com/A9bk)
+5. Dry pasta and place into a large bowl
+
+### Vegetable Preparations
+
+#### Bell Peppers
+
+1. Rinse peppers and dry off
+2. Cut off the top and bottom of the pepper  
+![Cut tops off peppers](https://gdurl.com/RASb)
+3. Place the pepper on one of the cut ends and make a cut straight down through the side  
+![Make cut down down the side](https://gdurl.com/PThk)
+4. Slowly unroll the pepper, cutting the core away from the side as you flatten it out  
+![cutting the core from the pepper](https://gdurl.com/DJ0k)
+5. Once the core is free, discard it and the top and bottom segments  
+![Separated parts of the pepper](https://gdurl.com/ilG2)
+6. Slice the pepper into the desired shape and thickness  
+![Sliced pepper](https://gdurl.com/wOJ5)
+
+#### Broccoli
+
+1. Rinse the broccoli and dry off
+2. Cut off the stem
+3. Cut into bite sized pieces  
+![Cut broccoli](https://gdurl.com/UVlg)
+
+#### Cherry Tomatoes
+
+![Cherry Tomatoes](https://gdurl.com/q3LY)
+
+1. Rinse tomatoes and dry off
+2. Using a serrated knife, cut each tomato in half with a gentle sawing motion
+
+#### Cucumbers
+1. Rinse the cucumbers if you want to leave the peel on
+2. If desired, peel the cucumber with a peeler or a knife
+3. Cut the cucumber into the desired size and shape (round slices or thin spears are recommended)
+
+#### Cooked Chicken or Ham
+1. Cut the chicken or ham into small cubes or strips
+
+#### Feta Cheese
+1. Drain the feta if necessary
+2. Roughly cut or crumble into small pieces
+
+#### Mozzarella Cheese
+1. Slice the mozzarella cheese if necessary
+
+#### Olives
+1. Drain the olives and dry
+2. Slice if desired
+
+#### Onion
+1. Cut "pointy" end of the onion off (not the root end)
+2. Cut the onion in half through the root
+3. Peel the two halves of the onion
+4. Lay the onions flat side down, and slice thinly
+5. The slices should be half circles, which can be separated into thin strips
+
+#### Salami
+1. Remove the skin from the salami if it is not edible
+2. Slice the salami into the desired size and shape
+
+### Dressing
+1. Pour oil and vinegar in a small bowl, but one that has tall enough edges to allow vigorous stirring  
+![Oil and Vinegar in bowl](https://gdurl.com/Cnqe)
+2. Stir vigorously for 30 seconds to a minute, until the mixture is uniform and you cannot see the difference between the oil and vinegar  
+![Emulsified dressing](https://gdurl.com/f9dWs)
+3. Add any seasonings, mayonnaise, or mustard as desired and mix well to combine
+
+---
+
+### Combining Ingredients
+1. Place the cooked, strained and cooled pasta into a large bowl
+2. Add as much of the dressing as desired and stir well to coat the pasta
+3. Add the prepared vegetables, meats and cheeses
+4. Serve and enjoy!
+
+---
+
+### Clean-Up and Storage
+- Place the pasta salad in an airtight container and refrigerate for up to 5 days
+- Wash and dry the cutting board, knife, strainer and pot
+- Toss away any scraps or trimmings
+
+# Chicken Quesadilla
+## Author: Phillip Sullivan
+
+![quesadilla](http://gdurl.com/Ce_k)
+
+Having easy to cook meals is vital for any full repertoire of recipes as there will always be a need to prepare food quickly. You do not need to have much if any experience in the kitchen to make quesadillas. Quesadillas are a perfect recipe for any level of chef. This recipe documents how to create two servings of quesadillas, a cheap, simple, and delicious lunch. In addition, this recipe requires minimal cooking tools. All you will need to cook this recipe is the short list of items listed along with the ingredients as described below.  
+
+**prep time: 10 min**
+
+**cook time: 15 min**
+
+**Estimated Cost: $10
+
+***
+
+## Required Kitchen Tools
+* Skillet
+* Knife
+* Cutting Board
+* Spatula
+* Measuring cups
+* Forks
+
+## Ingredients
+
+Ingredient | Quantity
+:- | :-
+Chicken | 1 breast
+Olive oil | 2 tablespoon
+Flour Tortilla | 2 large
+Mexican Blend Shredded Cheese | 1 cup
+Salt | 
+Pepper | 
+**Optional Toppings** | 
+Tomato | ½ 
+Onion | ½
+Bell Pepper | 1 pepper
+Mushrooms | ½ cup
+Corn | ½ cup 
+**Optional Dips** |
+Sour cream | ¼ cup
+Salsa | ¼ cup
+Guacamole | ¼ cup
+
+
+## Directions
+
+### Chicken Preparation
+
+> *NOTE: If you are short on time, you may use an already cooked rotisserie chicken instead of a chicken breast and skip to step 5. If you choose to do this, you will  not need the whole chicken and will need to find another use for the unused meat.*
+
+1. Add 1 tablespoon to a large skillet (a flat pan) on medium heat.  A skillet is pictured below if you are unsure what this pan is.
+![skillet](http://gdurl.com/uc7Q)
+
+2. Add the chicken breast to the pan and let cook for 5 minutes.  If you move the chicken too early it will stick to the pan.  Not moving the chicken also helps prevent the chicken from drying out when you cook it.
+3. While the chicken is cooking begin the Ingredients preparation steps
+3. Flip the chicken breast and let sit for another five minutes. This will ensure an even cook which will give a consistent juicy flavor to your chicken.
+4. Let chicken sit for another 5 minutes before cutting. This prevents juices from escaping when you cut the chicken which would negate all our efforts to keep juices in the chicken.
+5. Shred the chicken.  This can be done by taking 2 forks and pulling at the chicken to separate the fibers of chicken.  Refer to the image below for assistance.
+![shredding chicken](http://gdurl.com/2leZ)
+
+6. Set chicken aside until later needed
+
+### Ingredients Preparation
+1. Choose which optional toppings you would like to include in your quesadillas. These are listed above in the ingredients table
+2. Rinse and dry your chosen toppings
+3. Dice your chosen toppings. To dice, cut the vegetable along all three axis with half an inch between each cut. It will be easiest to cut horizontally (parallel to the cutting board) first. Then cut up and down, rotate your vegetable and cut up and down again
+4. Set diced toppings aside until needed again
+
+### Quesadilla Cooking
+1. In the same pan the chicken was cooked in, add the last tablespoon of olive oil and move the pan to spread the oil evenly.
+2. Place one tortilla flat in the pan
+3. Add ½ of each of the diced optional toppings you chose to the tortilla. Only put toppings on one half of the tortilla.  You may choose choose which toppings you wish to include.  
+
+    > *NOTE: Make sure not to pile ingredients too tall such that you will not be able to fold your quesadilla*
+
+4. Add ½ of the shredded cheese to the same half of the tortilla as the other ingredients.  
+5. Once the cheese has began to melt, fold the tortilla in half over the ingredients. 
+6. Press on the top of the quesadilla with your spatula. This will allow the top half of your tortilla to stick to the cheese so your quesadilla will not fall apart when you try to eat it.
+
+    > **CAUTION**: The pan will be HOT. Do this step using a spatula.
+
+7. With a spatula, flip the quesadilla and toast the other side of the tortilla, this should only take 30 seconds. It may take longer depending on how many toppings you have included.
+
+    > *NOTE: If when you flip your quesadilla, the tortilla is not a golden brown, leave the quesadilla toasting until it is*
+
+8. Remove the quesadilla with a spatula and set aside. You can save yourself from cleaning some dishes if you place the quesadilla onto the plate you plan to eat of off.
+9. Repeat steps 2-7 for the other tortilla and other half of your ingredients. 
+
+> *NOTE: Remember to turn of the stove after use*
+
+### Plating
+1. Place 1 quesadilla on each plate
+2. Cut the quesadillas into thirds as shown in the figure below
+![cutting guide](http://gdurl.com/zr8v)
+
+3. Scoop any or all of the optional dips onto the plate next to your quesadilla. These are listed above in the ingredients table
+4. Enjoy your quick, easy, and delicious meal.
+

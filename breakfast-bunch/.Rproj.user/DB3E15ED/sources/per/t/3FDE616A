@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542203764482.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "964897841",
+    "id" : "3FDE616A",
+    "lastKnownWriteTime" : 1542203888,
+    "last_content_update" : 1542203888856,
+    "path" : "~/Documents/Old Docs/Documents/GitHub/RMarkdown/index.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "19,261",
+        "scrollLine" : "17"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,356 @@
+---
+title: "Dinner Recipes"
+author: "Dinner Winners"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 2
+    toc_float: true
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Italian Dishes by Nick Burns
+In this section, you will get a look at how to cook some of your favorite Italian dishes. Italian food is hearty and inexpensive with a variety of dishes being possible just by knowing how to boil pasta. Italian dishes are traditionally simple in their preparation but lean on high quality ingredients and cooking skill for the extra flavor. You will get an overview of all of the varieties of easy pasta dishes you can make and feed yourself for a whole week.
+
+## Baked Spaghetti
+![Finished baked spaghetti](http://gdurl.com/nAyS "Baked Spaghetti")
+
+Baked spaghetti is easy to make, delicious, and very filling. With only **45-50 minutes of prep time** (most of which is waiting for it to bake), you can keep yourself fed for nearly a week (**6 servings per batch**) with a hearty dish full of traditional Italian flavors. This dish is perfect for the winter when you need something warm but you don't have time to cook all week
+
+### Ingredient List
+* 1 (1-pound) box of spaghetti
+* A pinch of salt
+* 1 tablespoon of butter
+* 3/4-pound of lean ground beef (10-15% fat)
+* 1/2 tablespoon of onion powder
+* 1 tablespoon of garlic powder 
+* 1 (16-fluid ounce) jar of marinara sauce
+* 1/2 cup of shredded Parmesan cheese
+* 1 cup of shredded Mozzarella cheese
+
+```
+WARNING: This recipe contains dairy products, 
+do not consume if you are lactose intolerant.
+```
+
+### Kitchenware Needed
+* Large pot (~1 foot deep)
+* Perforated spoon
+* Strainer
+* Large (at least 10 inches in diameter) non-stick skillet 
+* Wooden spoon 
+* 3-quart oven-proof ceramic or glass dish
+* Oven mitts or potholders
+
+### Preparation Method
+1. Preheat your oven to **350 degrees F** (175 degrees C).
+	> *NOTE*: Be sure to do this first as it will take some time for your oven to heat up. You don't need to do anything else to stop it from heating, it will stay at 350 degrees on its own.
+	
+2. Preparing the spaghetti:
+	 1. Fill your pot with water, leaving about an inch between the water and the top, and place it on a larger burner on your stove-top to boil. Set the eye to medium-high heat. Add a sprinkle of salt to the water to initiate the bubbling.
+	 2. Once the first bubble surfaces, break the uncooked spaghetti in half and drop it in the pot.
+		 > **CAUTION**: Do not put your hands over the steam coming off of the water. You can get burns from steam similar to those from touching hot surfaces.
+		 
+	 3. Boil for **8-10 minutes** while occasionally stirring until the spaghetti is cooked. Try a piece (be sure it's cool before you try it) to check if it's done; if there is no resistance to you biting it, the spaghetti is cooked.
+	 4. Strain the spaghetti over your sink and then add it back to to the pot. Add the tablespoon of butter to the spaghetti and stir it in until it melts. This ensures that the spaghetti will not clump up.
+		 > **CAUTION**: You will want to lit the boiling die down a little before straining the spaghetti as a good amount of steam will be released when the water makes contact with the sink. The cooler the water is the cooler the steam will be.
+		 
+	 5. Set aside for later and turn off the eye you were using. Don't worry about the spaghetti getting cold, it will be reheated when it is baked later.
+3. Preparing the meat sauce:
+	1. Place the skillet on another large burner set to medium-high and begin cooking your ground beef in the skillet. Place the whole patty in the skillet and break up the ground beef with your wooden spoon so that the ground beef is evenly dispersed in the skillet. You want all of the ground beef to be in contact with the skillet.
+		> **CAUTION**: Place the skillet so the handle is pointed *away* from you. You don't want to accidentally bump the handle and knock the contents of the skillet all over the floor.
+		
+	2. Sprinkle the garlic and onion powder *evenly* over the ground beef and mix in with the ground beef using the same method you used to break up the ground beef. 
+	3. Cook, while stirring regularly, until the ground beef is browned but still juicy. Break up some of the ground beef to make sure it isn't pink in the middle. If it begins to blacken and dry out the ground beef is overcooked.
+Properly cooked ground beef looks like this:![Properly cooked ground beef](http://gdurl.com/FVPh)
+	4. Lower the heat to low setting and add the marinara sauce. Mix the sauce and the ground beef thoroughly. Let the sauce simmer (slight bubbling of the surface) for **2-3 minutes**. 
+		> *NOTE*: If you feel your ground beef is close to overcooked, aim for 2 minutes rather than 3 as the simmering will continue to cook your ground beef. 
+		
+	5. Take the skillet off of the eye once the simmering is done. Set  it aside and turn off the eye you were using.
+4. Baking the dish:
+	1. Pour your meat sauce into the large pot containing the cooked spaghetti. Add in your grated Parmesan before thoroughly mixing the sauce and spaghetti using the perforated spoon. Be sure to mix the entire pot so that the sauce is distributed evenly over all of the pasta.
+
+	2. Transfer the spaghetti and meat sauce mixture into the oven-proof dish. Use the wooden spoon to get all of the mixture out of the pot and even out the mixture in the dish. The surface should be level throughout the dish.
+	3. Evenly coat the top of the spaghetti and meat sauce with our shredded Mozzarella so that you cannot see the spaghetti underneath. Make sure the cheese layer is even or else the spaghetti will not bake evenly. Using your oven mitt or potholder, place the dish on the middle rack of your oven so that it isn't too close to the top or bottom heat sources. 
+	4. Let the spaghetti bake for roughly **30 minutes**. Check the spaghetti regularly after the **20 minute mark**. You do not need to wait the full 30 minutes. You will know it's done when you see the cheese bubbling slightly. It is okay if the top layer of cheese gets darkened, it will not affect the taste.
+	5. Carefully remove the dish once the spaghetti is done and turn off the oven.
+5. Let the dish cool for at least **5 minutes** before serving but do not let it get cold, this dish is best served fresh out of the oven. This dish can be served right out of the dish that you baked it in using a large spoon. The dish can be slightly messy to eat so it is best served in bowls.
+6. Store this dish either in the dish it was baked in or a smaller bowl covered with plastic wrap. Keep refrigerated. This dish contains 6 servings but it *should not* be kept past 6 days time.
+
+# Chinese food Boiled Beef user manual
+Author: Yang Liu
+
+## Introduction
+ In this section, you will know the overview about the chinese food and learn how to cook them. There are too many types of chinese food which are fast and inexpensive. You will get the recipe and materilas of the Boiled beef.
+ 
+ This dish was created by Sichuan Zigong famous chef Fan Ji'an. Fan Ji'an is good at summing up experience in cooking practice and insisting on improving innovation. For example, the soup is made from boiled beef. It is cooked with boiled beef. It is seasoned with salt, soy sauce, chili and pepper. It is placed in a dish and eaten. In the 1930s, he improved the soup of boiled beef into boiled beef. The raw materials and production process were: beef flakes, vegetable or lettuce, red and white radish as accessories; salt, soy sauce, chili Mix the pepper and starch with the beef slices, cook in the pot with the leeks or lettuce slices, add the broth and onions, master the heat, and cook the beef until it is stretched and shiny. Cooked oil is ready. The characteristics of boiled beef are: tender meat, delicious and delicious, oily but not greasy, spicy, is the finest food with wine and rice, and become Sichuan famous dish with strong local flavor. Boiled beef was selected for "Chinese recipes" in 1981.[https://www.chinasichuanfood.com/shui-zhu-beef/]
+ 
+ My audience is off-campus students or someone who truly love spicy food. In addition, my audenice is also someone who wants to save money on food but they want to make delicious food. 
+ 
+## Boiled Beef
+ 
+ ![Boiled beef](http://gdurl.com/RwRT)
+ 
+ This is a finished dish of Boiled beef. 
+ 
+### Ingredient List
+
+ 1. Two asparags lettuces
+ 2. 200g lean ground beef
+ 3. 150g soybean sprouts
+ 4. 2 garlics
+ 5. 1 ginger
+ 6. thick broad-bean sauce
+ 7. some dry starch
+ 8. sichuan pepper
+ 9. 300ml water(adjustment by the size of the bowl and amount of ingredients)
+ 
+ 
+#### Warning 
+ 1. Make sure that you are not allergies to these materials in ingredient list.
+ 2. Make sure that you are not allergies to spicy.  
+
+### Kitchenware Needed
+1. Pan
+2. Slice
+3. smoke exhaust ventilator
+
+### Preparation Method
+Time: 10-30 minutes
+Difficulty: side dishes (intermediate)
+
+1. Wash the beef and cut into thin slices about 45 cm long and 2.5 cm wide.
+2. Add dry starch, a little salt and chicken essence, and mix well (the beef itself has water, do not add water, do not mix well on a few drops of water or smoke).  
+![step 2](http://gdurl.com/48ypt)
+4. Sliced ginger and chopped garlic.
+5. Cut the head of lettuce, root and leaf into thick slices，then cut it into small sections about 6cm in length.
+6. Boil the lettuce and the bean sprouts in the boiling water (add the mushrooms and leave the house).
+7. Remove and drain after cooking.
+8. Spread the dishes in a large bowl ready to be boiled with sliced meat.Bean sprouts on the bottom, vegetables on the top.
+9. Pour the oil when the pan is hot,.2-- 3 times more than usual.When the oil is seven minutes hot, add ginger slices and stir-fry.
+10. Add the peppercorns right away.
+11. Add the bean paste after two stir-frying and stir a few times.
+12. Release the fragrance, the oil only then bursts out the flavor.Add a little chicken powder.
+13. Add water.When the water has boiled, hold the beef slices with your chopsticks and put them down one by one.After putting out, quickly dash off, turn off the fire immediately after discoloring.
+14. Pour the soup and meat into a large vegetable bowl.
+15. Sprinkle with dry chili, Spread the minced garlic on top of it.
+16. Wash the pan and heat it up. Pour in canola oil.(the amount of oil is the amount of stir-fried vegetables in ordinary times).  
+![step 16](http://gdurl.com/4guk)
+18. Sprinkle with another layer of peppercorn flour.
+
+#### Note
+1. The selection of beef is very important, should choose to have no muscle, no skin, no oil, no fat meat for the best.From the point of view of the site, should choose the cow hind legs, such as the best meat.
+2. Slices of beef should be cut thick and thin evenly, the next hot soup pot slip until the color turns to white, and then start the pot.Don't worry about undercooked meat. Put it in the pan and turn off the heat as soon as it changes color.
+3. The side dish is not very exquisite actually, what can, give priority to with needle leaf vegetables, most often deserve is the bean sprout that matchs is, celeriac of head of lettuce, garlic, celery.
+4. I didn't put any salt in it because it had a salty taste.A little more for the heavy taste.
+5. Dry pepper and peppercorn flour are added and subtracted according to their taste.I have kids at home, so put less dry chili.I usually eat them all by myself.
+6. The oil spill is the key. Don't omit it.
+7. Those who are afraid of the heat can buy non-spicy chili, or slightly spicy.You can control the heat.
+8. (For more infomation, please see link below)https://www.chinasichuanfood.com/shui-zhu-beef/
+
+## Nutritive value
+Beef is rich in protein, and its amino acid composition is closer to human needs than pork, which can improve the body's ability to resist disease. It is suitable for the growth and development of the body, as well as for people who are recuperated after surgery and disease, in addition to blood loss and tissue repair.Cold winter beef, has the role of warm stomach, winter tonic.According to Chinese medicine, beef can nourish the spleen and stomach, strengthen bones and muscles, relieve phlegm and wind, and relieve thirst and saliva. It is suitable for people with depression, shortness of breath, soft bones and muscles, anemia, and yellow eyes.
+
+# American Food by Michael Richter
+
+**In this section, you will learn how to cook some of your favorite American dishes. American food is fast and inexpensive with a variety of dishes being possible by knowing some simple techniques. American food is focused on comfort food and savory ingredients.  You will get an overview of all of the varieties of dishes you can make and fix those hunger needs.**
+
+## Macaroni and Cheese
+
+![mac and cheese](http://gdurl.com/qQog "Mac and Cheese")
+
+Today we are going to be making an american classic mac and cheese. Mac and cheese is a household favorite of many children and starving college students across the world. This simple yet tasty pasta dish can provide you quick calories in the middle of your all night study session.
+
+### Ingredient List
+
+ - 1 pound box of pasta shells
+ - 1 quart of whole milk
+ - 1/2 pound of white American cheese
+ - 1/2 pound of yellow American cheese
+ - 1/2 pound velveta singles (half a block of velveta cheese)
+ - 4 tablespoons of flour
+ ```
+ WARNING: This recipe contains dairy products, 
+ do not consume if you are lactose intolerant.
+ ```
+
+### Kitchenware
+
+ - Large pot (~ 1 foot deep)
+ - Large strainer
+ - Medium pot (~1/2 foot deep)
+ - Medium whisk
+ - Large baking pan
+ - Measuring cups
+
+### Preparation
+1. Place the medium pot on a large burner on the stove and slowly pour the cold milk into the pot. Then, turn the stove on to medium heat.
+
+    > **CAUTION**:  Never touch a burner with your hands when it is on or has been recently used. When using the stove always be mindful of which burner you have turned on.
+
+2. Measure and add the flour into the medium pot with the milk and proceed to whisk them until the flour is no longer lumpy.  
+
+    ![How to Whisk](http://gdurl.com/eqhJ "How to Whisk")  
+
+    > *Note*: A whisk is a common kitchen tool that seems obvious to use, but can be misleading. When talking about whisking the milk it is advised to use a side to side motion as referenced by the arrows in the diagram. Some people may use a beating or stirring motion, but it is recommended to move your whisk side to side until the desired thickness is reached.
+
+2. Once the flour and milk are whisked properly add slowly add slices of cheese one at a time until they melt. While they are melting continue to whisk the mixture. Once the slice of cheese melts continue to repeat until all the cheese is melted in the medium pot.
+
+    > *Note*: While you are melting the cheese you can simultaneously cook the pasta shells in step 4 to save you time. 
+
+3. Fill most of the large pot up with water (~3/4 full) and place it onto the stove beside the medium pot of milk/flour/cheese. Now, turn on the burner for the large pot on high heat. After **3 minutes** depending on your stove your water should be at a rolling boil.  
+
+    > *Note*: Placing a lid on top of your pot of water can speed up the boiling process. However, once the water is at a rolling boil be sure to remove the lid.  
+
+    > **Caution**: Turning on the burner to a high heat can be dangerous and may cause some water to overflow when boiling. Be sure to monitor the water while cooking and if this situation occurs pour out some of the water until it is no longer boiling over the top.  
+![Rolling Boil](http://gdurl.com/PXqi "Rolling Boil")  
+The term rolling boil means when so many bubbles are being produced so fast from the bottom of the pot, that stirring won't impact their production. The bubbles get to be very large as seen in the photo above.
+
+5. Once the water is at a rolling boil add the shells pasta to the large pot and lower the burner to medium heat. The pasta should take **~12 minutes** to cook, but it varies depending on heat and exact amount of water or pasta.  
+![Cooked vs. Raw pasta](http://gdurl.com/ohcw "Cooked vs. Raw pasta")  
+The pasta on the right side of the image is raw pasta and is not edible. However, if cooked for the proper amount of time it should look like the pasta on the left side of the image. When cooking your pasta check every couple of minutes after ten minutes to see if your pasta is completely cooked.
+
+6. Now turn off the heat, drain your pasta from the large pot by using the large strainer.  
+
+    ![Draining Pasta](http://gdurl.com/OWoM "Draining Pasta")  
+
+    > *Note*: To drain your pasta you must take your pasta from the large pot and place it into the strainer as seen above. Before you do this you should have your strainer in the sink so that all the water drains into the sink. After you have finished draining your pasta you can place the strainer with pasta inside on top of your large pot.
+
+7. Preheat your oven to **350 degrees Fahrenheit**. While your oven is waiting to heat up add the cooked pasta and drained pasta into a large baking pan. After the pasta has been put into the pan add the cheese sauce on top of the pasta.  
+
+    > *Note*: If you are looking for a way to make this dish a bit healthier or add some flavor consider adding some broccoli to your mac and cheese. This can be done by cutting up broccoli into small pieces and adding it your baking tray before it is placed into the oven.
+
+8. Once your oven is preheated then you may place your baking tray into the oven for **25 minutes**  
+
+    > *Note*: While the mac and cheese is cooking in the even it advised for you to start cleaning up all the kitchenware and other items used while making this dish.
+
+9. Carefully remove your mac and cheese from the oven and let it cool for **10** minutes. After this you are now ready to serve your delicious mac and cheese. Typically it is served using a large serving spoon and plates, but these are optional. You can store your meal by covering the top of the baking tray with tin foil and putting it in the refrigerator.  
+
+    > **Caution**: When removing items from the oven you should use oven mitts to prevent yourself from burning your hands.
+
+# Mexican Dishes 
+This list of recipes are all tailored towards Mexican or hispanic style meals. These dishes will contain ingredients that are affordable and healthy at the same time. The following recipes will not be time consuming, and will be easy to follow for off campus college students that are learning how to cook. 
+
+## Chicken Tacos 
+Chicken or beef tacos are some of the most common Mexican dishes, because they are not just delicious and healthy, but easy to make as well. This is a very generic recipe designed to minimize accidental errors and time consumed making the dish. 
+![Chicken Tacos](http://gdurl.com/cipU)
+
+This entire recipe can be finished in less than 30 minutes. 
+
+### Ingredient List 
+ - 1 tablespoon extra virgin olive oil
+ - 2 boneless skinless chicken breasts, cut into 1 inch strips 
+ - table salt and pepper 
+ - 1/2 teaspoon garlic powder
+ - 3, 4 inch corn tortillas 
+ - mild/medium salsa 
+ -  1 avocado 
+ - 1 leaf of parsley 
+ - 1 red bell pepper 
+ - 1 green bell pepper 
+ - powdered Mexican cheese
+ - 1 lime
+> NOTE- Make sure avocado is ripe enough, so it is not too firm. Select corn tortillas and and salsa to whatever looks the best to you. 
+
+> Warning- This recipe contains dairy products. Do not consume if you are lactose and tolerant. 
+
+### Kitchenware Needed
+
+ - Skillet or pan
+ - Cooking spoon 
+
+### Directions 
+
+ 1. Place pan and olive oil on stove with medium heat 
+ 2. Place seasoned chicken on warmed pan 
+ 3.  Season chicken strips with garlic powder and salt and pepper
+ 4. Stir seasoned chicken in pan, so flavors mix thoroughly 
+ 5. Cook until chicken is golden brown (roughly 6 minutes) 
+ 6. Slice avocado and lime into wedges 
+ 7. Slice red and green bell peppers into thin slices 
+ 8. Place chicken, powdered cheese, salsa, slices of bell pepper, avocado wedges on tortilla. Order of ingredients on tortilla can vary depending on what you prefer. 
+ 9. Squirt lime wedges on taco 
+> Caution- If chicken begins to smell burnt, and starts turning black, you have cooked it too long. Be sure to stir and mix chicken strips so all sides of each strip are golden brown. This ensures that each strip will be completely cooked. 
+
+## Guacamole 
+Guacamole is a very popular Mexican side dish and appetizer, because it is very healthy, tasty, and easy to make. It is also a great additional ingredient on tacos, burritos, nachos, and other Mexican dishes. 
+
+![Guacamole](http://gdurl.com/lI1Q) 
+ 
+This recipe takes roughly 10 minutes to make, and an additional 10 minutes for a waiting period to let different flavors mix with each other. 
+
+### Ingredient List 
+
+ - 2 ripe avocados 
+ - 1 small onion 
+ - 1 ripe tomato 
+ - 1 lime 
+ - table salt and pepper 
+ - 1/2 teaspoon of garlic powder 
+>Note- Make sure the texture of the avocados and tomatoes are not too firm or too soft. 
+
+### Kitchenware Needed 
+
+ - medium size serving bowl (Can be glass or metal, whatever is available) 
+
+### Directions 
+
+1. Peel and mash avocados in medium bowl 
+  > Note- Mashing avocados can be done with simple metal fork. Mash and stir until mixture is smooth but still has chunks in it. 
+2. Cut onion and tomato into small square pieces 
+  >Note- Use sharp enough knife to cut straight squares without smashing tomato or onion. 
+3. Add tomatoes and onions into avocado mixture, then stir 
+4. Cut lime into wedges, then squeeze one wedge into mixture 
+5. Add garlic into mixture and stir all ingredients until it is thoroughly mixed 
+6. Let mixture sit for 10 minutes to allow the different ingredients  to combine 
+
+## Queso 
+Queso, like guacamole, can be a very delicious additional ingredient to many different Mexican dishes. It may not be as healthy as guacamole, but it can also be a great celebratory appetizer for special occasions. 
+![Queso](http://gdurl.com/1EoQ) 
+
+This recipe takes about 20 minutes to complete. 
+
+### Ingredients 
+
+ - 1 ripe tomato 
+ - 1 pkg (16 oz each) Velveeta®, cut into 1/2-inch cubes
+ - 3 slices of bacon 
+
+### Kitchenware Needed 
+
+ - Microwave 
+ - pan or skillet 
+ - oven mitts 
+ - medium size serving bowl (Can be glass or metal, whatever is available) 
+
+### Directions 
+
+1. Cook bacon to medium crispness in pan
+  
+    > Caution- Be vigilant about crackling bacon grease on pan, can lead to minor burns on skin. If you have never cooked bacon before, heat pan to medium heat on stove, and place three strips of bacon spaced far enough apart from each other, so they are not touching. Cook strips for about 5 minutes while flipping each strip every minute. 
+  
+2. Break bacon into inch pieces. Make sure to wait at least a 3 minutes before touching bacon. 
+2. Cut package of cheese into 1/2 inch cubes and place in microwave safe bowl. 
+3. Place in microwave and cook on HIGH for 3 minutes
+4. Take out bowl with oven mitts and stir mixture 
+    
+    > Caution- Make sure to wear oven mitts, because the bowl can cause minor skin burns 
+    
+5. After stirring, place bowl back in microwave for 2 minutes, and remove with oven mitts 
+5. Cut tomato into small square pieces. 
+    
+    > Note- Use sharp enough knife to cut straight squares without smashing tomato. 
+    
+7. Place bacon and tomato pieces into bowl and stir thoroughly 
+ 
+
+
+ 
+
+
+
+
