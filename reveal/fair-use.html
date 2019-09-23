@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Fair use</h1>
+					<p>An extremely confusing guide</p>
+				</section>
+				<section>
+					<p>Take a look at "Untitled" by Julie Mehretu</p>
+					<img src="https://www.palazzograssi.it/site/assets/files/3980/edd-mehretu-untitled-2011-1_web.1200x0.jpg" alt="Julie Mehretu: Untitled" style="max-width: 80%;">
+				</section>
+				<section data-backround-image="http://www.carliergebauer.com/images/001019image.jpg?w=1500&h=1500" alt="Julie Mehretu: Untitled">
+					<p>Here's a closer look.</p>
+				</section>
+				<section>
+					<p>Say you thought this picture was pretty and wanted to use it in your post. Could you?</p>
+				</section>
+				<section>
+					<p>Say your post was an argument about contemporary art. Then could you?</p>
+				</section>
+				<section>
+					<p>Can I use these images during this lecture?</p>
+				</section>
+				<section>
+					<p>Probably, but I should link to the owner of the image, in this case Julie Mehretu's gallery.</p>
+				</section>
+				<section>
+					<figure>
+					<img src="http://www.carliergebauer.com/images/001019image.jpg?w=1500&h=1500" alt="">
+					<figcaption style="font-size: .512em">Installation view at In Praise of Doubt, 2011, Punta della Dogana, Palazzo Grassi, Venice, Italy. Source: <a href="http://www.carliergebauer.com/artists/julie_mehretu">carlier | gebauer</a></figcaption>
+					</figure>
+				</section>
+				<section>
+					<p>But I can embed this video, which was posted by the PBS show ART21. I know I can embed it because Art21 set the video options. I should NOT rip the video and present it outside its environment.</p>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/u4F9scZ3idM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</section>
+				<section>
+					<p>How do you know if you can use a piece of media? See the <a href="https://andylaut.github.io/3844-guidebook/medium.html#using-images-resources-and-fair-use-guidelines" alt="3844 Guidebook -- Image resources and fair use">3844 Guidebook</a> and take this <a href="https://www.sporcle.com/games/jennebunny/is-this-fair-use">quiz</a>!</p>
+					<p style="font-size: .64em">No idea if the creator of this quiz is an IP expert, but it seems about right.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
