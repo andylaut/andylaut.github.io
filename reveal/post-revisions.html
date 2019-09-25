@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<link rel="text/javascript" href="plugin/markdown/marked.js">
+		<link rel="text/javascript" href="plugin/markdown/markdown.js">
+		<style media="screen">
+			h1, h2, h3, h4, p {
+				text-align: left;
+			}
+			html.opacity .slide-background.present {
+				opacity: .5;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background="library.jpg" data-state="opacity">
+					<h1>Post 1 draft feedback</h1>
+				</section>
+				<section>
+					<h2>Plenty of others have made similar args. How is yours different?</h2>
+					<p>Emphasize what makes your argument distinct.</p>
+				</section>
+				<section>
+					<h3>News peg</h3>
+					<p>Attach your arg to current events.</p>
+				</section>
+				<section>
+					<h4>Before</h4>
+					<p>Protect your privacy online.</p>
+				</section>
+				<section>
+					<h4>After </h4>
+					<p>Facebook says the future is private, but it also just spent up to a billi on mind-reading tech.</p>
+				</section>
+				<section>
+					<h3>Fresh angle</h3>
+					<p>A new take on an evergreen argument.</p>
+				</section>
+				<section>
+					<h4>Before</h4>
+					<p>How to get organized.</p>
+				</section>
+				<section>
+					<h4>After</h4>
+					<p>I tried every productivity trick I could find. Nothing worked until I found this.</p>
+				</section>
+				<section>
+					<h3>New audience</h3>
+					<p>If a common arg has failed to resonate with your audience, emphasize audience.</p>
+				</section>
+				<section>
+					<h4>Before</h4>
+					<p>Now more than ever, we need your vote.</p>
+				</section>
+				<section>
+					<h4>After</h4>
+					<p>Young people can change the world. All they have to do is vote.</p>
+				</section>
+				<section>
+					<h2>Editing, style, and grammar</h2>
+					<p>Use Editron, refer to editing practice solutions, schedule appt w/ me and/or Writing Center.</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
