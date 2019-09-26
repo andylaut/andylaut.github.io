@@ -25,7 +25,7 @@
 <meta name="author" content="Andy Lautenschlager">
 
 
-<meta name="date" content="2018-11-14">
+<meta name="date" content="2019-09-25">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -92,6 +92,7 @@
 <li class="chapter" data-level="5.1" data-path="medium.html"><a href="medium.html#medium-help"><i class="fa fa-check"></i><b>5.1</b> Medium help</a></li>
 <li class="chapter" data-level="5.2" data-path="medium.html"><a href="medium.html#pasting-markdown-authored-content-into-medium"><i class="fa fa-check"></i><b>5.2</b> Pasting Markdown-authored content into Medium</a></li>
 <li class="chapter" data-level="5.3" data-path="medium.html"><a href="medium.html#using-images-resources-and-fair-use-guidelines"><i class="fa fa-check"></i><b>5.3</b> Using images: resources and fair use guidelines</a></li>
+<li class="chapter" data-level="5.4" data-path="medium.html"><a href="medium.html#creating-a-medium-embeddable-data-visualization-using-datawrapper"><i class="fa fa-check"></i><b>5.4</b> Creating a Medium-embeddable data visualization using Datawrapper</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="websites.html"><a href="websites.html"><i class="fa fa-check"></i><b>6</b> Website creation and hosting</a><ul>
 <li class="chapter" data-level="6.1" data-path="websites.html"><a href="websites.html#download-a-website-template"><i class="fa fa-check"></i><b>6.1</b> Download a website template</a></li>
@@ -103,6 +104,7 @@
 <li class="chapter" data-level="6.2.5" data-path="websites.html"><a href="websites.html#finding-and-modifying-your-files"><i class="fa fa-check"></i><b>6.2.5</b> Finding and modifying your files</a></li>
 </ul></li>
 <li class="chapter" data-level="6.3" data-path="websites.html"><a href="websites.html#emmet"><i class="fa fa-check"></i><b>6.3</b> Emmet HTML shortcuts</a></li>
+<li class="chapter" data-level="6.4" data-path="websites.html"><a href="websites.html#adding-images"><i class="fa fa-check"></i><b>6.4</b> Adding Images</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="audacity.html"><a href="audacity.html"><i class="fa fa-check"></i><b>7</b> Audacity</a><ul>
 <li class="chapter" data-level="7.1" data-path="audacity.html"><a href="audacity.html#before-beginning"><i class="fa fa-check"></i><b>7.1</b> Before beginning</a></li>
@@ -342,6 +344,44 @@ Fortunately, you can find freely usable images if you know where to look. Google
 <ul>
 <li><strong><a href="https://unsplash.com/">Unsplash</a>.</strong> Unsplash offers CC0 photos, but they do encourage you to provide attribution–and they make attribution easy. See an example above.</li>
 <li><strong><a href="https://pixabay.com/">Pixabay</a>.</strong> Pixabay offers CC0 photos, illustrations, and video clips.</li>
+</ul>
+</div>
+<div id="creating-a-medium-embeddable-data-visualization-using-datawrapper" class="section level2">
+<h2><span class="header-section-number">5.4</span> Creating a Medium-embeddable data visualization using Datawrapper</h2>
+<p>By now you’ve probably made a chart or graph using Excel or Google Sheets. But you actually have access to the same datavisualization technology used by professionals at the Washington Post and the Wall Street Journal, as well as by Web-first publications like Vox and Buzzfeed. In fact, Vox used this technology to <a href="https://www.vox.com/2017/11/30/16709310/buzzfeed-losing-web-traffic-readers-layoffs-uniques-prefer-news-over-viral-sites">dunk on</a> Buzzfeed:</p>
+<iframe id="datawrapper-chart-55pEB" src="//datawrapper.dwcdn.net/55pEB/3/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" style="width: 0px; min-width: 100% !important; height: 500px;" height="500"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["55pEB"]={},window.datawrapper["55pEB"].embedDeltas={"100":575,"200":525,"300":525,"400":500,"500":500,"600":500,"700":500,"800":500,"900":500,"1000":500},window.datawrapper["55pEB"].iframe=document.getElementById("datawrapper-chart-55pEB"),window.datawrapper["55pEB"].iframe.style.height=window.datawrapper["55pEB"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["55pEB"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("55pEB"==b)window.datawrapper["55pEB"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+<p>Notice how you can hover your mouse over a data point to get more info. You can also create beautiful maps like this one from a <a href="https://vcucns.com/about-cns/">VCU student news group</a>:</p>
+<iframe title="Where voter registration has increased" aria-label="USA virginia counties choropleth map" id="datawrapper-chart-eHygU" src="//datawrapper.dwcdn.net/eHygU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+<p>This technology comes from <a href="https://www.datawrapper.de">Datawrapper</a>, and it’s free to use. Let’s try.</p>
+<p><strong>Find a visualization that you’d like to imitate</strong></p>
+<p>First, sign up for a free account. As far as I know, Datawrapper doesn’t sell your data. After that, you can draw inspiration from one of the many charts, maps, and tables available on Datawrapper’s site.</p>
+<ol style="list-style-type: decimal">
+<li>Start at <a href="https://academy.datawrapper.de/">Datawrapper Academy</a>. Scroll down to the “Example charts and maps” section and select. While you’re on the Academy homepage, note the other offerings like “What to consider.” Use these resources!</li>
+<li>Select a type of chart. We’ll pick “Examples of Datawrapper line charts.”</li>
+<li>Select an example to use. We’ll pick the one about marriage rates in the U.S.</li>
+<li>Experiment with the options in the tabs labeled <strong>Chart type</strong>, <strong>Refine</strong>, <strong>Annotate</strong>, and <strong>Design</strong>. Try changing colors, line widths, tooltips, and annotations.</li>
+<li>When you’re satisfied, choose <strong>Publish</strong> and get the full-page link. Paste this link into a blank line in Medium and press enter. Your chart should appear!</li>
+</ol>
+<p><strong>Make your own chart</strong></p>
+<ol style="list-style-type: decimal">
+<li>Again, start at <a href="https://academy.datawrapper.de/">Datawrapper Academy</a>. Choose the type of visualization you want to make. Review any documentation that applies to your situation. (You can always return to this documentation if you have questions later.)</li>
+<li>Return to the Datawrapper homepage and select <strong>Dashboard</strong>.</li>
+<li>Select <strong>New Chart</strong>, <strong>New Map</strong>, or <strong>New Table</strong>.</li>
+<li>Paste or import your data and customize your visualization as we practiced in steps 4 and 5 above.</li>
+</ol>
+<p><strong>More resources</strong></p>
+<ul>
+<li>Datawrapper’s <a href="https://river.datawrapper.de/">River</a> collects charts, maps, and tables created and submitted by Datawrapper users. If you’re not sure what you want to visualize, you might find inspiration there.</li>
+<li><a href="https://www.google.com/publicdata/directory">Google Public Data</a> collects and visualizes dozens of datasets. They link back to their sources, and you can generally access those datasets yourself.</li>
+<li><a href="https://toolbox.google.com/datasetsearch">Google Dataset Search</a> offers more datasets. Some cost money (don’t use those), but others are free. In any case, always consider the source’s credibility before using a dataset.</li>
+<li><a href="https://www.data.gov/">Data.gov</a> also hosts public datasets.</li>
+<li>You can always conduct your own survey! Alternatively, if you’re not making a data-driven argument, you could use Datawrapper to create something like Ann Friedman’s <a href="https://www.annfriedman.com/disapprovalmatrix/">Disapproval Matrix</a> or to create a simple table that communicates some aspect of your argument in a visually appealing way, as in the example below.</li>
+</ul>
+<iframe title="[ Insert title here ]" aria-label="Table" id="datawrapper-chart-8Q4EG" src="//datawrapper.dwcdn.net/8Q4EG/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="446"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+<p><strong>Other options</strong></p>
+<ul>
+<li>If you don’t want to use Datawrapper, you could draw a diagram by hand and trace it in Adobe Illustrator or Gravit. (If you don’t know what those words mean, then this option probably isn’t for you.) I’ve never tried <a href="https://vectorize.io">vectorizer.io</a>, but I’ve seen it recommended for this purpose.</li>
+<li>Draw a <a href="https://xkcd.com">comic</a>. You can even use <a href="http://www.mnftiu.cc/category/fighting/">clipart</a> (mildy offensive language warning) if you can meet the fair use requirements.</li>
 </ul>
 
 </div>
