@@ -25,7 +25,7 @@
 <meta name="author" content="Andy Lautenschlager">
 
 
-<meta name="date" content="2019-09-25">
+<meta name="date" content="2019-10-19">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -349,9 +349,17 @@ Fortunately, you can find freely usable images if you know where to look. Google
 <div id="creating-a-medium-embeddable-data-visualization-using-datawrapper" class="section level2">
 <h2><span class="header-section-number">5.4</span> Creating a Medium-embeddable data visualization using Datawrapper</h2>
 <p>By now you’ve probably made a chart or graph using Excel or Google Sheets. But you actually have access to the same datavisualization technology used by professionals at the Washington Post and the Wall Street Journal, as well as by Web-first publications like Vox and Buzzfeed. In fact, Vox used this technology to <a href="https://www.vox.com/2017/11/30/16709310/buzzfeed-losing-web-traffic-readers-layoffs-uniques-prefer-news-over-viral-sites">dunk on</a> Buzzfeed:</p>
-<iframe id="datawrapper-chart-55pEB" src="//datawrapper.dwcdn.net/55pEB/3/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" style="width: 0px; min-width: 100% !important; height: 500px;" height="500"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["55pEB"]={},window.datawrapper["55pEB"].embedDeltas={"100":575,"200":525,"300":525,"400":500,"500":500,"600":500,"700":500,"800":500,"900":500,"1000":500},window.datawrapper["55pEB"].iframe=document.getElementById("datawrapper-chart-55pEB"),window.datawrapper["55pEB"].iframe.style.height=window.datawrapper["55pEB"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["55pEB"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("55pEB"==b)window.datawrapper["55pEB"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+<div id="K8lFJG">
+<iframe id="datawrapper-chart-55pEB" src="//datawrapper.dwcdn.net/55pEB/3/" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" style="width: 0px; min-width: 100% !important; height: 500px;" height="500">
+</iframe>
+<script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["55pEB"]={},window.datawrapper["55pEB"].embedDeltas={"100":575,"200":525,"300":525,"400":500,"500":500,"600":500,"700":500,"800":500,"900":500,"1000":500},window.datawrapper["55pEB"].iframe=document.getElementById("datawrapper-chart-55pEB"),window.datawrapper["55pEB"].iframe.style.height=window.datawrapper["55pEB"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["55pEB"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("55pEB"==b)window.datawrapper["55pEB"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+</div>
 <p>Notice how you can hover your mouse over a data point to get more info. You can also create beautiful maps like this one from a <a href="https://vcucns.com/about-cns/">VCU student news group</a>:</p>
-<iframe title="Where voter registration has increased" aria-label="USA virginia counties choropleth map" id="datawrapper-chart-eHygU" src="//datawrapper.dwcdn.net/eHygU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+<div>
+<iframe title="Where voter registration has increased" aria-label="USA virginia counties choropleth map" id="datawrapper-chart-eHygU" src="//datawrapper.dwcdn.net/eHygU/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+</div>
 <p>This technology comes from <a href="https://www.datawrapper.de">Datawrapper</a>, and it’s free to use. Let’s try.</p>
 <p><strong>Find a visualization that you’d like to imitate</strong></p>
 <p>First, sign up for a free account. As far as I know, Datawrapper doesn’t sell your data. After that, you can draw inspiration from one of the many charts, maps, and tables available on Datawrapper’s site.</p>
@@ -377,7 +385,11 @@ Fortunately, you can find freely usable images if you know where to look. Google
 <li><a href="https://www.data.gov/">Data.gov</a> also hosts public datasets.</li>
 <li>You can always conduct your own survey! Alternatively, if you’re not making a data-driven argument, you could use Datawrapper to create something like Ann Friedman’s <a href="https://www.annfriedman.com/disapprovalmatrix/">Disapproval Matrix</a> or to create a simple table that communicates some aspect of your argument in a visually appealing way, as in the example below.</li>
 </ul>
-<iframe title="[ Insert title here ]" aria-label="Table" id="datawrapper-chart-8Q4EG" src="//datawrapper.dwcdn.net/8Q4EG/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="446"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+<div>
+<iframe title="[ Insert title here ]" aria-label="Table" id="datawrapper-chart-8Q4EG" src="//datawrapper.dwcdn.net/8Q4EG/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="446">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+</div>
 <p><strong>Other options</strong></p>
 <ul>
 <li>If you don’t want to use Datawrapper, you could draw a diagram by hand and trace it in Adobe Illustrator or Gravit. (If you don’t know what those words mean, then this option probably isn’t for you.) I’ve never tried <a href="https://vectorize.io">vectorizer.io</a>, but I’ve seen it recommended for this purpose.</li>
