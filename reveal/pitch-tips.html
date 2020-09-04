@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/gradient.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+		<style media="screen">
+			section {text-align:left;}
+			#title {text-align: center;}
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="title">
+					<h1>Pitch tips</h1>
+					<small>Adapted from the Poynter Institute for Media Studies</small>
+				</section>
+				<section>
+<h2>The Exigence</h2>
+<p>What is your post's main idea, and what need does that idea meet? What is the conflict or tension you’ll explore or the newsworthiness of the piece? Think of this as a specific statement about the story you wish to tell.</p>
+				</section>
+				<section>
+<h2>The Homework</h2>
+<p>Explain what you need to do in order to produce the post. What do you already know, and what do you need to find out? How will you find out?</p>
+				</section>
+				<section>
+<h2>A Time Peg</h2>
+<p>Give a reason to care and a sense of timeliness. You have to be able to answer the questions: So what? Why do this story now? Why should the audience care?</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				// transition: 'fade',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
