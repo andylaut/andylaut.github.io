@@ -18,9 +18,9 @@
 body {
   background-image: url(../../../reveal/images/sunset.jpg);
   background-size: 200% 200%;
-  animation: colorchange linear infinite alternate; /* animation-name followed by duration in seconds*/
+  animation: colorchange 50s linear 0s 2 alternate; /* animation-name followed by duration in seconds*/
       /* you could also use milliseconds (ms) or something like 2.5s */
-   -webkit-animation: colorchange 50s linear infinite alternate; /* Chrome and Safari */
+   -webkit-animation: colorchange 50s linear 0s 2 alternate; /* Chrome and Safari */
   margin: 0;
  }
 
