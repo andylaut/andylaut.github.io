@@ -44,12 +44,6 @@ body {
      background-position: 50% 50%;
    }
  }
- @media screen and (max-width: 768px) {
-    body {
-      background-color: #222;
-      background-image: none;
-    }
- }
 
 .reveal {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
