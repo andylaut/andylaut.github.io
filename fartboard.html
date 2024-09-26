@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        var a = new Audio('https://cdn.pixabay.com/audio/2022/03/15/audio_7aaa62b0a4.mp3');
+        var s = new Audio('https://cdn.pixabay.com/audio/2024/07/30/audio_4aa94d4d1e.mp3');
+        var z = new Audio('https://cdn.pixabay.com/audio/2024/07/30/audio_51d4455c21.mp3');
+        var x = new Audio('https://cdn.pixabay.com/audio/2024/06/13/audio_f952b4e619.mp3');
+        var d = new Audio('https://cdn.pixabay.com/audio/2022/03/15/audio_2e80fe767c.mp3');
+        var c = new Audio('https://cdn.pixabay.com/audio/2024/06/13/audio_f952b4e619.mp3');
+        var f = new Audio('https://cdn.pixabay.com/audio/2024/09/20/audio_e6ee7c6eae.mp3');
+        var g = new Audio('https://cdn.pixabay.com/audio/2022/03/10/audio_2b8b073779.mp3');
+        var b = new Audio('https://cdn.pixabay.com/audio/2022/03/10/audio_c2571ad37f.mp3');
+        var h = new Audio('https://cdn.pixabay.com/audio/2022/03/19/audio_5f261e1c18.mp3');
+        var n = new Audio('https://cdn.pixabay.com/audio/2022/03/10/audio_a6564cdab1.mp3');
+        var j = new Audio('https://cdn.pixabay.com/audio/2022/03/10/audio_b3fd0dfef2.mp3');
+        var playAudio = (clip) => clip.play();
+    </script>
+    <style>
+        body {
+            background-image: linear-gradient(#00d9ff, #13f6c5);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .heading {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font: bold 3vw "Helvetica Neue";
+            color: rgb(132, 0, 255);
+            width: 90%;
+            padding-bottom: 3px;
+            margin: 50px;
+            border-bottom: solid .5vw rgb(132, 0, 255);
+        }
+        .grid {
+            display: flex;
+            width: 380px;
+            min-height: 600px;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding:0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        li {
+            float: left;
+            margin: 5px;
+            /* transition: all .2s; */
+        }
+        li:active { 
+            transform: scale(0.98);  
+        } 
+        .box {
+            font-size: 2rem;
+            background-image: linear-gradient(to bottom right, rgb(132, 0, 255), rgb(164, 78, 244));
+            color: #ffffffee;
+            border: 2px solid #ffffff;
+            border-radius: 50%;
+            /* box-shadow: -2px 2px 3px 1px rgb(0 0 0 / 20%); */
+            min-width: 100px;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+        }
+        .footer {
+            height: 10vh;
+            width: 90%;
+            margin: 0 50px;
+            padding-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            font: bold 12px "Helvetica Neue";
+            color: rgb(132, 0, 255);
+            /* border-top: solid .5vw rgb(132, 0, 255) */
+        }
+        .footer div {
+            opacity: 0;
+            animation: fade 8s ease 3s infinite;
+            text-align: right;
+        }
+        @keyframes fade {
+            0%,100% { opacity: 0 }
+            50% { opacity: 1 }
+        }
+    </style>
+    <title>Fartboard</title>
+</head>
+<body>
+    <div class="heading">
+        <div>Henry and Mae's Fartboard With Extra Burps</div> 
+        <div>👦 👧</div>
+    </div>
+    <div class="grid">
+
+        <ul>
+            <li onclick="playAudio(a)">
+                <div class="box">
+                    <i class="fa-solid fa-poo"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(s)">
+                <div class="box">
+                    <i class="fa-solid fa-poo"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(z)">
+                <div class="box">
+                    <i class="fa-solid fa-poo"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(x)">
+                <div class="box">
+                    <i class="fa-solid fa-poo"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(d)">
+                <div class="box">
+                    <i class="fa-solid fa-poo"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(c)">
+                <div class="box">
+                    <i class="fa-solid fa-poo"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(f)">
+                <div class="box">
+                    <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(g)">
+                <div class="box">
+                    <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(b)">
+                <div class="box">
+                    <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(h)">
+                <div class="box">
+                    <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(n)">
+                <div class="box">
+                    <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                </div>
+            </li>
+            <li onclick="playAudio(j)">
+                <div class="box">
+                    <i class="fa-solid fa-face-kiss-wink-heart"></i>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="footer">
+        <div>By Andy</div>
+    </div>
+</body>
+</html>
