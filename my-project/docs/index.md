@@ -1,5 +1,7 @@
 # Welcome to MkDocs
 
+Cool intro.
+
 ![tayne](tayne-murray.png)
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
