@@ -1,0 +1,16 @@
+site_name: My Docs
+site_url: https://andylaut.github.io/my-project
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - search-suggest
+# copyright: Copyright &copy; 2016 - 2020 Martin Donath
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  - offline
+  - search
